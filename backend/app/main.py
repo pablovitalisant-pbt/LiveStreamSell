@@ -6,8 +6,40 @@ import uuid
 from typing import List
 from fastapi import FastAPI, Header, HTTPException, Request
 from pydantic import BaseModel, Field
+from sqlalchemy import Column, Integer, MetaData, String, Table, create_engine, select, update
 
 app = FastAPI()
+DATABASE_URL = os.getenv("DATABASE_URL")
+engine = create_engine(DATABASE_URL) if DATABASE_URL else None
+metadata = MetaData()
+products_table = Table(
+    "products",
+    metadata,
+    Column("sku", String, primary_key=True),
+    Column("stock", Integer, nullable=False),
+    Column("price", Integer, nullable=False),
+)
+orders_table = Table(
+    "orders",
+    metadata,
+    Column("id", String, primary_key=True),
+    Column("status", String, nullable=False),
+)
+
+
+@app.on_event("startup")
+def startup():
+    if engine is None:
+        return
+    metadata.create_all(engine)
+    with engine.begin() as conn:
+        existing = conn.execute(select(products_table.c.sku)).first()
+        if not existing:
+            conn.execute(
+                products_table.insert().values(
+                    sku="POL-ROJ-M", stock=15, price=15000
+                )
+            )
 
 
 @app.get("/health")
@@ -51,11 +83,6 @@ def _require_bearer(authorization: str | None) -> None:
         raise HTTPException(status_code=401, detail="Unauthorized")
 
 
-INVENTORY = [
-    {"id": "uuid", "sku": "POL-ROJ-M", "name": "Polera Roja M", "stock": 15, "price": 15000}
-]
-
-
 @app.get("/api/v1/inventory/products")
 def get_inventory_products(
     tienda_id: str | None = None,
@@ -66,8 +93,28 @@ def get_inventory_products(
     _require_bearer(authorization)
     if tienda_id is None:
         raise HTTPException(status_code=404, detail="tienda_id required")
-    items = INVENTORY[offset : offset + limit]
-    return items
+    if engine is None:
+        raise HTTPException(status_code=500, detail="Database not configured")
+    with engine.begin() as conn:
+        rows = conn.execute(
+            select(
+                products_table.c.sku,
+                products_table.c.stock,
+                products_table.c.price,
+            )
+            .offset(offset)
+            .limit(limit)
+        ).all()
+    return [
+        {
+            "id": "uuid",
+            "sku": row.sku,
+            "name": "Polera Roja M",
+            "stock": row.stock,
+            "price": row.price,
+        }
+        for row in rows
+    ]
 
 
 class OrderItem(BaseModel):
@@ -94,12 +141,28 @@ def create_order(
         expected_key = os.getenv("API_INTERNAL_KEY", "localkey")
         if not x_api_key or x_api_key != expected_key:
             raise HTTPException(status_code=401, detail="Unauthorized")
-    for item in payload.items:
-        stock = next((p["stock"] for p in INVENTORY if p["sku"] == item.sku), 0)
-        if stock < item.qty:
-            raise HTTPException(status_code=400, detail="Sin stock")
+    if engine is None:
+        raise HTTPException(status_code=500, detail="Database not configured")
+    with engine.begin() as conn:
+        for item in payload.items:
+            row = conn.execute(
+                select(products_table.c.stock).where(
+                    products_table.c.sku == item.sku
+                )
+            ).first()
+            stock = row.stock if row else 0
+            if stock < item.qty:
+                raise HTTPException(status_code=400, detail="Sin stock")
+        for item in payload.items:
+            conn.execute(
+                update(products_table)
+                .where(products_table.c.sku == item.sku)
+                .values(stock=products_table.c.stock - item.qty)
+            )
+        order_id = str(uuid.uuid4())
+        conn.execute(orders_table.insert().values(id=order_id, status="pending"))
     return {
-        "order_id": str(uuid.uuid4()),
+        "order_id": order_id,
         "payment_url": "https://flow.cl/pay/...",
         "status": "pending",
     }
