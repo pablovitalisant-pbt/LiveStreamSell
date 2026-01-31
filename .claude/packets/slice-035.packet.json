@@ -1,0 +1,18 @@
+{
+  "sliceNumber": 35,
+  "name": "OPERATIONS: 15.2 Mantenimiento",
+  "description": "Implementar lo descrito en: Planificación: LiveStreamSell AI (SaaS Global) > 15. Consideraciones Operacionales > 15.2 Mantenimiento (líneas 1305-1330).",
+  "headingPath": "Planificación: LiveStreamSell AI (SaaS Global) > 15. Consideraciones Operacionales > 15.2 Mantenimiento",
+  "lineStart": 1305,
+  "lineEnd": 1330,
+  "prdHash": "62c396bb1963049fddb3da32d2d9116a6207941f516e0d43a938d8086d7f066d",
+  "blockHash": "5d222cbdb470fee4069146bb1238fc4c5a16071bf1d654c247018134bb5ccbc2",
+  "estimatedLines": 52,
+  "priority": "low",
+  "contract": {
+    "testFile": "tests/contracts/slice-035.test.ts",
+    "requirement": "Cubrir comportamiento descrito en \"Planificación: LiveStreamSell AI (SaaS Global) > 15. Consideraciones Operacionales > 15.2 Mantenimiento\"",
+    "redThenGreenRequired": true
+  },
+  "generatedAt": "2026-01-31T13:52:12.215Z"
+}

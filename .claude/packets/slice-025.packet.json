@@ -1,0 +1,18 @@
+{
+  "sliceNumber": 25,
+  "name": "FRONTEND: 8.3 Performance Frontend",
+  "description": "Implementar lo descrito en: Planificación: LiveStreamSell AI (SaaS Global) > 8. Frontend (si aplica) > 8.3 Performance Frontend (líneas 703-726).",
+  "headingPath": "Planificación: LiveStreamSell AI (SaaS Global) > 8. Frontend (si aplica) > 8.3 Performance Frontend",
+  "lineStart": 703,
+  "lineEnd": 726,
+  "prdHash": "62c396bb1963049fddb3da32d2d9116a6207941f516e0d43a938d8086d7f066d",
+  "blockHash": "2365b7b354d28db4ad8340d7d185bec9ce046d057babc5a4b7f94bc570756b68",
+  "estimatedLines": 48,
+  "priority": "medium",
+  "contract": {
+    "testFile": "tests/contracts/slice-025.test.ts",
+    "requirement": "Cubrir comportamiento descrito en \"Planificación: LiveStreamSell AI (SaaS Global) > 8. Frontend (si aplica) > 8.3 Performance Frontend\"",
+    "redThenGreenRequired": true
+  },
+  "generatedAt": "2026-01-31T12:30:12.954Z"
+}

@@ -1,0 +1,18 @@
+{
+  "sliceNumber": 31,
+  "name": "CICD: 11.4 Configuración",
+  "description": "Implementar lo descrito en: Planificación: LiveStreamSell AI (SaaS Global) > 11. CI/CD y Deployment > 11.4 Configuración (líneas 1045-1088).",
+  "headingPath": "Planificación: LiveStreamSell AI (SaaS Global) > 11. CI/CD y Deployment > 11.4 Configuración",
+  "lineStart": 1045,
+  "lineEnd": 1088,
+  "prdHash": "62c396bb1963049fddb3da32d2d9116a6207941f516e0d43a938d8086d7f066d",
+  "blockHash": "679f0917516bc3963c95d286f93d6a9b5027a2a9966af6fc7d98c91a52c1c4d9",
+  "estimatedLines": 88,
+  "priority": "high",
+  "contract": {
+    "testFile": "tests/contracts/slice-031.test.ts",
+    "requirement": "Cubrir comportamiento descrito en \"Planificación: LiveStreamSell AI (SaaS Global) > 11. CI/CD y Deployment > 11.4 Configuración\"",
+    "redThenGreenRequired": true
+  },
+  "generatedAt": "2026-01-31T13:03:01.535Z"
+}

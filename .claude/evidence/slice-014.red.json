@@ -1,0 +1,7 @@
+{
+  "sliceNumber": 14,
+  "type": "red",
+  "timestamp": "2026-01-31T11:50:11.379Z",
+  "testPassed": false,
+  "output": "\n> pbt-ultra-project@2.0.0 test\n> jest --testPathPattern=slice-014 --verbose\n\n"
+}

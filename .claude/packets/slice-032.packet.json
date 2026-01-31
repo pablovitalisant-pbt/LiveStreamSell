@@ -1,0 +1,18 @@
+{
+  "sliceNumber": 32,
+  "name": "CICD: 11.5 Containerización",
+  "description": "Implementar lo descrito en: Planificación: LiveStreamSell AI (SaaS Global) > 11. CI/CD y Deployment > 11.5 Containerización (líneas 1089-1124).",
+  "headingPath": "Planificación: LiveStreamSell AI (SaaS Global) > 11. CI/CD y Deployment > 11.5 Containerización",
+  "lineStart": 1089,
+  "lineEnd": 1124,
+  "prdHash": "62c396bb1963049fddb3da32d2d9116a6207941f516e0d43a938d8086d7f066d",
+  "blockHash": "ba7eac71e54ef5de7431d1ef23513f82935ab49b9b6be4de092e7388c1adbe0f",
+  "estimatedLines": 72,
+  "priority": "high",
+  "contract": {
+    "testFile": "tests/contracts/slice-032.test.ts",
+    "requirement": "Cubrir comportamiento descrito en \"Planificación: LiveStreamSell AI (SaaS Global) > 11. CI/CD y Deployment > 11.5 Containerización\"",
+    "redThenGreenRequired": true
+  },
+  "generatedAt": "2026-01-31T13:30:06.713Z"
+}

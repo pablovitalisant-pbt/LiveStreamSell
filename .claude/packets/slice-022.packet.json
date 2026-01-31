@@ -1,0 +1,18 @@
+{
+  "sliceNumber": 22,
+  "name": "FRONTEND: 3.4 Componentes y Módulos",
+  "description": "Implementar lo descrito en: Planificación: LiveStreamSell AI (SaaS Global) > 3. Arquitectura del Sistema > 3.4 Componentes y Módulos (líneas 132-175).",
+  "headingPath": "Planificación: LiveStreamSell AI (SaaS Global) > 3. Arquitectura del Sistema > 3.4 Componentes y Módulos",
+  "lineStart": 132,
+  "lineEnd": 175,
+  "prdHash": "62c396bb1963049fddb3da32d2d9116a6207941f516e0d43a938d8086d7f066d",
+  "blockHash": "cede30759a8d304deca158b845bd5052dc46160707c97e6230e14af03cc19d65",
+  "estimatedLines": 88,
+  "priority": "medium",
+  "contract": {
+    "testFile": "tests/contracts/slice-022.test.ts",
+    "requirement": "Cubrir comportamiento descrito en \"Planificación: LiveStreamSell AI (SaaS Global) > 3. Arquitectura del Sistema > 3.4 Componentes y Módulos\"",
+    "redThenGreenRequired": true
+  },
+  "generatedAt": "2026-01-31T12:21:44.220Z"
+}

@@ -1,0 +1,18 @@
+{
+  "sliceNumber": 30,
+  "name": "CICD: 11.2 Estrategia de Deployment",
+  "description": "Implementar lo descrito en: Planificación: LiveStreamSell AI (SaaS Global) > 11. CI/CD y Deployment > 11.2 Estrategia de Deployment (líneas 983-1012).",
+  "headingPath": "Planificación: LiveStreamSell AI (SaaS Global) > 11. CI/CD y Deployment > 11.2 Estrategia de Deployment",
+  "lineStart": 983,
+  "lineEnd": 1012,
+  "prdHash": "62c396bb1963049fddb3da32d2d9116a6207941f516e0d43a938d8086d7f066d",
+  "blockHash": "a43e94a19e77fee2ef86606c9c745e332c80aa353a330617b9828864a1cf5604",
+  "estimatedLines": 60,
+  "priority": "high",
+  "contract": {
+    "testFile": "tests/contracts/slice-030.test.ts",
+    "requirement": "Cubrir comportamiento descrito en \"Planificación: LiveStreamSell AI (SaaS Global) > 11. CI/CD y Deployment > 11.2 Estrategia de Deployment\"",
+    "redThenGreenRequired": true
+  },
+  "generatedAt": "2026-01-31T13:00:32.821Z"
+}

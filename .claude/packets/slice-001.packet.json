@@ -1,0 +1,18 @@
+{
+  "sliceNumber": 1,
+  "name": "SETUP: 1. Definición del Proyecto y Negocio",
+  "description": "Implementar lo descrito en: Planificación: LiveStreamSell AI (SaaS Global) > 1. Definición del Proyecto y Negocio (líneas 4-43).",
+  "headingPath": "Planificación: LiveStreamSell AI (SaaS Global) > 1. Definición del Proyecto y Negocio",
+  "lineStart": 4,
+  "lineEnd": 43,
+  "prdHash": "62c396bb1963049fddb3da32d2d9116a6207941f516e0d43a938d8086d7f066d",
+  "blockHash": "e2bc5d872a83727dc1e24f68ce82fe2c51d04a3d3b3297368996e87f9e122ba9",
+  "estimatedLines": 80,
+  "priority": "critical",
+  "contract": {
+    "testFile": "tests/contracts/slice-001.test.ts",
+    "requirement": "Cubrir comportamiento descrito en \"Planificación: LiveStreamSell AI (SaaS Global) > 1. Definición del Proyecto y Negocio\"",
+    "redThenGreenRequired": true
+  },
+  "generatedAt": "2026-01-31T10:36:00.401Z"
+}

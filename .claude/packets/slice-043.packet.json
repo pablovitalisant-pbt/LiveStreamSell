@@ -1,0 +1,18 @@
+{
+  "sliceNumber": 43,
+  "name": "OTHER: 11.3 Infrastructure as Code",
+  "description": "Implementar lo descrito en: Planificación: LiveStreamSell AI (SaaS Global) > 11. CI/CD y Deployment > 11.3 Infrastructure as Code (líneas 1013-1044).",
+  "headingPath": "Planificación: LiveStreamSell AI (SaaS Global) > 11. CI/CD y Deployment > 11.3 Infrastructure as Code",
+  "lineStart": 1013,
+  "lineEnd": 1044,
+  "prdHash": "62c396bb1963049fddb3da32d2d9116a6207941f516e0d43a938d8086d7f066d",
+  "blockHash": "fea77daedccafb1c3d21f83ea7ef2ad23d26da0693b6dbd935e40230f6c5e3de",
+  "estimatedLines": 64,
+  "priority": "medium",
+  "contract": {
+    "testFile": "tests/contracts/slice-043.test.ts",
+    "requirement": "Cubrir comportamiento descrito en \"Planificación: LiveStreamSell AI (SaaS Global) > 11. CI/CD y Deployment > 11.3 Infrastructure as Code\"",
+    "redThenGreenRequired": true
+  },
+  "generatedAt": "2026-01-31T16:59:10.159Z"
+}

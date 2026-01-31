@@ -1,0 +1,18 @@
+{
+  "sliceNumber": 44,
+  "name": "OTHER: Basado en un escenario inicial de 10-20 clientes activos.",
+  "description": "Implementar lo descrito en: Planificación: LiveStreamSell AI (SaaS Global) > 14. Costos y Recursos > Basado en un escenario inicial de 10-20 clientes activos. (líneas 1211-1230).",
+  "headingPath": "Planificación: LiveStreamSell AI (SaaS Global) > 14. Costos y Recursos > Basado en un escenario inicial de 10-20 clientes activos.",
+  "lineStart": 1211,
+  "lineEnd": 1230,
+  "prdHash": "62c396bb1963049fddb3da32d2d9116a6207941f516e0d43a938d8086d7f066d",
+  "blockHash": "0db572df8ba19c463c491de9bce68ae23448334eba7ad4cd5c11d3f01afbffd0",
+  "estimatedLines": 40,
+  "priority": "medium",
+  "contract": {
+    "testFile": "tests/contracts/slice-044.test.ts",
+    "requirement": "Cubrir comportamiento descrito en \"Planificación: LiveStreamSell AI (SaaS Global) > 14. Costos y Recursos > Basado en un escenario inicial de 10-20 clientes activos.\"",
+    "redThenGreenRequired": true
+  },
+  "generatedAt": "2026-01-31T17:14:34.680Z"
+}

@@ -1,0 +1,18 @@
+{
+  "sliceNumber": 33,
+  "name": "CICD: 12. Gestión de Versiones y Código",
+  "description": "Implementar lo descrito en: Planificación: LiveStreamSell AI (SaaS Global) > 12. Gestión de Versiones y Código (líneas 1125-1168).",
+  "headingPath": "Planificación: LiveStreamSell AI (SaaS Global) > 12. Gestión de Versiones y Código",
+  "lineStart": 1125,
+  "lineEnd": 1168,
+  "prdHash": "62c396bb1963049fddb3da32d2d9116a6207941f516e0d43a938d8086d7f066d",
+  "blockHash": "252278e83e8b9a4ca3e182826c111c0c574abef4edf062d650a70190c2a7852b",
+  "estimatedLines": 88,
+  "priority": "high",
+  "contract": {
+    "testFile": "tests/contracts/slice-033.test.ts",
+    "requirement": "Cubrir comportamiento descrito en \"Planificación: LiveStreamSell AI (SaaS Global) > 12. Gestión de Versiones y Código\"",
+    "redThenGreenRequired": true
+  },
+  "generatedAt": "2026-01-31T13:35:54.646Z"
+}

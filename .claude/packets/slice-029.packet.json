@@ -1,0 +1,18 @@
+{
+  "sliceNumber": 29,
+  "name": "CICD: 11.1 Pipeline CI/CD",
+  "description": "Implementar lo descrito en: Planificación: LiveStreamSell AI (SaaS Global) > 11. CI/CD y Deployment > 11.1 Pipeline CI/CD (líneas 947-982).",
+  "headingPath": "Planificación: LiveStreamSell AI (SaaS Global) > 11. CI/CD y Deployment > 11.1 Pipeline CI/CD",
+  "lineStart": 947,
+  "lineEnd": 982,
+  "prdHash": "62c396bb1963049fddb3da32d2d9116a6207941f516e0d43a938d8086d7f066d",
+  "blockHash": "bad1abd4ab70b6ab1f44d66d762db5a8196e653afd6bcd2eb823bb3a1b65d5a4",
+  "estimatedLines": 72,
+  "priority": "high",
+  "contract": {
+    "testFile": "tests/contracts/slice-029.test.ts",
+    "requirement": "Cubrir comportamiento descrito en \"Planificación: LiveStreamSell AI (SaaS Global) > 11. CI/CD y Deployment > 11.1 Pipeline CI/CD\"",
+    "redThenGreenRequired": true
+  },
+  "generatedAt": "2026-01-31T12:55:58.009Z"
+}

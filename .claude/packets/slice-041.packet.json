@@ -1,0 +1,18 @@
+{
+  "sliceNumber": 41,
+  "name": "OTHER: 6.3 Gestión de Tokens",
+  "description": "Implementar lo descrito en: Planificación: LiveStreamSell AI (SaaS Global) > 6. Autenticación y Autorización > 6.3 Gestión de Tokens (líneas 465-474).",
+  "headingPath": "Planificación: LiveStreamSell AI (SaaS Global) > 6. Autenticación y Autorización > 6.3 Gestión de Tokens",
+  "lineStart": 465,
+  "lineEnd": 474,
+  "prdHash": "62c396bb1963049fddb3da32d2d9116a6207941f516e0d43a938d8086d7f066d",
+  "blockHash": "eaf70586751b43311ad9244c436f5fd4a53684fcf91e7f7bb80153efbb2c5e3e",
+  "estimatedLines": 20,
+  "priority": "medium",
+  "contract": {
+    "testFile": "tests/contracts/slice-041.test.ts",
+    "requirement": "Cubrir comportamiento descrito en \"Planificación: LiveStreamSell AI (SaaS Global) > 6. Autenticación y Autorización > 6.3 Gestión de Tokens\"",
+    "redThenGreenRequired": true
+  },
+  "generatedAt": "2026-01-31T16:54:18.162Z"
+}

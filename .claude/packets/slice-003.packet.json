@@ -1,0 +1,18 @@
+{
+  "sliceNumber": 3,
+  "name": "SETUP: 3.1 Arquitectura General",
+  "description": "Implementar lo descrito en: Planificación: LiveStreamSell AI (SaaS Global) > 3. Arquitectura del Sistema > 3.1 Arquitectura General (líneas 86-101).",
+  "headingPath": "Planificación: LiveStreamSell AI (SaaS Global) > 3. Arquitectura del Sistema > 3.1 Arquitectura General",
+  "lineStart": 86,
+  "lineEnd": 101,
+  "prdHash": "62c396bb1963049fddb3da32d2d9116a6207941f516e0d43a938d8086d7f066d",
+  "blockHash": "ca442159597ce0059b62ca0640e06548b94de13fdba4a386c42e105de30752af",
+  "estimatedLines": 32,
+  "priority": "critical",
+  "contract": {
+    "testFile": "tests/contracts/slice-003.test.ts",
+    "requirement": "Cubrir comportamiento descrito en \"Planificación: LiveStreamSell AI (SaaS Global) > 3. Arquitectura del Sistema > 3.1 Arquitectura General\"",
+    "redThenGreenRequired": true
+  },
+  "generatedAt": "2026-01-31T10:58:18.811Z"
+}

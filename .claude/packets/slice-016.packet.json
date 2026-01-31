@@ -1,0 +1,18 @@
+{
+  "sliceNumber": 16,
+  "name": "SECURITY: 7.2 Seguridad de Aplicación",
+  "description": "Implementar lo descrito en: Planificación: LiveStreamSell AI (SaaS Global) > 7. Seguridad > 7.2 Seguridad de Aplicación (líneas 517-554).",
+  "headingPath": "Planificación: LiveStreamSell AI (SaaS Global) > 7. Seguridad > 7.2 Seguridad de Aplicación",
+  "lineStart": 517,
+  "lineEnd": 554,
+  "prdHash": "62c396bb1963049fddb3da32d2d9116a6207941f516e0d43a938d8086d7f066d",
+  "blockHash": "7484494a5b673312b6cb186907efbf83df24db9e61a6f19783914a97923c0d4a",
+  "estimatedLines": 76,
+  "priority": "high",
+  "contract": {
+    "testFile": "tests/contracts/slice-016.test.ts",
+    "requirement": "Cubrir comportamiento descrito en \"Planificación: LiveStreamSell AI (SaaS Global) > 7. Seguridad > 7.2 Seguridad de Aplicación\"",
+    "redThenGreenRequired": true
+  },
+  "generatedAt": "2026-01-31T11:55:18.208Z"
+}

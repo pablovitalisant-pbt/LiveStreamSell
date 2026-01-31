@@ -1,0 +1,14 @@
+services:
+  api:
+    build:
+      context: .
+      dockerfile: backend/Dockerfile
+    ports:
+      - "8000:8000"
+    env_file:
+      - .env.local
+    healthcheck:
+      test: ["CMD", "python", "-c", "import json,urllib.request; r=urllib.request.urlopen('http://localhost:8000/health', timeout=2); data=json.load(r); assert data.get('ok') is True"]
+      interval: 10s
+      timeout: 3s
+      retries: 5

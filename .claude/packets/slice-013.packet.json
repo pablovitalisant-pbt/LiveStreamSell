@@ -1,0 +1,18 @@
+{
+  "sliceNumber": 13,
+  "name": "APIS: 5.2 Endpoints Detallados",
+  "description": "Implementar lo descrito en: Planificación: LiveStreamSell AI (SaaS Global) > 5. APIs y Contratos de Interfaz > 5.2 Endpoints Detallados (líneas 300-381).",
+  "headingPath": "Planificación: LiveStreamSell AI (SaaS Global) > 5. APIs y Contratos de Interfaz > 5.2 Endpoints Detallados",
+  "lineStart": 300,
+  "lineEnd": 381,
+  "prdHash": "62c396bb1963049fddb3da32d2d9116a6207941f516e0d43a938d8086d7f066d",
+  "blockHash": "bdacebf6ef83f62fd221e81552bbe92f8c75203d90218dc4bc63a1f10d0549ae",
+  "estimatedLines": 164,
+  "priority": "high",
+  "contract": {
+    "testFile": "tests/contracts/slice-013.test.ts",
+    "requirement": "Cubrir comportamiento descrito en \"Planificación: LiveStreamSell AI (SaaS Global) > 5. APIs y Contratos de Interfaz > 5.2 Endpoints Detallados\"",
+    "redThenGreenRequired": true
+  },
+  "generatedAt": "2026-01-31T11:45:55.532Z"
+}

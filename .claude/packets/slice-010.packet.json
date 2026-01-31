@@ -1,0 +1,18 @@
+{
+  "sliceNumber": 10,
+  "name": "AUTH: 6.2 Modelo de Permisos",
+  "description": "Implementar lo descrito en: Planificación: LiveStreamSell AI (SaaS Global) > 6. Autenticación y Autorización > 6.2 Modelo de Permisos (líneas 449-464).",
+  "headingPath": "Planificación: LiveStreamSell AI (SaaS Global) > 6. Autenticación y Autorización > 6.2 Modelo de Permisos",
+  "lineStart": 449,
+  "lineEnd": 464,
+  "prdHash": "62c396bb1963049fddb3da32d2d9116a6207941f516e0d43a938d8086d7f066d",
+  "blockHash": "5696deb9bdc5991a049c9cb325ff061a0e08eb1ec5e3ca4d3a422c81a8eee1c4",
+  "estimatedLines": 32,
+  "priority": "critical",
+  "contract": {
+    "testFile": "tests/contracts/slice-010.test.ts",
+    "requirement": "Cubrir comportamiento descrito en \"Planificación: LiveStreamSell AI (SaaS Global) > 6. Autenticación y Autorización > 6.2 Modelo de Permisos\"",
+    "redThenGreenRequired": true
+  },
+  "generatedAt": "2026-01-31T11:31:12.642Z"
+}

@@ -1,0 +1,18 @@
+{
+  "sliceNumber": 7,
+  "name": "DATABASE: 4.2 Tipos de Almacenamiento",
+  "description": "Implementar lo descrito en: Planificación: LiveStreamSell AI (SaaS Global) > 4. Bases de Datos y Almacenamiento > 4.2 Tipos de Almacenamiento (líneas 248-267).",
+  "headingPath": "Planificación: LiveStreamSell AI (SaaS Global) > 4. Bases de Datos y Almacenamiento > 4.2 Tipos de Almacenamiento",
+  "lineStart": 248,
+  "lineEnd": 267,
+  "prdHash": "62c396bb1963049fddb3da32d2d9116a6207941f516e0d43a938d8086d7f066d",
+  "blockHash": "a5b5dfb32d65eee02e3bd793e552ad23ce120dbdf3e080dd75df000aa93ff2e5",
+  "estimatedLines": 40,
+  "priority": "critical",
+  "contract": {
+    "testFile": "tests/contracts/slice-007.test.ts",
+    "requirement": "Cubrir comportamiento descrito en \"Planificación: LiveStreamSell AI (SaaS Global) > 4. Bases de Datos y Almacenamiento > 4.2 Tipos de Almacenamiento\"",
+    "redThenGreenRequired": true
+  },
+  "generatedAt": "2026-01-31T11:22:57.230Z"
+}

@@ -1,0 +1,18 @@
+{
+  "sliceNumber": 8,
+  "name": "DATABASE: 4.3 Estrategias de Datos",
+  "description": "Implementar lo descrito en: Planificación: LiveStreamSell AI (SaaS Global) > 4. Bases de Datos y Almacenamiento > 4.3 Estrategias de Datos (líneas 268-279).",
+  "headingPath": "Planificación: LiveStreamSell AI (SaaS Global) > 4. Bases de Datos y Almacenamiento > 4.3 Estrategias de Datos",
+  "lineStart": 268,
+  "lineEnd": 279,
+  "prdHash": "62c396bb1963049fddb3da32d2d9116a6207941f516e0d43a938d8086d7f066d",
+  "blockHash": "e4dc7e33c23085761e41515c3888b2b6c3d4c5ed19f7a5c7bfb6bdda16f4415f",
+  "estimatedLines": 24,
+  "priority": "critical",
+  "contract": {
+    "testFile": "tests/contracts/slice-008.test.ts",
+    "requirement": "Cubrir comportamiento descrito en \"Planificación: LiveStreamSell AI (SaaS Global) > 4. Bases de Datos y Almacenamiento > 4.3 Estrategias de Datos\"",
+    "redThenGreenRequired": true
+  },
+  "generatedAt": "2026-01-31T11:25:56.923Z"
+}

@@ -1,0 +1,18 @@
+{
+  "sliceNumber": 36,
+  "name": "OPERATIONS: 15.3 Soporte",
+  "description": "Implementar lo descrito en: Planificación: LiveStreamSell AI (SaaS Global) > 15. Consideraciones Operacionales > 15.3 Soporte (líneas 1331-1368).",
+  "headingPath": "Planificación: LiveStreamSell AI (SaaS Global) > 15. Consideraciones Operacionales > 15.3 Soporte",
+  "lineStart": 1331,
+  "lineEnd": 1368,
+  "prdHash": "62c396bb1963049fddb3da32d2d9116a6207941f516e0d43a938d8086d7f066d",
+  "blockHash": "52db4470e568842dfbbacf85e9d81dd922931e840a0db6bf70af1efc2806c012",
+  "estimatedLines": 76,
+  "priority": "low",
+  "contract": {
+    "testFile": "tests/contracts/slice-036.test.ts",
+    "requirement": "Cubrir comportamiento descrito en \"Planificación: LiveStreamSell AI (SaaS Global) > 15. Consideraciones Operacionales > 15.3 Soporte\"",
+    "redThenGreenRequired": true
+  },
+  "generatedAt": "2026-01-31T13:54:59.594Z"
+}

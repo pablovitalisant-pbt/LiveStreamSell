@@ -1,0 +1,18 @@
+{
+  "sliceNumber": 39,
+  "name": "OTHER: 3.3 Gestión de Estado y Persistencia",
+  "description": "Implementar lo descrito en: Planificación: LiveStreamSell AI (SaaS Global) > 3. Arquitectura del Sistema > 3.3 Gestión de Estado y Persistencia (líneas 120-131).",
+  "headingPath": "Planificación: LiveStreamSell AI (SaaS Global) > 3. Arquitectura del Sistema > 3.3 Gestión de Estado y Persistencia",
+  "lineStart": 120,
+  "lineEnd": 131,
+  "prdHash": "62c396bb1963049fddb3da32d2d9116a6207941f516e0d43a938d8086d7f066d",
+  "blockHash": "c8a8a4fbd63869e16e1f70cc70b39fefb4a821ba4d4e61c7df4f189dc2b42a09",
+  "estimatedLines": 24,
+  "priority": "medium",
+  "contract": {
+    "testFile": "tests/contracts/slice-039.test.ts",
+    "requirement": "Cubrir comportamiento descrito en \"Planificación: LiveStreamSell AI (SaaS Global) > 3. Arquitectura del Sistema > 3.3 Gestión de Estado y Persistencia\"",
+    "redThenGreenRequired": true
+  },
+  "generatedAt": "2026-01-31T16:49:07.200Z"
+}

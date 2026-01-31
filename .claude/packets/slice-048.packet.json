@@ -1,0 +1,18 @@
+{
+  "sliceNumber": 48,
+  "name": "OTHER: 16.4 Privacy y Consent Management",
+  "description": "Implementar lo descrito en: Planificación: LiveStreamSell AI (SaaS Global) > 16. Compliance y Legal > 16.4 Privacy y Consent Management (líneas 1429-1436).",
+  "headingPath": "Planificación: LiveStreamSell AI (SaaS Global) > 16. Compliance y Legal > 16.4 Privacy y Consent Management",
+  "lineStart": 1429,
+  "lineEnd": 1436,
+  "prdHash": "62c396bb1963049fddb3da32d2d9116a6207941f516e0d43a938d8086d7f066d",
+  "blockHash": "98b0de20b88e657480755b8a2be74e742dde373b8d773ddc2dc05c729208448b",
+  "estimatedLines": 16,
+  "priority": "medium",
+  "contract": {
+    "testFile": "tests/contracts/slice-048.test.ts",
+    "requirement": "Cubrir comportamiento descrito en \"Planificación: LiveStreamSell AI (SaaS Global) > 16. Compliance y Legal > 16.4 Privacy y Consent Management\"",
+    "redThenGreenRequired": true
+  },
+  "generatedAt": "2026-01-31T17:23:55.059Z"
+}

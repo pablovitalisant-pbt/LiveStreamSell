@@ -1,0 +1,18 @@
+{
+  "sliceNumber": 6,
+  "name": "DATABASE: 4.1 Diseño de Datos",
+  "description": "Implementar lo descrito en: Planificación: LiveStreamSell AI (SaaS Global) > 4. Bases de Datos y Almacenamiento > 4.1 Diseño de Datos (líneas 210-247).",
+  "headingPath": "Planificación: LiveStreamSell AI (SaaS Global) > 4. Bases de Datos y Almacenamiento > 4.1 Diseño de Datos",
+  "lineStart": 210,
+  "lineEnd": 247,
+  "prdHash": "62c396bb1963049fddb3da32d2d9116a6207941f516e0d43a938d8086d7f066d",
+  "blockHash": "834e3bf02180cd88e951a95a2785848aaec92387f9c6f40c496f593b8aa7fc19",
+  "estimatedLines": 76,
+  "priority": "critical",
+  "contract": {
+    "testFile": "tests/contracts/slice-006.test.ts",
+    "requirement": "Cubrir comportamiento descrito en \"Planificación: LiveStreamSell AI (SaaS Global) > 4. Bases de Datos y Almacenamiento > 4.1 Diseño de Datos\"",
+    "redThenGreenRequired": true
+  },
+  "generatedAt": "2026-01-31T11:13:57.996Z"
+}

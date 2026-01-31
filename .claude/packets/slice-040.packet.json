@@ -1,0 +1,18 @@
+{
+  "sliceNumber": 40,
+  "name": "OTHER: 6.1 Estrategia de Identidad",
+  "description": "Implementar lo descrito en: Planificación: LiveStreamSell AI (SaaS Global) > 6. Autenticación y Autorización > 6.1 Estrategia de Identidad (líneas 443-448).",
+  "headingPath": "Planificación: LiveStreamSell AI (SaaS Global) > 6. Autenticación y Autorización > 6.1 Estrategia de Identidad",
+  "lineStart": 443,
+  "lineEnd": 448,
+  "prdHash": "62c396bb1963049fddb3da32d2d9116a6207941f516e0d43a938d8086d7f066d",
+  "blockHash": "3e3a2cd200da79111ce08f005a769063e20b3b174f5720e0e7ab4f18b26ad627",
+  "estimatedLines": 12,
+  "priority": "medium",
+  "contract": {
+    "testFile": "tests/contracts/slice-040.test.ts",
+    "requirement": "Cubrir comportamiento descrito en \"Planificación: LiveStreamSell AI (SaaS Global) > 6. Autenticación y Autorización > 6.1 Estrategia de Identidad\"",
+    "redThenGreenRequired": true
+  },
+  "generatedAt": "2026-01-31T16:51:57.884Z"
+}

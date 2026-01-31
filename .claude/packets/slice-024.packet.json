@@ -1,0 +1,18 @@
+{
+  "sliceNumber": 24,
+  "name": "FRONTEND: 8.2 UI/UX",
+  "description": "Implementar lo descrito en: Planificación: LiveStreamSell AI (SaaS Global) > 8. Frontend (si aplica) > 8.2 UI/UX (líneas 621-702).",
+  "headingPath": "Planificación: LiveStreamSell AI (SaaS Global) > 8. Frontend (si aplica) > 8.2 UI/UX",
+  "lineStart": 621,
+  "lineEnd": 702,
+  "prdHash": "62c396bb1963049fddb3da32d2d9116a6207941f516e0d43a938d8086d7f066d",
+  "blockHash": "10d483a04ce2de2c38671e2935ea0d195872ac2bc63d7e17cd3b64f6aa31a087",
+  "estimatedLines": 164,
+  "priority": "medium",
+  "contract": {
+    "testFile": "tests/contracts/slice-024.test.ts",
+    "requirement": "Cubrir comportamiento descrito en \"Planificación: LiveStreamSell AI (SaaS Global) > 8. Frontend (si aplica) > 8.2 UI/UX\"",
+    "redThenGreenRequired": true
+  },
+  "generatedAt": "2026-01-31T12:27:33.506Z"
+}

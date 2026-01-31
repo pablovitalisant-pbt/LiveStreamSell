@@ -1,0 +1,18 @@
+{
+  "sliceNumber": 37,
+  "name": "OTHER: Planificación: LiveStreamSell AI (SaaS Global)",
+  "description": "Implementar lo descrito en: Planificación: LiveStreamSell AI (SaaS Global) (líneas 1-3).",
+  "headingPath": "Planificación: LiveStreamSell AI (SaaS Global)",
+  "lineStart": 1,
+  "lineEnd": 3,
+  "prdHash": "62c396bb1963049fddb3da32d2d9116a6207941f516e0d43a938d8086d7f066d",
+  "blockHash": "c6eda7076231c2b1b755f44d025292383dea801898a9ed85afbe7f0e908da3b3",
+  "estimatedLines": 6,
+  "priority": "medium",
+  "contract": {
+    "testFile": "tests/contracts/slice-037.test.ts",
+    "requirement": "Cubrir comportamiento descrito en \"Planificación: LiveStreamSell AI (SaaS Global)\"",
+    "redThenGreenRequired": true
+  },
+  "generatedAt": "2026-01-31T16:40:35.096Z"
+}

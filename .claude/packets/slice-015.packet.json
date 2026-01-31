@@ -1,0 +1,18 @@
+{
+  "sliceNumber": 15,
+  "name": "SECURITY: 6.4 Seguridad Adicional (MFA)",
+  "description": "Implementar lo descrito en: Planificación: LiveStreamSell AI (SaaS Global) > 6. Autenticación y Autorización > 6.4 Seguridad Adicional (MFA) (líneas 475-484).",
+  "headingPath": "Planificación: LiveStreamSell AI (SaaS Global) > 6. Autenticación y Autorización > 6.4 Seguridad Adicional (MFA)",
+  "lineStart": 475,
+  "lineEnd": 484,
+  "prdHash": "62c396bb1963049fddb3da32d2d9116a6207941f516e0d43a938d8086d7f066d",
+  "blockHash": "b5fef7df090712dc6197bff14a98a9688f65e1d8f7b68475ee77977929078a00",
+  "estimatedLines": 20,
+  "priority": "high",
+  "contract": {
+    "testFile": "tests/contracts/slice-015.test.ts",
+    "requirement": "Cubrir comportamiento descrito en \"Planificación: LiveStreamSell AI (SaaS Global) > 6. Autenticación y Autorización > 6.4 Seguridad Adicional (MFA)\"",
+    "redThenGreenRequired": true
+  },
+  "generatedAt": "2026-01-31T11:52:08.169Z"
+}

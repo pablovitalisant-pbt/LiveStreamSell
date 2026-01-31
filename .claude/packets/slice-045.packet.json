@@ -1,0 +1,18 @@
+{
+  "sliceNumber": 45,
+  "name": "OTHER: 16.1 Regulaciones Aplicables",
+  "description": "Implementar lo descrito en: Planificación: LiveStreamSell AI (SaaS Global) > 16. Compliance y Legal > 16.1 Regulaciones Aplicables (líneas 1371-1382).",
+  "headingPath": "Planificación: LiveStreamSell AI (SaaS Global) > 16. Compliance y Legal > 16.1 Regulaciones Aplicables",
+  "lineStart": 1371,
+  "lineEnd": 1382,
+  "prdHash": "62c396bb1963049fddb3da32d2d9116a6207941f516e0d43a938d8086d7f066d",
+  "blockHash": "b0262a87cc10a1b83624ebe81d785f54c939b757f7f167051332f60fbf0ea94b",
+  "estimatedLines": 24,
+  "priority": "medium",
+  "contract": {
+    "testFile": "tests/contracts/slice-045.test.ts",
+    "requirement": "Cubrir comportamiento descrito en \"Planificación: LiveStreamSell AI (SaaS Global) > 16. Compliance y Legal > 16.1 Regulaciones Aplicables\"",
+    "redThenGreenRequired": true
+  },
+  "generatedAt": "2026-01-31T17:16:52.902Z"
+}

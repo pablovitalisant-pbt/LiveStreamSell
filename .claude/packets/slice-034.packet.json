@@ -1,0 +1,18 @@
+{
+  "sliceNumber": 34,
+  "name": "OPERATIONS: 15.1 Disaster Recovery (DRP)",
+  "description": "Implementar lo descrito en: Planificación: LiveStreamSell AI (SaaS Global) > 15. Consideraciones Operacionales > 15.1 Disaster Recovery (DRP) (líneas 1265-1304).",
+  "headingPath": "Planificación: LiveStreamSell AI (SaaS Global) > 15. Consideraciones Operacionales > 15.1 Disaster Recovery (DRP)",
+  "lineStart": 1265,
+  "lineEnd": 1304,
+  "prdHash": "62c396bb1963049fddb3da32d2d9116a6207941f516e0d43a938d8086d7f066d",
+  "blockHash": "c315aa963e5076d18751505dede14de20365dbf9bc0e19235ec48f690ba07b7a",
+  "estimatedLines": 80,
+  "priority": "low",
+  "contract": {
+    "testFile": "tests/contracts/slice-034.test.ts",
+    "requirement": "Cubrir comportamiento descrito en \"Planificación: LiveStreamSell AI (SaaS Global) > 15. Consideraciones Operacionales > 15.1 Disaster Recovery (DRP)\"",
+    "redThenGreenRequired": true
+  },
+  "generatedAt": "2026-01-31T13:43:03.199Z"
+}

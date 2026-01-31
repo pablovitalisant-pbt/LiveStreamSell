@@ -1,0 +1,18 @@
+{
+  "sliceNumber": 18,
+  "name": "OBSERVABILITY: 9.2 Métricas",
+  "description": "Implementar lo descrito en: Planificación: LiveStreamSell AI (SaaS Global) > 9. Observabilidad y Monitoreo > 9.2 Métricas (líneas 765-798).",
+  "headingPath": "Planificación: LiveStreamSell AI (SaaS Global) > 9. Observabilidad y Monitoreo > 9.2 Métricas",
+  "lineStart": 765,
+  "lineEnd": 798,
+  "prdHash": "62c396bb1963049fddb3da32d2d9116a6207941f516e0d43a938d8086d7f066d",
+  "blockHash": "c62c88bf4141131b7c0bd89beb3d1b59fbfe64c85e4e1429ea16bff7ba47b9de",
+  "estimatedLines": 68,
+  "priority": "high",
+  "contract": {
+    "testFile": "tests/contracts/slice-018.test.ts",
+    "requirement": "Cubrir comportamiento descrito en \"Planificación: LiveStreamSell AI (SaaS Global) > 9. Observabilidad y Monitoreo > 9.2 Métricas\"",
+    "redThenGreenRequired": true
+  },
+  "generatedAt": "2026-01-31T12:10:45.721Z"
+}

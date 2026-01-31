@@ -1,0 +1,18 @@
+{
+  "sliceNumber": 5,
+  "name": "SETUP: 7.3 Infraestructura",
+  "description": "Implementar lo descrito en: Planificación: LiveStreamSell AI (SaaS Global) > 7. Seguridad > 7.3 Infraestructura (líneas 555-582).",
+  "headingPath": "Planificación: LiveStreamSell AI (SaaS Global) > 7. Seguridad > 7.3 Infraestructura",
+  "lineStart": 555,
+  "lineEnd": 582,
+  "prdHash": "62c396bb1963049fddb3da32d2d9116a6207941f516e0d43a938d8086d7f066d",
+  "blockHash": "f7392256cd740e65f0e6dde2f0ed1621a9d2af7be44d64cb83f998ba683a5c5e",
+  "estimatedLines": 56,
+  "priority": "critical",
+  "contract": {
+    "testFile": "tests/contracts/slice-005.test.ts",
+    "requirement": "Cubrir comportamiento descrito en \"Planificación: LiveStreamSell AI (SaaS Global) > 7. Seguridad > 7.3 Infraestructura\"",
+    "redThenGreenRequired": true
+  },
+  "generatedAt": "2026-01-31T11:09:35.481Z"
+}

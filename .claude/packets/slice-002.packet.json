@@ -1,0 +1,18 @@
+{
+  "sliceNumber": 2,
+  "name": "SETUP: 2.2 Requerimientos No Funcionales (NFR)",
+  "description": "Implementar lo descrito en: Planificación: LiveStreamSell AI (SaaS Global) > 2. Requerimientos Funcionales y No Funcionales > 2.2 Requerimientos No Funcionales (NFR) (líneas 68-83).",
+  "headingPath": "Planificación: LiveStreamSell AI (SaaS Global) > 2. Requerimientos Funcionales y No Funcionales > 2.2 Requerimientos No Funcionales (NFR)",
+  "lineStart": 68,
+  "lineEnd": 83,
+  "prdHash": "62c396bb1963049fddb3da32d2d9116a6207941f516e0d43a938d8086d7f066d",
+  "blockHash": "338cbbbf68e268eca6fc3c2ea5d4da5a3ca1e2b69769463d40bbfff24f6a33d0",
+  "estimatedLines": 32,
+  "priority": "critical",
+  "contract": {
+    "testFile": "tests/contracts/slice-002.test.ts",
+    "requirement": "Cubrir comportamiento descrito en \"Planificación: LiveStreamSell AI (SaaS Global) > 2. Requerimientos Funcionales y No Funcionales > 2.2 Requerimientos No Funcionales (NFR)\"",
+    "redThenGreenRequired": true
+  },
+  "generatedAt": "2026-01-31T10:52:01.009Z"
+}

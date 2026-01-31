@@ -1,0 +1,18 @@
+{
+  "sliceNumber": 19,
+  "name": "OBSERVABILITY: 9.3 Tracing",
+  "description": "Implementar lo descrito en: Planificación: LiveStreamSell AI (SaaS Global) > 9. Observabilidad y Monitoreo > 9.3 Tracing (líneas 799-816).",
+  "headingPath": "Planificación: LiveStreamSell AI (SaaS Global) > 9. Observabilidad y Monitoreo > 9.3 Tracing",
+  "lineStart": 799,
+  "lineEnd": 816,
+  "prdHash": "62c396bb1963049fddb3da32d2d9116a6207941f516e0d43a938d8086d7f066d",
+  "blockHash": "431a5bc571bb507a93adb7cf9aaf379464f7c85323203ee4dac7b5c9f04d07fd",
+  "estimatedLines": 36,
+  "priority": "high",
+  "contract": {
+    "testFile": "tests/contracts/slice-019.test.ts",
+    "requirement": "Cubrir comportamiento descrito en \"Planificación: LiveStreamSell AI (SaaS Global) > 9. Observabilidad y Monitoreo > 9.3 Tracing\"",
+    "redThenGreenRequired": true
+  },
+  "generatedAt": "2026-01-31T12:13:52.869Z"
+}

@@ -1,0 +1,18 @@
+{
+  "sliceNumber": 20,
+  "name": "OBSERVABILITY: 9.4 Alerting",
+  "description": "Implementar lo descrito en: Planificación: LiveStreamSell AI (SaaS Global) > 9. Observabilidad y Monitoreo > 9.4 Alerting (líneas 817-852).",
+  "headingPath": "Planificación: LiveStreamSell AI (SaaS Global) > 9. Observabilidad y Monitoreo > 9.4 Alerting",
+  "lineStart": 817,
+  "lineEnd": 852,
+  "prdHash": "62c396bb1963049fddb3da32d2d9116a6207941f516e0d43a938d8086d7f066d",
+  "blockHash": "70ac98cd758b5e933b7739ae129d4dd4ce0eb6013fb18ba09c681ba58e0efbb5",
+  "estimatedLines": 72,
+  "priority": "high",
+  "contract": {
+    "testFile": "tests/contracts/slice-020.test.ts",
+    "requirement": "Cubrir comportamiento descrito en \"Planificación: LiveStreamSell AI (SaaS Global) > 9. Observabilidad y Monitoreo > 9.4 Alerting\"",
+    "redThenGreenRequired": true
+  },
+  "generatedAt": "2026-01-31T12:16:19.570Z"
+}

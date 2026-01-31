@@ -1,0 +1,18 @@
+{
+  "sliceNumber": 21,
+  "name": "FRONTEND: 3.2 Componentes Críticos y Patrones",
+  "description": "Implementar lo descrito en: Planificación: LiveStreamSell AI (SaaS Global) > 3. Arquitectura del Sistema > 3.2 Componentes Críticos y Patrones (líneas 102-119).",
+  "headingPath": "Planificación: LiveStreamSell AI (SaaS Global) > 3. Arquitectura del Sistema > 3.2 Componentes Críticos y Patrones",
+  "lineStart": 102,
+  "lineEnd": 119,
+  "prdHash": "62c396bb1963049fddb3da32d2d9116a6207941f516e0d43a938d8086d7f066d",
+  "blockHash": "a29147a239364d4b171e9dddb674c55cfb4736b3df3f1c9fb97f0f5779755a0e",
+  "estimatedLines": 36,
+  "priority": "medium",
+  "contract": {
+    "testFile": "tests/contracts/slice-021.test.ts",
+    "requirement": "Cubrir comportamiento descrito en \"Planificación: LiveStreamSell AI (SaaS Global) > 3. Arquitectura del Sistema > 3.2 Componentes Críticos y Patrones\"",
+    "redThenGreenRequired": true
+  },
+  "generatedAt": "2026-01-31T12:19:08.499Z"
+}

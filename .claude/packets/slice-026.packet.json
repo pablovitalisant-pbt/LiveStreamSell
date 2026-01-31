@@ -1,0 +1,18 @@
+{
+  "sliceNumber": 26,
+  "name": "TESTING: 10.1 Estrategia de Testing",
+  "description": "Implementar lo descrito en: Planificación: LiveStreamSell AI (SaaS Global) > 10. Testing > 10.1 Estrategia de Testing (líneas 855-878).",
+  "headingPath": "Planificación: LiveStreamSell AI (SaaS Global) > 10. Testing > 10.1 Estrategia de Testing",
+  "lineStart": 855,
+  "lineEnd": 878,
+  "prdHash": "62c396bb1963049fddb3da32d2d9116a6207941f516e0d43a938d8086d7f066d",
+  "blockHash": "780aa973ca124ca432d0b8938211a90c1a59befcea805ac0e11d94cb541b78ce",
+  "estimatedLines": 48,
+  "priority": "high",
+  "contract": {
+    "testFile": "tests/contracts/slice-026.test.ts",
+    "requirement": "Cubrir comportamiento descrito en \"Planificación: LiveStreamSell AI (SaaS Global) > 10. Testing > 10.1 Estrategia de Testing\"",
+    "redThenGreenRequired": true
+  },
+  "generatedAt": "2026-01-31T12:46:47.107Z"
+}

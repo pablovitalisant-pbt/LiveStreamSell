@@ -1,0 +1,18 @@
+{
+  "sliceNumber": 38,
+  "name": "OTHER: 2.1 Funcionalidades (FR)",
+  "description": "Implementar lo descrito en: Planificación: LiveStreamSell AI (SaaS Global) > 2. Requerimientos Funcionales y No Funcionales > 2.1 Funcionalidades (FR) (líneas 46-67).",
+  "headingPath": "Planificación: LiveStreamSell AI (SaaS Global) > 2. Requerimientos Funcionales y No Funcionales > 2.1 Funcionalidades (FR)",
+  "lineStart": 46,
+  "lineEnd": 67,
+  "prdHash": "62c396bb1963049fddb3da32d2d9116a6207941f516e0d43a938d8086d7f066d",
+  "blockHash": "7f8684ee54860404e6f4f664684fc156dde9817d5ed9f88393a53baf1f6a703c",
+  "estimatedLines": 44,
+  "priority": "medium",
+  "contract": {
+    "testFile": "tests/contracts/slice-038.test.ts",
+    "requirement": "Cubrir comportamiento descrito en \"Planificación: LiveStreamSell AI (SaaS Global) > 2. Requerimientos Funcionales y No Funcionales > 2.1 Funcionalidades (FR)\"",
+    "redThenGreenRequired": true
+  },
+  "generatedAt": "2026-01-31T16:45:18.161Z"
+}

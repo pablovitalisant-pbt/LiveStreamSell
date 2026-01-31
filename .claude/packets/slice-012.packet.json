@@ -1,0 +1,18 @@
+{
+  "sliceNumber": 12,
+  "name": "APIS: 5.1 API Design",
+  "description": "Implementar lo descrito en: Planificación: LiveStreamSell AI (SaaS Global) > 5. APIs y Contratos de Interfaz > 5.1 API Design (líneas 282-299).",
+  "headingPath": "Planificación: LiveStreamSell AI (SaaS Global) > 5. APIs y Contratos de Interfaz > 5.1 API Design",
+  "lineStart": 282,
+  "lineEnd": 299,
+  "prdHash": "62c396bb1963049fddb3da32d2d9116a6207941f516e0d43a938d8086d7f066d",
+  "blockHash": "bc390c297db78e5e144bf5294386ffb7d98fde083902101694b2083640a91ae6",
+  "estimatedLines": 36,
+  "priority": "high",
+  "contract": {
+    "testFile": "tests/contracts/slice-012.test.ts",
+    "requirement": "Cubrir comportamiento descrito en \"Planificación: LiveStreamSell AI (SaaS Global) > 5. APIs y Contratos de Interfaz > 5.1 API Design\"",
+    "redThenGreenRequired": true
+  },
+  "generatedAt": "2026-01-31T11:42:08.891Z"
+}

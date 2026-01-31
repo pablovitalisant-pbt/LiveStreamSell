@@ -1,0 +1,18 @@
+{
+  "sliceNumber": 23,
+  "name": "FRONTEND: 8.1 Arquitectura Frontend",
+  "description": "Implementar lo descrito en: Planificación: LiveStreamSell AI (SaaS Global) > 8. Frontend (si aplica) > 8.1 Arquitectura Frontend (líneas 585-620).",
+  "headingPath": "Planificación: LiveStreamSell AI (SaaS Global) > 8. Frontend (si aplica) > 8.1 Arquitectura Frontend",
+  "lineStart": 585,
+  "lineEnd": 620,
+  "prdHash": "62c396bb1963049fddb3da32d2d9116a6207941f516e0d43a938d8086d7f066d",
+  "blockHash": "a24ea630dfbd2baa7d59cb60d1a11b7a7aa866605308f73a43cd23d791194a50",
+  "estimatedLines": 72,
+  "priority": "medium",
+  "contract": {
+    "testFile": "tests/contracts/slice-023.test.ts",
+    "requirement": "Cubrir comportamiento descrito en \"Planificación: LiveStreamSell AI (SaaS Global) > 8. Frontend (si aplica) > 8.1 Arquitectura Frontend\"",
+    "redThenGreenRequired": true
+  },
+  "generatedAt": "2026-01-31T12:24:31.863Z"
+}

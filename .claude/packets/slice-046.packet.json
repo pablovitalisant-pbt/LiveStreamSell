@@ -1,0 +1,18 @@
+{
+  "sliceNumber": 46,
+  "name": "OTHER: 16.2.1 Protocolo de Recuperación de Carrito y Message Tags",
+  "description": "Implementar lo descrito en: Planificación: LiveStreamSell AI (SaaS Global) > 16. Compliance y Legal > 16.2.1 Protocolo de Recuperación de Carrito y Message Tags (líneas 1391-1420).",
+  "headingPath": "Planificación: LiveStreamSell AI (SaaS Global) > 16. Compliance y Legal > 16.2.1 Protocolo de Recuperación de Carrito y Message Tags",
+  "lineStart": 1391,
+  "lineEnd": 1420,
+  "prdHash": "62c396bb1963049fddb3da32d2d9116a6207941f516e0d43a938d8086d7f066d",
+  "blockHash": "88bffd4ff0cfb9914c6ad091aca2536486695d8b22f0c5b4bbe500026a131ebc",
+  "estimatedLines": 60,
+  "priority": "medium",
+  "contract": {
+    "testFile": "tests/contracts/slice-046.test.ts",
+    "requirement": "Cubrir comportamiento descrito en \"Planificación: LiveStreamSell AI (SaaS Global) > 16. Compliance y Legal > 16.2.1 Protocolo de Recuperación de Carrito y Message Tags\"",
+    "redThenGreenRequired": true
+  },
+  "generatedAt": "2026-01-31T17:19:11.035Z"
+}

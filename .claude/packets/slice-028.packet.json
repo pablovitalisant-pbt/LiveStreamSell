@@ -1,0 +1,18 @@
+{
+  "sliceNumber": 28,
+  "name": "TESTING: 10.3 Test Data",
+  "description": "Implementar lo descrito en: Planificación: LiveStreamSell AI (SaaS Global) > 10. Testing > 10.3 Test Data (líneas 917-944).",
+  "headingPath": "Planificación: LiveStreamSell AI (SaaS Global) > 10. Testing > 10.3 Test Data",
+  "lineStart": 917,
+  "lineEnd": 944,
+  "prdHash": "62c396bb1963049fddb3da32d2d9116a6207941f516e0d43a938d8086d7f066d",
+  "blockHash": "a21f95e4e88b00f771aa37673c5873517f42155a103bb0a8aa5df4a722b49a25",
+  "estimatedLines": 56,
+  "priority": "high",
+  "contract": {
+    "testFile": "tests/contracts/slice-028.test.ts",
+    "requirement": "Cubrir comportamiento descrito en \"Planificación: LiveStreamSell AI (SaaS Global) > 10. Testing > 10.3 Test Data\"",
+    "redThenGreenRequired": true
+  },
+  "generatedAt": "2026-01-31T12:52:42.916Z"
+}

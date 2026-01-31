@@ -1,0 +1,1775 @@
+{
+  "projectName": "Planificación: LiveStreamSell AI (SaaS Global)",
+  "generatedAt": "2026-01-31T10:27:59.646Z",
+  "totalSections": 66,
+  "totalSlices": 48,
+  "sections": [
+    {
+      "id": "SEC-001",
+      "level": 1,
+      "title": "Planificación: LiveStreamSell AI (SaaS Global)",
+      "path": "Planificación: LiveStreamSell AI (SaaS Global)",
+      "startLine": 1,
+      "endLine": 3,
+      "implementable": true,
+      "category": "other"
+    },
+    {
+      "id": "SEC-002",
+      "level": 2,
+      "title": "1. Definición del Proyecto y Negocio",
+      "path": "Planificación: LiveStreamSell AI (SaaS Global) > 1. Definición del Proyecto y Negocio",
+      "startLine": 4,
+      "endLine": 43,
+      "implementable": true,
+      "category": "setup"
+    },
+    {
+      "id": "SEC-003",
+      "level": 2,
+      "title": "2. Requerimientos Funcionales y No Funcionales",
+      "path": "Planificación: LiveStreamSell AI (SaaS Global) > 2. Requerimientos Funcionales y No Funcionales",
+      "startLine": 44,
+      "endLine": 45,
+      "implementable": false,
+      "category": "setup"
+    },
+    {
+      "id": "SEC-004",
+      "level": 3,
+      "title": "2.1 Funcionalidades (FR)",
+      "path": "Planificación: LiveStreamSell AI (SaaS Global) > 2. Requerimientos Funcionales y No Funcionales > 2.1 Funcionalidades (FR)",
+      "startLine": 46,
+      "endLine": 67,
+      "implementable": true,
+      "category": "other"
+    },
+    {
+      "id": "SEC-005",
+      "level": 3,
+      "title": "2.2 Requerimientos No Funcionales (NFR)",
+      "path": "Planificación: LiveStreamSell AI (SaaS Global) > 2. Requerimientos Funcionales y No Funcionales > 2.2 Requerimientos No Funcionales (NFR)",
+      "startLine": 68,
+      "endLine": 83,
+      "implementable": true,
+      "category": "setup"
+    },
+    {
+      "id": "SEC-006",
+      "level": 2,
+      "title": "3. Arquitectura del Sistema",
+      "path": "Planificación: LiveStreamSell AI (SaaS Global) > 3. Arquitectura del Sistema",
+      "startLine": 84,
+      "endLine": 85,
+      "implementable": false,
+      "category": "setup"
+    },
+    {
+      "id": "SEC-007",
+      "level": 3,
+      "title": "3.1 Arquitectura General",
+      "path": "Planificación: LiveStreamSell AI (SaaS Global) > 3. Arquitectura del Sistema > 3.1 Arquitectura General",
+      "startLine": 86,
+      "endLine": 101,
+      "implementable": true,
+      "category": "setup"
+    },
+    {
+      "id": "SEC-008",
+      "level": 3,
+      "title": "3.2 Componentes Críticos y Patrones",
+      "path": "Planificación: LiveStreamSell AI (SaaS Global) > 3. Arquitectura del Sistema > 3.2 Componentes Críticos y Patrones",
+      "startLine": 102,
+      "endLine": 119,
+      "implementable": true,
+      "category": "frontend"
+    },
+    {
+      "id": "SEC-009",
+      "level": 3,
+      "title": "3.3 Gestión de Estado y Persistencia",
+      "path": "Planificación: LiveStreamSell AI (SaaS Global) > 3. Arquitectura del Sistema > 3.3 Gestión de Estado y Persistencia",
+      "startLine": 120,
+      "endLine": 131,
+      "implementable": true,
+      "category": "other"
+    },
+    {
+      "id": "SEC-010",
+      "level": 3,
+      "title": "3.4 Componentes y Módulos",
+      "path": "Planificación: LiveStreamSell AI (SaaS Global) > 3. Arquitectura del Sistema > 3.4 Componentes y Módulos",
+      "startLine": 132,
+      "endLine": 175,
+      "implementable": true,
+      "category": "frontend"
+    },
+    {
+      "id": "SEC-011",
+      "level": 3,
+      "title": "3.5 Infraestructura",
+      "path": "Planificación: LiveStreamSell AI (SaaS Global) > 3. Arquitectura del Sistema > 3.5 Infraestructura",
+      "startLine": 176,
+      "endLine": 207,
+      "implementable": true,
+      "category": "setup"
+    },
+    {
+      "id": "SEC-012",
+      "level": 2,
+      "title": "4. Bases de Datos y Almacenamiento",
+      "path": "Planificación: LiveStreamSell AI (SaaS Global) > 4. Bases de Datos y Almacenamiento",
+      "startLine": 208,
+      "endLine": 209,
+      "implementable": false,
+      "category": "database"
+    },
+    {
+      "id": "SEC-013",
+      "level": 3,
+      "title": "4.1 Diseño de Datos",
+      "path": "Planificación: LiveStreamSell AI (SaaS Global) > 4. Bases de Datos y Almacenamiento > 4.1 Diseño de Datos",
+      "startLine": 210,
+      "endLine": 247,
+      "implementable": true,
+      "category": "database"
+    },
+    {
+      "id": "SEC-014",
+      "level": 3,
+      "title": "4.2 Tipos de Almacenamiento",
+      "path": "Planificación: LiveStreamSell AI (SaaS Global) > 4. Bases de Datos y Almacenamiento > 4.2 Tipos de Almacenamiento",
+      "startLine": 248,
+      "endLine": 267,
+      "implementable": true,
+      "category": "database"
+    },
+    {
+      "id": "SEC-015",
+      "level": 3,
+      "title": "4.3 Estrategias de Datos",
+      "path": "Planificación: LiveStreamSell AI (SaaS Global) > 4. Bases de Datos y Almacenamiento > 4.3 Estrategias de Datos",
+      "startLine": 268,
+      "endLine": 279,
+      "implementable": true,
+      "category": "database"
+    },
+    {
+      "id": "SEC-016",
+      "level": 2,
+      "title": "5. APIs y Contratos de Interfaz",
+      "path": "Planificación: LiveStreamSell AI (SaaS Global) > 5. APIs y Contratos de Interfaz",
+      "startLine": 280,
+      "endLine": 281,
+      "implementable": false,
+      "category": "apis"
+    },
+    {
+      "id": "SEC-017",
+      "level": 3,
+      "title": "5.1 API Design",
+      "path": "Planificación: LiveStreamSell AI (SaaS Global) > 5. APIs y Contratos de Interfaz > 5.1 API Design",
+      "startLine": 282,
+      "endLine": 299,
+      "implementable": true,
+      "category": "apis"
+    },
+    {
+      "id": "SEC-018",
+      "level": 3,
+      "title": "5.2 Endpoints Detallados",
+      "path": "Planificación: LiveStreamSell AI (SaaS Global) > 5. APIs y Contratos de Interfaz > 5.2 Endpoints Detallados",
+      "startLine": 300,
+      "endLine": 381,
+      "implementable": true,
+      "category": "apis"
+    },
+    {
+      "id": "SEC-019",
+      "level": 3,
+      "title": "5.3 Integraciones Externas",
+      "path": "Planificación: LiveStreamSell AI (SaaS Global) > 5. APIs y Contratos de Interfaz > 5.3 Integraciones Externas",
+      "startLine": 382,
+      "endLine": 440,
+      "implementable": true,
+      "category": "integrations"
+    },
+    {
+      "id": "SEC-020",
+      "level": 2,
+      "title": "6. Autenticación y Autorización",
+      "path": "Planificación: LiveStreamSell AI (SaaS Global) > 6. Autenticación y Autorización",
+      "startLine": 441,
+      "endLine": 442,
+      "implementable": false,
+      "category": "auth"
+    },
+    {
+      "id": "SEC-021",
+      "level": 3,
+      "title": "6.1 Estrategia de Identidad",
+      "path": "Planificación: LiveStreamSell AI (SaaS Global) > 6. Autenticación y Autorización > 6.1 Estrategia de Identidad",
+      "startLine": 443,
+      "endLine": 448,
+      "implementable": true,
+      "category": "other"
+    },
+    {
+      "id": "SEC-022",
+      "level": 3,
+      "title": "6.2 Modelo de Permisos",
+      "path": "Planificación: LiveStreamSell AI (SaaS Global) > 6. Autenticación y Autorización > 6.2 Modelo de Permisos",
+      "startLine": 449,
+      "endLine": 464,
+      "implementable": true,
+      "category": "auth"
+    },
+    {
+      "id": "SEC-023",
+      "level": 3,
+      "title": "6.3 Gestión de Tokens",
+      "path": "Planificación: LiveStreamSell AI (SaaS Global) > 6. Autenticación y Autorización > 6.3 Gestión de Tokens",
+      "startLine": 465,
+      "endLine": 474,
+      "implementable": true,
+      "category": "other"
+    },
+    {
+      "id": "SEC-024",
+      "level": 3,
+      "title": "6.4 Seguridad Adicional (MFA)",
+      "path": "Planificación: LiveStreamSell AI (SaaS Global) > 6. Autenticación y Autorización > 6.4 Seguridad Adicional (MFA)",
+      "startLine": 475,
+      "endLine": 484,
+      "implementable": true,
+      "category": "security"
+    },
+    {
+      "id": "SEC-025",
+      "level": 2,
+      "title": "7. Seguridad",
+      "path": "Planificación: LiveStreamSell AI (SaaS Global) > 7. Seguridad",
+      "startLine": 485,
+      "endLine": 486,
+      "implementable": false,
+      "category": "security"
+    },
+    {
+      "id": "SEC-026",
+      "level": 3,
+      "title": "7.1 Secretos y Credenciales",
+      "path": "Planificación: LiveStreamSell AI (SaaS Global) > 7. Seguridad > 7.1 Secretos y Credenciales",
+      "startLine": 487,
+      "endLine": 516,
+      "implementable": true,
+      "category": "other"
+    },
+    {
+      "id": "SEC-027",
+      "level": 3,
+      "title": "7.2 Seguridad de Aplicación",
+      "path": "Planificación: LiveStreamSell AI (SaaS Global) > 7. Seguridad > 7.2 Seguridad de Aplicación",
+      "startLine": 517,
+      "endLine": 554,
+      "implementable": true,
+      "category": "security"
+    },
+    {
+      "id": "SEC-028",
+      "level": 3,
+      "title": "7.3 Infraestructura",
+      "path": "Planificación: LiveStreamSell AI (SaaS Global) > 7. Seguridad > 7.3 Infraestructura",
+      "startLine": 555,
+      "endLine": 582,
+      "implementable": true,
+      "category": "setup"
+    },
+    {
+      "id": "SEC-029",
+      "level": 2,
+      "title": "8. Frontend (si aplica)",
+      "path": "Planificación: LiveStreamSell AI (SaaS Global) > 8. Frontend (si aplica)",
+      "startLine": 583,
+      "endLine": 584,
+      "implementable": false,
+      "category": "frontend"
+    },
+    {
+      "id": "SEC-030",
+      "level": 3,
+      "title": "8.1 Arquitectura Frontend",
+      "path": "Planificación: LiveStreamSell AI (SaaS Global) > 8. Frontend (si aplica) > 8.1 Arquitectura Frontend",
+      "startLine": 585,
+      "endLine": 620,
+      "implementable": true,
+      "category": "frontend"
+    },
+    {
+      "id": "SEC-031",
+      "level": 3,
+      "title": "8.2 UI/UX",
+      "path": "Planificación: LiveStreamSell AI (SaaS Global) > 8. Frontend (si aplica) > 8.2 UI/UX",
+      "startLine": 621,
+      "endLine": 702,
+      "implementable": true,
+      "category": "frontend"
+    },
+    {
+      "id": "SEC-032",
+      "level": 3,
+      "title": "8.3 Performance Frontend",
+      "path": "Planificación: LiveStreamSell AI (SaaS Global) > 8. Frontend (si aplica) > 8.3 Performance Frontend",
+      "startLine": 703,
+      "endLine": 726,
+      "implementable": true,
+      "category": "frontend"
+    },
+    {
+      "id": "SEC-033",
+      "level": 2,
+      "title": "9. Observabilidad y Monitoreo",
+      "path": "Planificación: LiveStreamSell AI (SaaS Global) > 9. Observabilidad y Monitoreo",
+      "startLine": 727,
+      "endLine": 728,
+      "implementable": false,
+      "category": "observability"
+    },
+    {
+      "id": "SEC-034",
+      "level": 3,
+      "title": "9.1 Logging",
+      "path": "Planificación: LiveStreamSell AI (SaaS Global) > 9. Observabilidad y Monitoreo > 9.1 Logging",
+      "startLine": 729,
+      "endLine": 764,
+      "implementable": true,
+      "category": "observability"
+    },
+    {
+      "id": "SEC-035",
+      "level": 3,
+      "title": "9.2 Métricas",
+      "path": "Planificación: LiveStreamSell AI (SaaS Global) > 9. Observabilidad y Monitoreo > 9.2 Métricas",
+      "startLine": 765,
+      "endLine": 798,
+      "implementable": true,
+      "category": "observability"
+    },
+    {
+      "id": "SEC-036",
+      "level": 3,
+      "title": "9.3 Tracing",
+      "path": "Planificación: LiveStreamSell AI (SaaS Global) > 9. Observabilidad y Monitoreo > 9.3 Tracing",
+      "startLine": 799,
+      "endLine": 816,
+      "implementable": true,
+      "category": "observability"
+    },
+    {
+      "id": "SEC-037",
+      "level": 3,
+      "title": "9.4 Alerting",
+      "path": "Planificación: LiveStreamSell AI (SaaS Global) > 9. Observabilidad y Monitoreo > 9.4 Alerting",
+      "startLine": 817,
+      "endLine": 852,
+      "implementable": true,
+      "category": "observability"
+    },
+    {
+      "id": "SEC-038",
+      "level": 2,
+      "title": "10. Testing",
+      "path": "Planificación: LiveStreamSell AI (SaaS Global) > 10. Testing",
+      "startLine": 853,
+      "endLine": 854,
+      "implementable": false,
+      "category": "testing"
+    },
+    {
+      "id": "SEC-039",
+      "level": 3,
+      "title": "10.1 Estrategia de Testing",
+      "path": "Planificación: LiveStreamSell AI (SaaS Global) > 10. Testing > 10.1 Estrategia de Testing",
+      "startLine": 855,
+      "endLine": 878,
+      "implementable": true,
+      "category": "testing"
+    },
+    {
+      "id": "SEC-040",
+      "level": 3,
+      "title": "10.2 Tipos de Tests",
+      "path": "Planificación: LiveStreamSell AI (SaaS Global) > 10. Testing > 10.2 Tipos de Tests",
+      "startLine": 879,
+      "endLine": 916,
+      "implementable": true,
+      "category": "testing"
+    },
+    {
+      "id": "SEC-041",
+      "level": 3,
+      "title": "10.3 Test Data",
+      "path": "Planificación: LiveStreamSell AI (SaaS Global) > 10. Testing > 10.3 Test Data",
+      "startLine": 917,
+      "endLine": 944,
+      "implementable": true,
+      "category": "testing"
+    },
+    {
+      "id": "SEC-042",
+      "level": 2,
+      "title": "11. CI/CD y Deployment",
+      "path": "Planificación: LiveStreamSell AI (SaaS Global) > 11. CI/CD y Deployment",
+      "startLine": 945,
+      "endLine": 946,
+      "implementable": false,
+      "category": "cicd"
+    },
+    {
+      "id": "SEC-043",
+      "level": 3,
+      "title": "11.1 Pipeline CI/CD",
+      "path": "Planificación: LiveStreamSell AI (SaaS Global) > 11. CI/CD y Deployment > 11.1 Pipeline CI/CD",
+      "startLine": 947,
+      "endLine": 982,
+      "implementable": true,
+      "category": "cicd"
+    },
+    {
+      "id": "SEC-044",
+      "level": 3,
+      "title": "11.2 Estrategia de Deployment",
+      "path": "Planificación: LiveStreamSell AI (SaaS Global) > 11. CI/CD y Deployment > 11.2 Estrategia de Deployment",
+      "startLine": 983,
+      "endLine": 1012,
+      "implementable": true,
+      "category": "cicd"
+    },
+    {
+      "id": "SEC-045",
+      "level": 3,
+      "title": "11.3 Infrastructure as Code",
+      "path": "Planificación: LiveStreamSell AI (SaaS Global) > 11. CI/CD y Deployment > 11.3 Infrastructure as Code",
+      "startLine": 1013,
+      "endLine": 1044,
+      "implementable": true,
+      "category": "other"
+    },
+    {
+      "id": "SEC-046",
+      "level": 3,
+      "title": "11.4 Configuración",
+      "path": "Planificación: LiveStreamSell AI (SaaS Global) > 11. CI/CD y Deployment > 11.4 Configuración",
+      "startLine": 1045,
+      "endLine": 1088,
+      "implementable": true,
+      "category": "cicd"
+    },
+    {
+      "id": "SEC-047",
+      "level": 3,
+      "title": "11.5 Containerización",
+      "path": "Planificación: LiveStreamSell AI (SaaS Global) > 11. CI/CD y Deployment > 11.5 Containerización",
+      "startLine": 1089,
+      "endLine": 1124,
+      "implementable": true,
+      "category": "cicd"
+    },
+    {
+      "id": "SEC-048",
+      "level": 2,
+      "title": "12. Gestión de Versiones y Código",
+      "path": "Planificación: LiveStreamSell AI (SaaS Global) > 12. Gestión de Versiones y Código",
+      "startLine": 1125,
+      "endLine": 1168,
+      "implementable": true,
+      "category": "cicd"
+    },
+    {
+      "id": "SEC-049",
+      "level": 2,
+      "title": "13. Documentación",
+      "path": "Planificación: LiveStreamSell AI (SaaS Global) > 13. Documentación",
+      "startLine": 1169,
+      "endLine": 1206,
+      "implementable": false,
+      "category": "other"
+    },
+    {
+      "id": "SEC-050",
+      "level": 2,
+      "title": "14. Costos y Recursos",
+      "path": "Planificación: LiveStreamSell AI (SaaS Global) > 14. Costos y Recursos",
+      "startLine": 1207,
+      "endLine": 1208,
+      "implementable": false,
+      "category": "other"
+    },
+    {
+      "id": "SEC-051",
+      "level": 3,
+      "title": "14.1 Estimación de Costos (Proyección Mensual/Anual)",
+      "path": "Planificación: LiveStreamSell AI (SaaS Global) > 14. Costos y Recursos > 14.1 Estimación de Costos (Proyección Mensual/Anual)",
+      "startLine": 1209,
+      "endLine": 1210,
+      "implementable": false,
+      "category": "other"
+    },
+    {
+      "id": "SEC-052",
+      "level": 3,
+      "title": "Basado en un escenario inicial de 10-20 clientes activos.",
+      "path": "Planificación: LiveStreamSell AI (SaaS Global) > 14. Costos y Recursos > Basado en un escenario inicial de 10-20 clientes activos.",
+      "startLine": 1211,
+      "endLine": 1230,
+      "implementable": true,
+      "category": "other"
+    },
+    {
+      "id": "SEC-053",
+      "level": 3,
+      "title": "14.2 Presupuesto y Alertas",
+      "path": "Planificación: LiveStreamSell AI (SaaS Global) > 14. Costos y Recursos > 14.2 Presupuesto y Alertas",
+      "startLine": 1231,
+      "endLine": 1238,
+      "implementable": false,
+      "category": "other"
+    },
+    {
+      "id": "SEC-054",
+      "level": 3,
+      "title": "14.3 Estrategias de Optimización de Costos",
+      "path": "Planificación: LiveStreamSell AI (SaaS Global) > 14. Costos y Recursos > 14.3 Estrategias de Optimización de Costos",
+      "startLine": 1239,
+      "endLine": 1250,
+      "implementable": false,
+      "category": "other"
+    },
+    {
+      "id": "SEC-055",
+      "level": 3,
+      "title": "14.4 Equipo (Team Roles)",
+      "path": "Planificación: LiveStreamSell AI (SaaS Global) > 14. Costos y Recursos > 14.4 Equipo (Team Roles)",
+      "startLine": 1251,
+      "endLine": 1262,
+      "implementable": true,
+      "category": "auth"
+    },
+    {
+      "id": "SEC-056",
+      "level": 2,
+      "title": "15. Consideraciones Operacionales",
+      "path": "Planificación: LiveStreamSell AI (SaaS Global) > 15. Consideraciones Operacionales",
+      "startLine": 1263,
+      "endLine": 1264,
+      "implementable": false,
+      "category": "operations"
+    },
+    {
+      "id": "SEC-057",
+      "level": 3,
+      "title": "15.1 Disaster Recovery (DRP)",
+      "path": "Planificación: LiveStreamSell AI (SaaS Global) > 15. Consideraciones Operacionales > 15.1 Disaster Recovery (DRP)",
+      "startLine": 1265,
+      "endLine": 1304,
+      "implementable": true,
+      "category": "operations"
+    },
+    {
+      "id": "SEC-058",
+      "level": 3,
+      "title": "15.2 Mantenimiento",
+      "path": "Planificación: LiveStreamSell AI (SaaS Global) > 15. Consideraciones Operacionales > 15.2 Mantenimiento",
+      "startLine": 1305,
+      "endLine": 1330,
+      "implementable": true,
+      "category": "operations"
+    },
+    {
+      "id": "SEC-059",
+      "level": 3,
+      "title": "15.3 Soporte",
+      "path": "Planificación: LiveStreamSell AI (SaaS Global) > 15. Consideraciones Operacionales > 15.3 Soporte",
+      "startLine": 1331,
+      "endLine": 1368,
+      "implementable": true,
+      "category": "operations"
+    },
+    {
+      "id": "SEC-060",
+      "level": 2,
+      "title": "16. Compliance y Legal",
+      "path": "Planificación: LiveStreamSell AI (SaaS Global) > 16. Compliance y Legal",
+      "startLine": 1369,
+      "endLine": 1370,
+      "implementable": false,
+      "category": "other"
+    },
+    {
+      "id": "SEC-061",
+      "level": 3,
+      "title": "16.1 Regulaciones Aplicables",
+      "path": "Planificación: LiveStreamSell AI (SaaS Global) > 16. Compliance y Legal > 16.1 Regulaciones Aplicables",
+      "startLine": 1371,
+      "endLine": 1382,
+      "implementable": true,
+      "category": "other"
+    },
+    {
+      "id": "SEC-062",
+      "level": 3,
+      "title": "16.2 Data Residency (Residencia de Datos)",
+      "path": "Planificación: LiveStreamSell AI (SaaS Global) > 16. Compliance y Legal > 16.2 Data Residency (Residencia de Datos)",
+      "startLine": 1383,
+      "endLine": 1390,
+      "implementable": true,
+      "category": "database"
+    },
+    {
+      "id": "SEC-063",
+      "level": 3,
+      "title": "16.2.1 Protocolo de Recuperación de Carrito y Message Tags",
+      "path": "Planificación: LiveStreamSell AI (SaaS Global) > 16. Compliance y Legal > 16.2.1 Protocolo de Recuperación de Carrito y Message Tags",
+      "startLine": 1391,
+      "endLine": 1420,
+      "implementable": true,
+      "category": "other"
+    },
+    {
+      "id": "SEC-064",
+      "level": 3,
+      "title": "16.3 Auditoría y Reportes",
+      "path": "Planificación: LiveStreamSell AI (SaaS Global) > 16. Compliance y Legal > 16.3 Auditoría y Reportes",
+      "startLine": 1421,
+      "endLine": 1428,
+      "implementable": true,
+      "category": "other"
+    },
+    {
+      "id": "SEC-065",
+      "level": 3,
+      "title": "16.4 Privacy y Consent Management",
+      "path": "Planificación: LiveStreamSell AI (SaaS Global) > 16. Compliance y Legal > 16.4 Privacy y Consent Management",
+      "startLine": 1429,
+      "endLine": 1436,
+      "implementable": true,
+      "category": "other"
+    },
+    {
+      "id": "SEC-066",
+      "level": 3,
+      "title": "16.5 Licencias y Open Source Compliance",
+      "path": "Planificación: LiveStreamSell AI (SaaS Global) > 16. Compliance y Legal > 16.5 Licencias y Open Source Compliance",
+      "startLine": 1437,
+      "endLine": 1447,
+      "implementable": false,
+      "category": "other"
+    }
+  ],
+  "coverage": {
+    "totalSections": 66,
+    "implementableSections": 48,
+    "coveredSections": 48,
+    "uncoveredImplementableSections": [],
+    "coveragePercentage": 100
+  },
+  "slices": [
+    {
+      "number": 1,
+      "name": "SETUP: 1. Definición del Proyecto y Negocio",
+      "description": "Implementar lo descrito en: Planificación: LiveStreamSell AI (SaaS Global) > 1. Definición del Proyecto y Negocio (líneas 4-43).",
+      "estimatedLines": 80,
+      "priority": "critical",
+      "dependencies": [],
+      "source": {
+        "sectionId": "SEC-002",
+        "headingPath": "Planificación: LiveStreamSell AI (SaaS Global) > 1. Definición del Proyecto y Negocio",
+        "lineStart": 4,
+        "lineEnd": 43,
+        "textHash": "e2bc5d872a83727dc1e24f68ce82fe2c51d04a3d3b3297368996e87f9e122ba9",
+        "category": "setup",
+        "part": null
+      },
+      "contract": {
+        "testFile": "tests/contracts/slice-001.test.ts",
+        "requirement": "Cubrir comportamiento descrito en \"Planificación: LiveStreamSell AI (SaaS Global) > 1. Definición del Proyecto y Negocio\"",
+        "redThenGreenRequired": true
+      }
+    },
+    {
+      "number": 2,
+      "name": "SETUP: 2.2 Requerimientos No Funcionales (NFR)",
+      "description": "Implementar lo descrito en: Planificación: LiveStreamSell AI (SaaS Global) > 2. Requerimientos Funcionales y No Funcionales > 2.2 Requerimientos No Funcionales (NFR) (líneas 68-83).",
+      "estimatedLines": 32,
+      "priority": "critical",
+      "dependencies": [],
+      "source": {
+        "sectionId": "SEC-005",
+        "headingPath": "Planificación: LiveStreamSell AI (SaaS Global) > 2. Requerimientos Funcionales y No Funcionales > 2.2 Requerimientos No Funcionales (NFR)",
+        "lineStart": 68,
+        "lineEnd": 83,
+        "textHash": "338cbbbf68e268eca6fc3c2ea5d4da5a3ca1e2b69769463d40bbfff24f6a33d0",
+        "category": "setup",
+        "part": null
+      },
+      "contract": {
+        "testFile": "tests/contracts/slice-002.test.ts",
+        "requirement": "Cubrir comportamiento descrito en \"Planificación: LiveStreamSell AI (SaaS Global) > 2. Requerimientos Funcionales y No Funcionales > 2.2 Requerimientos No Funcionales (NFR)\"",
+        "redThenGreenRequired": true
+      }
+    },
+    {
+      "number": 3,
+      "name": "SETUP: 3.1 Arquitectura General",
+      "description": "Implementar lo descrito en: Planificación: LiveStreamSell AI (SaaS Global) > 3. Arquitectura del Sistema > 3.1 Arquitectura General (líneas 86-101).",
+      "estimatedLines": 32,
+      "priority": "critical",
+      "dependencies": [],
+      "source": {
+        "sectionId": "SEC-007",
+        "headingPath": "Planificación: LiveStreamSell AI (SaaS Global) > 3. Arquitectura del Sistema > 3.1 Arquitectura General",
+        "lineStart": 86,
+        "lineEnd": 101,
+        "textHash": "ca442159597ce0059b62ca0640e06548b94de13fdba4a386c42e105de30752af",
+        "category": "setup",
+        "part": null
+      },
+      "contract": {
+        "testFile": "tests/contracts/slice-003.test.ts",
+        "requirement": "Cubrir comportamiento descrito en \"Planificación: LiveStreamSell AI (SaaS Global) > 3. Arquitectura del Sistema > 3.1 Arquitectura General\"",
+        "redThenGreenRequired": true
+      }
+    },
+    {
+      "number": 4,
+      "name": "SETUP: 3.5 Infraestructura",
+      "description": "Implementar lo descrito en: Planificación: LiveStreamSell AI (SaaS Global) > 3. Arquitectura del Sistema > 3.5 Infraestructura (líneas 176-207).",
+      "estimatedLines": 64,
+      "priority": "critical",
+      "dependencies": [],
+      "source": {
+        "sectionId": "SEC-011",
+        "headingPath": "Planificación: LiveStreamSell AI (SaaS Global) > 3. Arquitectura del Sistema > 3.5 Infraestructura",
+        "lineStart": 176,
+        "lineEnd": 207,
+        "textHash": "1a1326319b9c18b7c5d800606ab1c229effb13ceb52f2892e90f3be86b4c5649",
+        "category": "setup",
+        "part": null
+      },
+      "contract": {
+        "testFile": "tests/contracts/slice-004.test.ts",
+        "requirement": "Cubrir comportamiento descrito en \"Planificación: LiveStreamSell AI (SaaS Global) > 3. Arquitectura del Sistema > 3.5 Infraestructura\"",
+        "redThenGreenRequired": true
+      }
+    },
+    {
+      "number": 5,
+      "name": "SETUP: 7.3 Infraestructura",
+      "description": "Implementar lo descrito en: Planificación: LiveStreamSell AI (SaaS Global) > 7. Seguridad > 7.3 Infraestructura (líneas 555-582).",
+      "estimatedLines": 56,
+      "priority": "critical",
+      "dependencies": [],
+      "source": {
+        "sectionId": "SEC-028",
+        "headingPath": "Planificación: LiveStreamSell AI (SaaS Global) > 7. Seguridad > 7.3 Infraestructura",
+        "lineStart": 555,
+        "lineEnd": 582,
+        "textHash": "f7392256cd740e65f0e6dde2f0ed1621a9d2af7be44d64cb83f998ba683a5c5e",
+        "category": "setup",
+        "part": null
+      },
+      "contract": {
+        "testFile": "tests/contracts/slice-005.test.ts",
+        "requirement": "Cubrir comportamiento descrito en \"Planificación: LiveStreamSell AI (SaaS Global) > 7. Seguridad > 7.3 Infraestructura\"",
+        "redThenGreenRequired": true
+      }
+    },
+    {
+      "number": 6,
+      "name": "DATABASE: 4.1 Diseño de Datos",
+      "description": "Implementar lo descrito en: Planificación: LiveStreamSell AI (SaaS Global) > 4. Bases de Datos y Almacenamiento > 4.1 Diseño de Datos (líneas 210-247).",
+      "estimatedLines": 76,
+      "priority": "critical",
+      "dependencies": [
+        1
+      ],
+      "source": {
+        "sectionId": "SEC-013",
+        "headingPath": "Planificación: LiveStreamSell AI (SaaS Global) > 4. Bases de Datos y Almacenamiento > 4.1 Diseño de Datos",
+        "lineStart": 210,
+        "lineEnd": 247,
+        "textHash": "834e3bf02180cd88e951a95a2785848aaec92387f9c6f40c496f593b8aa7fc19",
+        "category": "database",
+        "part": null
+      },
+      "contract": {
+        "testFile": "tests/contracts/slice-006.test.ts",
+        "requirement": "Cubrir comportamiento descrito en \"Planificación: LiveStreamSell AI (SaaS Global) > 4. Bases de Datos y Almacenamiento > 4.1 Diseño de Datos\"",
+        "redThenGreenRequired": true
+      }
+    },
+    {
+      "number": 7,
+      "name": "DATABASE: 4.2 Tipos de Almacenamiento",
+      "description": "Implementar lo descrito en: Planificación: LiveStreamSell AI (SaaS Global) > 4. Bases de Datos y Almacenamiento > 4.2 Tipos de Almacenamiento (líneas 248-267).",
+      "estimatedLines": 40,
+      "priority": "critical",
+      "dependencies": [
+        1
+      ],
+      "source": {
+        "sectionId": "SEC-014",
+        "headingPath": "Planificación: LiveStreamSell AI (SaaS Global) > 4. Bases de Datos y Almacenamiento > 4.2 Tipos de Almacenamiento",
+        "lineStart": 248,
+        "lineEnd": 267,
+        "textHash": "a5b5dfb32d65eee02e3bd793e552ad23ce120dbdf3e080dd75df000aa93ff2e5",
+        "category": "database",
+        "part": null
+      },
+      "contract": {
+        "testFile": "tests/contracts/slice-007.test.ts",
+        "requirement": "Cubrir comportamiento descrito en \"Planificación: LiveStreamSell AI (SaaS Global) > 4. Bases de Datos y Almacenamiento > 4.2 Tipos de Almacenamiento\"",
+        "redThenGreenRequired": true
+      }
+    },
+    {
+      "number": 8,
+      "name": "DATABASE: 4.3 Estrategias de Datos",
+      "description": "Implementar lo descrito en: Planificación: LiveStreamSell AI (SaaS Global) > 4. Bases de Datos y Almacenamiento > 4.3 Estrategias de Datos (líneas 268-279).",
+      "estimatedLines": 24,
+      "priority": "critical",
+      "dependencies": [
+        1
+      ],
+      "source": {
+        "sectionId": "SEC-015",
+        "headingPath": "Planificación: LiveStreamSell AI (SaaS Global) > 4. Bases de Datos y Almacenamiento > 4.3 Estrategias de Datos",
+        "lineStart": 268,
+        "lineEnd": 279,
+        "textHash": "e4dc7e33c23085761e41515c3888b2b6c3d4c5ed19f7a5c7bfb6bdda16f4415f",
+        "category": "database",
+        "part": null
+      },
+      "contract": {
+        "testFile": "tests/contracts/slice-008.test.ts",
+        "requirement": "Cubrir comportamiento descrito en \"Planificación: LiveStreamSell AI (SaaS Global) > 4. Bases de Datos y Almacenamiento > 4.3 Estrategias de Datos\"",
+        "redThenGreenRequired": true
+      }
+    },
+    {
+      "number": 9,
+      "name": "DATABASE: 16.2 Data Residency (Residencia de Datos)",
+      "description": "Implementar lo descrito en: Planificación: LiveStreamSell AI (SaaS Global) > 16. Compliance y Legal > 16.2 Data Residency (Residencia de Datos) (líneas 1383-1390).",
+      "estimatedLines": 16,
+      "priority": "critical",
+      "dependencies": [
+        1
+      ],
+      "source": {
+        "sectionId": "SEC-062",
+        "headingPath": "Planificación: LiveStreamSell AI (SaaS Global) > 16. Compliance y Legal > 16.2 Data Residency (Residencia de Datos)",
+        "lineStart": 1383,
+        "lineEnd": 1390,
+        "textHash": "efab754d4d6bcc0a5a4951fb1ba2388272b1f7b9a6d29bdf156fd9a8df4015da",
+        "category": "database",
+        "part": null
+      },
+      "contract": {
+        "testFile": "tests/contracts/slice-009.test.ts",
+        "requirement": "Cubrir comportamiento descrito en \"Planificación: LiveStreamSell AI (SaaS Global) > 16. Compliance y Legal > 16.2 Data Residency (Residencia de Datos)\"",
+        "redThenGreenRequired": true
+      }
+    },
+    {
+      "number": 10,
+      "name": "AUTH: 6.2 Modelo de Permisos",
+      "description": "Implementar lo descrito en: Planificación: LiveStreamSell AI (SaaS Global) > 6. Autenticación y Autorización > 6.2 Modelo de Permisos (líneas 449-464).",
+      "estimatedLines": 32,
+      "priority": "critical",
+      "dependencies": [
+        6
+      ],
+      "source": {
+        "sectionId": "SEC-022",
+        "headingPath": "Planificación: LiveStreamSell AI (SaaS Global) > 6. Autenticación y Autorización > 6.2 Modelo de Permisos",
+        "lineStart": 449,
+        "lineEnd": 464,
+        "textHash": "5696deb9bdc5991a049c9cb325ff061a0e08eb1ec5e3ca4d3a422c81a8eee1c4",
+        "category": "auth",
+        "part": null
+      },
+      "contract": {
+        "testFile": "tests/contracts/slice-010.test.ts",
+        "requirement": "Cubrir comportamiento descrito en \"Planificación: LiveStreamSell AI (SaaS Global) > 6. Autenticación y Autorización > 6.2 Modelo de Permisos\"",
+        "redThenGreenRequired": true
+      }
+    },
+    {
+      "number": 11,
+      "name": "AUTH: 14.4 Equipo (Team Roles)",
+      "description": "Implementar lo descrito en: Planificación: LiveStreamSell AI (SaaS Global) > 14. Costos y Recursos > 14.4 Equipo (Team Roles) (líneas 1251-1262).",
+      "estimatedLines": 24,
+      "priority": "critical",
+      "dependencies": [
+        6
+      ],
+      "source": {
+        "sectionId": "SEC-055",
+        "headingPath": "Planificación: LiveStreamSell AI (SaaS Global) > 14. Costos y Recursos > 14.4 Equipo (Team Roles)",
+        "lineStart": 1251,
+        "lineEnd": 1262,
+        "textHash": "49475a62f5589480f1ba6f03404318bb60a73b88552de83ebbad40f3fbccc788",
+        "category": "auth",
+        "part": null
+      },
+      "contract": {
+        "testFile": "tests/contracts/slice-011.test.ts",
+        "requirement": "Cubrir comportamiento descrito en \"Planificación: LiveStreamSell AI (SaaS Global) > 14. Costos y Recursos > 14.4 Equipo (Team Roles)\"",
+        "redThenGreenRequired": true
+      }
+    },
+    {
+      "number": 12,
+      "name": "APIS: 5.1 API Design",
+      "description": "Implementar lo descrito en: Planificación: LiveStreamSell AI (SaaS Global) > 5. APIs y Contratos de Interfaz > 5.1 API Design (líneas 282-299).",
+      "estimatedLines": 36,
+      "priority": "high",
+      "dependencies": [
+        6,
+        10
+      ],
+      "source": {
+        "sectionId": "SEC-017",
+        "headingPath": "Planificación: LiveStreamSell AI (SaaS Global) > 5. APIs y Contratos de Interfaz > 5.1 API Design",
+        "lineStart": 282,
+        "lineEnd": 299,
+        "textHash": "bc390c297db78e5e144bf5294386ffb7d98fde083902101694b2083640a91ae6",
+        "category": "apis",
+        "part": null
+      },
+      "contract": {
+        "testFile": "tests/contracts/slice-012.test.ts",
+        "requirement": "Cubrir comportamiento descrito en \"Planificación: LiveStreamSell AI (SaaS Global) > 5. APIs y Contratos de Interfaz > 5.1 API Design\"",
+        "redThenGreenRequired": true
+      }
+    },
+    {
+      "number": 13,
+      "name": "APIS: 5.2 Endpoints Detallados",
+      "description": "Implementar lo descrito en: Planificación: LiveStreamSell AI (SaaS Global) > 5. APIs y Contratos de Interfaz > 5.2 Endpoints Detallados (líneas 300-381).",
+      "estimatedLines": 164,
+      "priority": "high",
+      "dependencies": [
+        6,
+        10
+      ],
+      "source": {
+        "sectionId": "SEC-018",
+        "headingPath": "Planificación: LiveStreamSell AI (SaaS Global) > 5. APIs y Contratos de Interfaz > 5.2 Endpoints Detallados",
+        "lineStart": 300,
+        "lineEnd": 381,
+        "textHash": "bdacebf6ef83f62fd221e81552bbe92f8c75203d90218dc4bc63a1f10d0549ae",
+        "category": "apis",
+        "part": null
+      },
+      "contract": {
+        "testFile": "tests/contracts/slice-013.test.ts",
+        "requirement": "Cubrir comportamiento descrito en \"Planificación: LiveStreamSell AI (SaaS Global) > 5. APIs y Contratos de Interfaz > 5.2 Endpoints Detallados\"",
+        "redThenGreenRequired": true
+      }
+    },
+    {
+      "number": 14,
+      "name": "INTEGRATIONS: 5.3 Integraciones Externas",
+      "description": "Implementar lo descrito en: Planificación: LiveStreamSell AI (SaaS Global) > 5. APIs y Contratos de Interfaz > 5.3 Integraciones Externas (líneas 382-440).",
+      "estimatedLines": 118,
+      "priority": "medium",
+      "dependencies": [
+        12
+      ],
+      "source": {
+        "sectionId": "SEC-019",
+        "headingPath": "Planificación: LiveStreamSell AI (SaaS Global) > 5. APIs y Contratos de Interfaz > 5.3 Integraciones Externas",
+        "lineStart": 382,
+        "lineEnd": 440,
+        "textHash": "52b6d34a44f364b0b5a2916f8352cd4997e7ab466b8d6a7f49831486dd5a74ec",
+        "category": "integrations",
+        "part": null
+      },
+      "contract": {
+        "testFile": "tests/contracts/slice-014.test.ts",
+        "requirement": "Cubrir comportamiento descrito en \"Planificación: LiveStreamSell AI (SaaS Global) > 5. APIs y Contratos de Interfaz > 5.3 Integraciones Externas\"",
+        "redThenGreenRequired": true
+      }
+    },
+    {
+      "number": 15,
+      "name": "SECURITY: 6.4 Seguridad Adicional (MFA)",
+      "description": "Implementar lo descrito en: Planificación: LiveStreamSell AI (SaaS Global) > 6. Autenticación y Autorización > 6.4 Seguridad Adicional (MFA) (líneas 475-484).",
+      "estimatedLines": 20,
+      "priority": "high",
+      "dependencies": [
+        1
+      ],
+      "source": {
+        "sectionId": "SEC-024",
+        "headingPath": "Planificación: LiveStreamSell AI (SaaS Global) > 6. Autenticación y Autorización > 6.4 Seguridad Adicional (MFA)",
+        "lineStart": 475,
+        "lineEnd": 484,
+        "textHash": "b5fef7df090712dc6197bff14a98a9688f65e1d8f7b68475ee77977929078a00",
+        "category": "security",
+        "part": null
+      },
+      "contract": {
+        "testFile": "tests/contracts/slice-015.test.ts",
+        "requirement": "Cubrir comportamiento descrito en \"Planificación: LiveStreamSell AI (SaaS Global) > 6. Autenticación y Autorización > 6.4 Seguridad Adicional (MFA)\"",
+        "redThenGreenRequired": true
+      }
+    },
+    {
+      "number": 16,
+      "name": "SECURITY: 7.2 Seguridad de Aplicación",
+      "description": "Implementar lo descrito en: Planificación: LiveStreamSell AI (SaaS Global) > 7. Seguridad > 7.2 Seguridad de Aplicación (líneas 517-554).",
+      "estimatedLines": 76,
+      "priority": "high",
+      "dependencies": [
+        1
+      ],
+      "source": {
+        "sectionId": "SEC-027",
+        "headingPath": "Planificación: LiveStreamSell AI (SaaS Global) > 7. Seguridad > 7.2 Seguridad de Aplicación",
+        "lineStart": 517,
+        "lineEnd": 554,
+        "textHash": "7484494a5b673312b6cb186907efbf83df24db9e61a6f19783914a97923c0d4a",
+        "category": "security",
+        "part": null
+      },
+      "contract": {
+        "testFile": "tests/contracts/slice-016.test.ts",
+        "requirement": "Cubrir comportamiento descrito en \"Planificación: LiveStreamSell AI (SaaS Global) > 7. Seguridad > 7.2 Seguridad de Aplicación\"",
+        "redThenGreenRequired": true
+      }
+    },
+    {
+      "number": 17,
+      "name": "OBSERVABILITY: 9.1 Logging",
+      "description": "Implementar lo descrito en: Planificación: LiveStreamSell AI (SaaS Global) > 9. Observabilidad y Monitoreo > 9.1 Logging (líneas 729-764).",
+      "estimatedLines": 72,
+      "priority": "high",
+      "dependencies": [
+        1
+      ],
+      "source": {
+        "sectionId": "SEC-034",
+        "headingPath": "Planificación: LiveStreamSell AI (SaaS Global) > 9. Observabilidad y Monitoreo > 9.1 Logging",
+        "lineStart": 729,
+        "lineEnd": 764,
+        "textHash": "68ba08825bf5fab95e2fd51a0b32d74a86c22378ae40df7527e358c3661f05b6",
+        "category": "observability",
+        "part": null
+      },
+      "contract": {
+        "testFile": "tests/contracts/slice-017.test.ts",
+        "requirement": "Cubrir comportamiento descrito en \"Planificación: LiveStreamSell AI (SaaS Global) > 9. Observabilidad y Monitoreo > 9.1 Logging\"",
+        "redThenGreenRequired": true
+      }
+    },
+    {
+      "number": 18,
+      "name": "OBSERVABILITY: 9.2 Métricas",
+      "description": "Implementar lo descrito en: Planificación: LiveStreamSell AI (SaaS Global) > 9. Observabilidad y Monitoreo > 9.2 Métricas (líneas 765-798).",
+      "estimatedLines": 68,
+      "priority": "high",
+      "dependencies": [
+        1
+      ],
+      "source": {
+        "sectionId": "SEC-035",
+        "headingPath": "Planificación: LiveStreamSell AI (SaaS Global) > 9. Observabilidad y Monitoreo > 9.2 Métricas",
+        "lineStart": 765,
+        "lineEnd": 798,
+        "textHash": "c62c88bf4141131b7c0bd89beb3d1b59fbfe64c85e4e1429ea16bff7ba47b9de",
+        "category": "observability",
+        "part": null
+      },
+      "contract": {
+        "testFile": "tests/contracts/slice-018.test.ts",
+        "requirement": "Cubrir comportamiento descrito en \"Planificación: LiveStreamSell AI (SaaS Global) > 9. Observabilidad y Monitoreo > 9.2 Métricas\"",
+        "redThenGreenRequired": true
+      }
+    },
+    {
+      "number": 19,
+      "name": "OBSERVABILITY: 9.3 Tracing",
+      "description": "Implementar lo descrito en: Planificación: LiveStreamSell AI (SaaS Global) > 9. Observabilidad y Monitoreo > 9.3 Tracing (líneas 799-816).",
+      "estimatedLines": 36,
+      "priority": "high",
+      "dependencies": [
+        1
+      ],
+      "source": {
+        "sectionId": "SEC-036",
+        "headingPath": "Planificación: LiveStreamSell AI (SaaS Global) > 9. Observabilidad y Monitoreo > 9.3 Tracing",
+        "lineStart": 799,
+        "lineEnd": 816,
+        "textHash": "431a5bc571bb507a93adb7cf9aaf379464f7c85323203ee4dac7b5c9f04d07fd",
+        "category": "observability",
+        "part": null
+      },
+      "contract": {
+        "testFile": "tests/contracts/slice-019.test.ts",
+        "requirement": "Cubrir comportamiento descrito en \"Planificación: LiveStreamSell AI (SaaS Global) > 9. Observabilidad y Monitoreo > 9.3 Tracing\"",
+        "redThenGreenRequired": true
+      }
+    },
+    {
+      "number": 20,
+      "name": "OBSERVABILITY: 9.4 Alerting",
+      "description": "Implementar lo descrito en: Planificación: LiveStreamSell AI (SaaS Global) > 9. Observabilidad y Monitoreo > 9.4 Alerting (líneas 817-852).",
+      "estimatedLines": 72,
+      "priority": "high",
+      "dependencies": [
+        1
+      ],
+      "source": {
+        "sectionId": "SEC-037",
+        "headingPath": "Planificación: LiveStreamSell AI (SaaS Global) > 9. Observabilidad y Monitoreo > 9.4 Alerting",
+        "lineStart": 817,
+        "lineEnd": 852,
+        "textHash": "70ac98cd758b5e933b7739ae129d4dd4ce0eb6013fb18ba09c681ba58e0efbb5",
+        "category": "observability",
+        "part": null
+      },
+      "contract": {
+        "testFile": "tests/contracts/slice-020.test.ts",
+        "requirement": "Cubrir comportamiento descrito en \"Planificación: LiveStreamSell AI (SaaS Global) > 9. Observabilidad y Monitoreo > 9.4 Alerting\"",
+        "redThenGreenRequired": true
+      }
+    },
+    {
+      "number": 21,
+      "name": "FRONTEND: 3.2 Componentes Críticos y Patrones",
+      "description": "Implementar lo descrito en: Planificación: LiveStreamSell AI (SaaS Global) > 3. Arquitectura del Sistema > 3.2 Componentes Críticos y Patrones (líneas 102-119).",
+      "estimatedLines": 36,
+      "priority": "medium",
+      "dependencies": [
+        12
+      ],
+      "source": {
+        "sectionId": "SEC-008",
+        "headingPath": "Planificación: LiveStreamSell AI (SaaS Global) > 3. Arquitectura del Sistema > 3.2 Componentes Críticos y Patrones",
+        "lineStart": 102,
+        "lineEnd": 119,
+        "textHash": "a29147a239364d4b171e9dddb674c55cfb4736b3df3f1c9fb97f0f5779755a0e",
+        "category": "frontend",
+        "part": null
+      },
+      "contract": {
+        "testFile": "tests/contracts/slice-021.test.ts",
+        "requirement": "Cubrir comportamiento descrito en \"Planificación: LiveStreamSell AI (SaaS Global) > 3. Arquitectura del Sistema > 3.2 Componentes Críticos y Patrones\"",
+        "redThenGreenRequired": true
+      }
+    },
+    {
+      "number": 22,
+      "name": "FRONTEND: 3.4 Componentes y Módulos",
+      "description": "Implementar lo descrito en: Planificación: LiveStreamSell AI (SaaS Global) > 3. Arquitectura del Sistema > 3.4 Componentes y Módulos (líneas 132-175).",
+      "estimatedLines": 88,
+      "priority": "medium",
+      "dependencies": [
+        12
+      ],
+      "source": {
+        "sectionId": "SEC-010",
+        "headingPath": "Planificación: LiveStreamSell AI (SaaS Global) > 3. Arquitectura del Sistema > 3.4 Componentes y Módulos",
+        "lineStart": 132,
+        "lineEnd": 175,
+        "textHash": "cede30759a8d304deca158b845bd5052dc46160707c97e6230e14af03cc19d65",
+        "category": "frontend",
+        "part": null
+      },
+      "contract": {
+        "testFile": "tests/contracts/slice-022.test.ts",
+        "requirement": "Cubrir comportamiento descrito en \"Planificación: LiveStreamSell AI (SaaS Global) > 3. Arquitectura del Sistema > 3.4 Componentes y Módulos\"",
+        "redThenGreenRequired": true
+      }
+    },
+    {
+      "number": 23,
+      "name": "FRONTEND: 8.1 Arquitectura Frontend",
+      "description": "Implementar lo descrito en: Planificación: LiveStreamSell AI (SaaS Global) > 8. Frontend (si aplica) > 8.1 Arquitectura Frontend (líneas 585-620).",
+      "estimatedLines": 72,
+      "priority": "medium",
+      "dependencies": [
+        12
+      ],
+      "source": {
+        "sectionId": "SEC-030",
+        "headingPath": "Planificación: LiveStreamSell AI (SaaS Global) > 8. Frontend (si aplica) > 8.1 Arquitectura Frontend",
+        "lineStart": 585,
+        "lineEnd": 620,
+        "textHash": "a24ea630dfbd2baa7d59cb60d1a11b7a7aa866605308f73a43cd23d791194a50",
+        "category": "frontend",
+        "part": null
+      },
+      "contract": {
+        "testFile": "tests/contracts/slice-023.test.ts",
+        "requirement": "Cubrir comportamiento descrito en \"Planificación: LiveStreamSell AI (SaaS Global) > 8. Frontend (si aplica) > 8.1 Arquitectura Frontend\"",
+        "redThenGreenRequired": true
+      }
+    },
+    {
+      "number": 24,
+      "name": "FRONTEND: 8.2 UI/UX",
+      "description": "Implementar lo descrito en: Planificación: LiveStreamSell AI (SaaS Global) > 8. Frontend (si aplica) > 8.2 UI/UX (líneas 621-702).",
+      "estimatedLines": 164,
+      "priority": "medium",
+      "dependencies": [
+        12
+      ],
+      "source": {
+        "sectionId": "SEC-031",
+        "headingPath": "Planificación: LiveStreamSell AI (SaaS Global) > 8. Frontend (si aplica) > 8.2 UI/UX",
+        "lineStart": 621,
+        "lineEnd": 702,
+        "textHash": "10d483a04ce2de2c38671e2935ea0d195872ac2bc63d7e17cd3b64f6aa31a087",
+        "category": "frontend",
+        "part": null
+      },
+      "contract": {
+        "testFile": "tests/contracts/slice-024.test.ts",
+        "requirement": "Cubrir comportamiento descrito en \"Planificación: LiveStreamSell AI (SaaS Global) > 8. Frontend (si aplica) > 8.2 UI/UX\"",
+        "redThenGreenRequired": true
+      }
+    },
+    {
+      "number": 25,
+      "name": "FRONTEND: 8.3 Performance Frontend",
+      "description": "Implementar lo descrito en: Planificación: LiveStreamSell AI (SaaS Global) > 8. Frontend (si aplica) > 8.3 Performance Frontend (líneas 703-726).",
+      "estimatedLines": 48,
+      "priority": "medium",
+      "dependencies": [
+        12
+      ],
+      "source": {
+        "sectionId": "SEC-032",
+        "headingPath": "Planificación: LiveStreamSell AI (SaaS Global) > 8. Frontend (si aplica) > 8.3 Performance Frontend",
+        "lineStart": 703,
+        "lineEnd": 726,
+        "textHash": "2365b7b354d28db4ad8340d7d185bec9ce046d057babc5a4b7f94bc570756b68",
+        "category": "frontend",
+        "part": null
+      },
+      "contract": {
+        "testFile": "tests/contracts/slice-025.test.ts",
+        "requirement": "Cubrir comportamiento descrito en \"Planificación: LiveStreamSell AI (SaaS Global) > 8. Frontend (si aplica) > 8.3 Performance Frontend\"",
+        "redThenGreenRequired": true
+      }
+    },
+    {
+      "number": 26,
+      "name": "TESTING: 10.1 Estrategia de Testing",
+      "description": "Implementar lo descrito en: Planificación: LiveStreamSell AI (SaaS Global) > 10. Testing > 10.1 Estrategia de Testing (líneas 855-878).",
+      "estimatedLines": 48,
+      "priority": "high",
+      "dependencies": [],
+      "source": {
+        "sectionId": "SEC-039",
+        "headingPath": "Planificación: LiveStreamSell AI (SaaS Global) > 10. Testing > 10.1 Estrategia de Testing",
+        "lineStart": 855,
+        "lineEnd": 878,
+        "textHash": "780aa973ca124ca432d0b8938211a90c1a59befcea805ac0e11d94cb541b78ce",
+        "category": "testing",
+        "part": null
+      },
+      "contract": {
+        "testFile": "tests/contracts/slice-026.test.ts",
+        "requirement": "Cubrir comportamiento descrito en \"Planificación: LiveStreamSell AI (SaaS Global) > 10. Testing > 10.1 Estrategia de Testing\"",
+        "redThenGreenRequired": true
+      }
+    },
+    {
+      "number": 27,
+      "name": "TESTING: 10.2 Tipos de Tests",
+      "description": "Implementar lo descrito en: Planificación: LiveStreamSell AI (SaaS Global) > 10. Testing > 10.2 Tipos de Tests (líneas 879-916).",
+      "estimatedLines": 76,
+      "priority": "high",
+      "dependencies": [],
+      "source": {
+        "sectionId": "SEC-040",
+        "headingPath": "Planificación: LiveStreamSell AI (SaaS Global) > 10. Testing > 10.2 Tipos de Tests",
+        "lineStart": 879,
+        "lineEnd": 916,
+        "textHash": "d5d5f1ace436a662747fe25707d48576e374872a84731d98c0f44feaa9e4d52b",
+        "category": "testing",
+        "part": null
+      },
+      "contract": {
+        "testFile": "tests/contracts/slice-027.test.ts",
+        "requirement": "Cubrir comportamiento descrito en \"Planificación: LiveStreamSell AI (SaaS Global) > 10. Testing > 10.2 Tipos de Tests\"",
+        "redThenGreenRequired": true
+      }
+    },
+    {
+      "number": 28,
+      "name": "TESTING: 10.3 Test Data",
+      "description": "Implementar lo descrito en: Planificación: LiveStreamSell AI (SaaS Global) > 10. Testing > 10.3 Test Data (líneas 917-944).",
+      "estimatedLines": 56,
+      "priority": "high",
+      "dependencies": [],
+      "source": {
+        "sectionId": "SEC-041",
+        "headingPath": "Planificación: LiveStreamSell AI (SaaS Global) > 10. Testing > 10.3 Test Data",
+        "lineStart": 917,
+        "lineEnd": 944,
+        "textHash": "a21f95e4e88b00f771aa37673c5873517f42155a103bb0a8aa5df4a722b49a25",
+        "category": "testing",
+        "part": null
+      },
+      "contract": {
+        "testFile": "tests/contracts/slice-028.test.ts",
+        "requirement": "Cubrir comportamiento descrito en \"Planificación: LiveStreamSell AI (SaaS Global) > 10. Testing > 10.3 Test Data\"",
+        "redThenGreenRequired": true
+      }
+    },
+    {
+      "number": 29,
+      "name": "CICD: 11.1 Pipeline CI/CD",
+      "description": "Implementar lo descrito en: Planificación: LiveStreamSell AI (SaaS Global) > 11. CI/CD y Deployment > 11.1 Pipeline CI/CD (líneas 947-982).",
+      "estimatedLines": 72,
+      "priority": "high",
+      "dependencies": [],
+      "source": {
+        "sectionId": "SEC-043",
+        "headingPath": "Planificación: LiveStreamSell AI (SaaS Global) > 11. CI/CD y Deployment > 11.1 Pipeline CI/CD",
+        "lineStart": 947,
+        "lineEnd": 982,
+        "textHash": "bad1abd4ab70b6ab1f44d66d762db5a8196e653afd6bcd2eb823bb3a1b65d5a4",
+        "category": "cicd",
+        "part": null
+      },
+      "contract": {
+        "testFile": "tests/contracts/slice-029.test.ts",
+        "requirement": "Cubrir comportamiento descrito en \"Planificación: LiveStreamSell AI (SaaS Global) > 11. CI/CD y Deployment > 11.1 Pipeline CI/CD\"",
+        "redThenGreenRequired": true
+      }
+    },
+    {
+      "number": 30,
+      "name": "CICD: 11.2 Estrategia de Deployment",
+      "description": "Implementar lo descrito en: Planificación: LiveStreamSell AI (SaaS Global) > 11. CI/CD y Deployment > 11.2 Estrategia de Deployment (líneas 983-1012).",
+      "estimatedLines": 60,
+      "priority": "high",
+      "dependencies": [],
+      "source": {
+        "sectionId": "SEC-044",
+        "headingPath": "Planificación: LiveStreamSell AI (SaaS Global) > 11. CI/CD y Deployment > 11.2 Estrategia de Deployment",
+        "lineStart": 983,
+        "lineEnd": 1012,
+        "textHash": "a43e94a19e77fee2ef86606c9c745e332c80aa353a330617b9828864a1cf5604",
+        "category": "cicd",
+        "part": null
+      },
+      "contract": {
+        "testFile": "tests/contracts/slice-030.test.ts",
+        "requirement": "Cubrir comportamiento descrito en \"Planificación: LiveStreamSell AI (SaaS Global) > 11. CI/CD y Deployment > 11.2 Estrategia de Deployment\"",
+        "redThenGreenRequired": true
+      }
+    },
+    {
+      "number": 31,
+      "name": "CICD: 11.4 Configuración",
+      "description": "Implementar lo descrito en: Planificación: LiveStreamSell AI (SaaS Global) > 11. CI/CD y Deployment > 11.4 Configuración (líneas 1045-1088).",
+      "estimatedLines": 88,
+      "priority": "high",
+      "dependencies": [],
+      "source": {
+        "sectionId": "SEC-046",
+        "headingPath": "Planificación: LiveStreamSell AI (SaaS Global) > 11. CI/CD y Deployment > 11.4 Configuración",
+        "lineStart": 1045,
+        "lineEnd": 1088,
+        "textHash": "679f0917516bc3963c95d286f93d6a9b5027a2a9966af6fc7d98c91a52c1c4d9",
+        "category": "cicd",
+        "part": null
+      },
+      "contract": {
+        "testFile": "tests/contracts/slice-031.test.ts",
+        "requirement": "Cubrir comportamiento descrito en \"Planificación: LiveStreamSell AI (SaaS Global) > 11. CI/CD y Deployment > 11.4 Configuración\"",
+        "redThenGreenRequired": true
+      }
+    },
+    {
+      "number": 32,
+      "name": "CICD: 11.5 Containerización",
+      "description": "Implementar lo descrito en: Planificación: LiveStreamSell AI (SaaS Global) > 11. CI/CD y Deployment > 11.5 Containerización (líneas 1089-1124).",
+      "estimatedLines": 72,
+      "priority": "high",
+      "dependencies": [],
+      "source": {
+        "sectionId": "SEC-047",
+        "headingPath": "Planificación: LiveStreamSell AI (SaaS Global) > 11. CI/CD y Deployment > 11.5 Containerización",
+        "lineStart": 1089,
+        "lineEnd": 1124,
+        "textHash": "ba7eac71e54ef5de7431d1ef23513f82935ab49b9b6be4de092e7388c1adbe0f",
+        "category": "cicd",
+        "part": null
+      },
+      "contract": {
+        "testFile": "tests/contracts/slice-032.test.ts",
+        "requirement": "Cubrir comportamiento descrito en \"Planificación: LiveStreamSell AI (SaaS Global) > 11. CI/CD y Deployment > 11.5 Containerización\"",
+        "redThenGreenRequired": true
+      }
+    },
+    {
+      "number": 33,
+      "name": "CICD: 12. Gestión de Versiones y Código",
+      "description": "Implementar lo descrito en: Planificación: LiveStreamSell AI (SaaS Global) > 12. Gestión de Versiones y Código (líneas 1125-1168).",
+      "estimatedLines": 88,
+      "priority": "high",
+      "dependencies": [],
+      "source": {
+        "sectionId": "SEC-048",
+        "headingPath": "Planificación: LiveStreamSell AI (SaaS Global) > 12. Gestión de Versiones y Código",
+        "lineStart": 1125,
+        "lineEnd": 1168,
+        "textHash": "252278e83e8b9a4ca3e182826c111c0c574abef4edf062d650a70190c2a7852b",
+        "category": "cicd",
+        "part": null
+      },
+      "contract": {
+        "testFile": "tests/contracts/slice-033.test.ts",
+        "requirement": "Cubrir comportamiento descrito en \"Planificación: LiveStreamSell AI (SaaS Global) > 12. Gestión de Versiones y Código\"",
+        "redThenGreenRequired": true
+      }
+    },
+    {
+      "number": 34,
+      "name": "OPERATIONS: 15.1 Disaster Recovery (DRP)",
+      "description": "Implementar lo descrito en: Planificación: LiveStreamSell AI (SaaS Global) > 15. Consideraciones Operacionales > 15.1 Disaster Recovery (DRP) (líneas 1265-1304).",
+      "estimatedLines": 80,
+      "priority": "low",
+      "dependencies": [],
+      "source": {
+        "sectionId": "SEC-057",
+        "headingPath": "Planificación: LiveStreamSell AI (SaaS Global) > 15. Consideraciones Operacionales > 15.1 Disaster Recovery (DRP)",
+        "lineStart": 1265,
+        "lineEnd": 1304,
+        "textHash": "c315aa963e5076d18751505dede14de20365dbf9bc0e19235ec48f690ba07b7a",
+        "category": "operations",
+        "part": null
+      },
+      "contract": {
+        "testFile": "tests/contracts/slice-034.test.ts",
+        "requirement": "Cubrir comportamiento descrito en \"Planificación: LiveStreamSell AI (SaaS Global) > 15. Consideraciones Operacionales > 15.1 Disaster Recovery (DRP)\"",
+        "redThenGreenRequired": true
+      }
+    },
+    {
+      "number": 35,
+      "name": "OPERATIONS: 15.2 Mantenimiento",
+      "description": "Implementar lo descrito en: Planificación: LiveStreamSell AI (SaaS Global) > 15. Consideraciones Operacionales > 15.2 Mantenimiento (líneas 1305-1330).",
+      "estimatedLines": 52,
+      "priority": "low",
+      "dependencies": [],
+      "source": {
+        "sectionId": "SEC-058",
+        "headingPath": "Planificación: LiveStreamSell AI (SaaS Global) > 15. Consideraciones Operacionales > 15.2 Mantenimiento",
+        "lineStart": 1305,
+        "lineEnd": 1330,
+        "textHash": "5d222cbdb470fee4069146bb1238fc4c5a16071bf1d654c247018134bb5ccbc2",
+        "category": "operations",
+        "part": null
+      },
+      "contract": {
+        "testFile": "tests/contracts/slice-035.test.ts",
+        "requirement": "Cubrir comportamiento descrito en \"Planificación: LiveStreamSell AI (SaaS Global) > 15. Consideraciones Operacionales > 15.2 Mantenimiento\"",
+        "redThenGreenRequired": true
+      }
+    },
+    {
+      "number": 36,
+      "name": "OPERATIONS: 15.3 Soporte",
+      "description": "Implementar lo descrito en: Planificación: LiveStreamSell AI (SaaS Global) > 15. Consideraciones Operacionales > 15.3 Soporte (líneas 1331-1368).",
+      "estimatedLines": 76,
+      "priority": "low",
+      "dependencies": [],
+      "source": {
+        "sectionId": "SEC-059",
+        "headingPath": "Planificación: LiveStreamSell AI (SaaS Global) > 15. Consideraciones Operacionales > 15.3 Soporte",
+        "lineStart": 1331,
+        "lineEnd": 1368,
+        "textHash": "52db4470e568842dfbbacf85e9d81dd922931e840a0db6bf70af1efc2806c012",
+        "category": "operations",
+        "part": null
+      },
+      "contract": {
+        "testFile": "tests/contracts/slice-036.test.ts",
+        "requirement": "Cubrir comportamiento descrito en \"Planificación: LiveStreamSell AI (SaaS Global) > 15. Consideraciones Operacionales > 15.3 Soporte\"",
+        "redThenGreenRequired": true
+      }
+    },
+    {
+      "number": 37,
+      "name": "OTHER: Planificación: LiveStreamSell AI (SaaS Global)",
+      "description": "Implementar lo descrito en: Planificación: LiveStreamSell AI (SaaS Global) (líneas 1-3).",
+      "estimatedLines": 6,
+      "priority": "medium",
+      "dependencies": [],
+      "source": {
+        "sectionId": "SEC-001",
+        "headingPath": "Planificación: LiveStreamSell AI (SaaS Global)",
+        "lineStart": 1,
+        "lineEnd": 3,
+        "textHash": "c6eda7076231c2b1b755f44d025292383dea801898a9ed85afbe7f0e908da3b3",
+        "category": "other",
+        "part": null
+      },
+      "contract": {
+        "testFile": "tests/contracts/slice-037.test.ts",
+        "requirement": "Cubrir comportamiento descrito en \"Planificación: LiveStreamSell AI (SaaS Global)\"",
+        "redThenGreenRequired": true
+      }
+    },
+    {
+      "number": 38,
+      "name": "OTHER: 2.1 Funcionalidades (FR)",
+      "description": "Implementar lo descrito en: Planificación: LiveStreamSell AI (SaaS Global) > 2. Requerimientos Funcionales y No Funcionales > 2.1 Funcionalidades (FR) (líneas 46-67).",
+      "estimatedLines": 44,
+      "priority": "medium",
+      "dependencies": [],
+      "source": {
+        "sectionId": "SEC-004",
+        "headingPath": "Planificación: LiveStreamSell AI (SaaS Global) > 2. Requerimientos Funcionales y No Funcionales > 2.1 Funcionalidades (FR)",
+        "lineStart": 46,
+        "lineEnd": 67,
+        "textHash": "7f8684ee54860404e6f4f664684fc156dde9817d5ed9f88393a53baf1f6a703c",
+        "category": "other",
+        "part": null
+      },
+      "contract": {
+        "testFile": "tests/contracts/slice-038.test.ts",
+        "requirement": "Cubrir comportamiento descrito en \"Planificación: LiveStreamSell AI (SaaS Global) > 2. Requerimientos Funcionales y No Funcionales > 2.1 Funcionalidades (FR)\"",
+        "redThenGreenRequired": true
+      }
+    },
+    {
+      "number": 39,
+      "name": "OTHER: 3.3 Gestión de Estado y Persistencia",
+      "description": "Implementar lo descrito en: Planificación: LiveStreamSell AI (SaaS Global) > 3. Arquitectura del Sistema > 3.3 Gestión de Estado y Persistencia (líneas 120-131).",
+      "estimatedLines": 24,
+      "priority": "medium",
+      "dependencies": [],
+      "source": {
+        "sectionId": "SEC-009",
+        "headingPath": "Planificación: LiveStreamSell AI (SaaS Global) > 3. Arquitectura del Sistema > 3.3 Gestión de Estado y Persistencia",
+        "lineStart": 120,
+        "lineEnd": 131,
+        "textHash": "c8a8a4fbd63869e16e1f70cc70b39fefb4a821ba4d4e61c7df4f189dc2b42a09",
+        "category": "other",
+        "part": null
+      },
+      "contract": {
+        "testFile": "tests/contracts/slice-039.test.ts",
+        "requirement": "Cubrir comportamiento descrito en \"Planificación: LiveStreamSell AI (SaaS Global) > 3. Arquitectura del Sistema > 3.3 Gestión de Estado y Persistencia\"",
+        "redThenGreenRequired": true
+      }
+    },
+    {
+      "number": 40,
+      "name": "OTHER: 6.1 Estrategia de Identidad",
+      "description": "Implementar lo descrito en: Planificación: LiveStreamSell AI (SaaS Global) > 6. Autenticación y Autorización > 6.1 Estrategia de Identidad (líneas 443-448).",
+      "estimatedLines": 12,
+      "priority": "medium",
+      "dependencies": [],
+      "source": {
+        "sectionId": "SEC-021",
+        "headingPath": "Planificación: LiveStreamSell AI (SaaS Global) > 6. Autenticación y Autorización > 6.1 Estrategia de Identidad",
+        "lineStart": 443,
+        "lineEnd": 448,
+        "textHash": "3e3a2cd200da79111ce08f005a769063e20b3b174f5720e0e7ab4f18b26ad627",
+        "category": "other",
+        "part": null
+      },
+      "contract": {
+        "testFile": "tests/contracts/slice-040.test.ts",
+        "requirement": "Cubrir comportamiento descrito en \"Planificación: LiveStreamSell AI (SaaS Global) > 6. Autenticación y Autorización > 6.1 Estrategia de Identidad\"",
+        "redThenGreenRequired": true
+      }
+    },
+    {
+      "number": 41,
+      "name": "OTHER: 6.3 Gestión de Tokens",
+      "description": "Implementar lo descrito en: Planificación: LiveStreamSell AI (SaaS Global) > 6. Autenticación y Autorización > 6.3 Gestión de Tokens (líneas 465-474).",
+      "estimatedLines": 20,
+      "priority": "medium",
+      "dependencies": [],
+      "source": {
+        "sectionId": "SEC-023",
+        "headingPath": "Planificación: LiveStreamSell AI (SaaS Global) > 6. Autenticación y Autorización > 6.3 Gestión de Tokens",
+        "lineStart": 465,
+        "lineEnd": 474,
+        "textHash": "eaf70586751b43311ad9244c436f5fd4a53684fcf91e7f7bb80153efbb2c5e3e",
+        "category": "other",
+        "part": null
+      },
+      "contract": {
+        "testFile": "tests/contracts/slice-041.test.ts",
+        "requirement": "Cubrir comportamiento descrito en \"Planificación: LiveStreamSell AI (SaaS Global) > 6. Autenticación y Autorización > 6.3 Gestión de Tokens\"",
+        "redThenGreenRequired": true
+      }
+    },
+    {
+      "number": 42,
+      "name": "OTHER: 7.1 Secretos y Credenciales",
+      "description": "Implementar lo descrito en: Planificación: LiveStreamSell AI (SaaS Global) > 7. Seguridad > 7.1 Secretos y Credenciales (líneas 487-516).",
+      "estimatedLines": 60,
+      "priority": "medium",
+      "dependencies": [],
+      "source": {
+        "sectionId": "SEC-026",
+        "headingPath": "Planificación: LiveStreamSell AI (SaaS Global) > 7. Seguridad > 7.1 Secretos y Credenciales",
+        "lineStart": 487,
+        "lineEnd": 516,
+        "textHash": "25f9af81ca125fdabd0111bdd869328ce455935419a7d6aaf4710090d801c5c1",
+        "category": "other",
+        "part": null
+      },
+      "contract": {
+        "testFile": "tests/contracts/slice-042.test.ts",
+        "requirement": "Cubrir comportamiento descrito en \"Planificación: LiveStreamSell AI (SaaS Global) > 7. Seguridad > 7.1 Secretos y Credenciales\"",
+        "redThenGreenRequired": true
+      }
+    },
+    {
+      "number": 43,
+      "name": "OTHER: 11.3 Infrastructure as Code",
+      "description": "Implementar lo descrito en: Planificación: LiveStreamSell AI (SaaS Global) > 11. CI/CD y Deployment > 11.3 Infrastructure as Code (líneas 1013-1044).",
+      "estimatedLines": 64,
+      "priority": "medium",
+      "dependencies": [],
+      "source": {
+        "sectionId": "SEC-045",
+        "headingPath": "Planificación: LiveStreamSell AI (SaaS Global) > 11. CI/CD y Deployment > 11.3 Infrastructure as Code",
+        "lineStart": 1013,
+        "lineEnd": 1044,
+        "textHash": "fea77daedccafb1c3d21f83ea7ef2ad23d26da0693b6dbd935e40230f6c5e3de",
+        "category": "other",
+        "part": null
+      },
+      "contract": {
+        "testFile": "tests/contracts/slice-043.test.ts",
+        "requirement": "Cubrir comportamiento descrito en \"Planificación: LiveStreamSell AI (SaaS Global) > 11. CI/CD y Deployment > 11.3 Infrastructure as Code\"",
+        "redThenGreenRequired": true
+      }
+    },
+    {
+      "number": 44,
+      "name": "OTHER: Basado en un escenario inicial de 10-20 clientes activos.",
+      "description": "Implementar lo descrito en: Planificación: LiveStreamSell AI (SaaS Global) > 14. Costos y Recursos > Basado en un escenario inicial de 10-20 clientes activos. (líneas 1211-1230).",
+      "estimatedLines": 40,
+      "priority": "medium",
+      "dependencies": [],
+      "source": {
+        "sectionId": "SEC-052",
+        "headingPath": "Planificación: LiveStreamSell AI (SaaS Global) > 14. Costos y Recursos > Basado en un escenario inicial de 10-20 clientes activos.",
+        "lineStart": 1211,
+        "lineEnd": 1230,
+        "textHash": "0db572df8ba19c463c491de9bce68ae23448334eba7ad4cd5c11d3f01afbffd0",
+        "category": "other",
+        "part": null
+      },
+      "contract": {
+        "testFile": "tests/contracts/slice-044.test.ts",
+        "requirement": "Cubrir comportamiento descrito en \"Planificación: LiveStreamSell AI (SaaS Global) > 14. Costos y Recursos > Basado en un escenario inicial de 10-20 clientes activos.\"",
+        "redThenGreenRequired": true
+      }
+    },
+    {
+      "number": 45,
+      "name": "OTHER: 16.1 Regulaciones Aplicables",
+      "description": "Implementar lo descrito en: Planificación: LiveStreamSell AI (SaaS Global) > 16. Compliance y Legal > 16.1 Regulaciones Aplicables (líneas 1371-1382).",
+      "estimatedLines": 24,
+      "priority": "medium",
+      "dependencies": [],
+      "source": {
+        "sectionId": "SEC-061",
+        "headingPath": "Planificación: LiveStreamSell AI (SaaS Global) > 16. Compliance y Legal > 16.1 Regulaciones Aplicables",
+        "lineStart": 1371,
+        "lineEnd": 1382,
+        "textHash": "b0262a87cc10a1b83624ebe81d785f54c939b757f7f167051332f60fbf0ea94b",
+        "category": "other",
+        "part": null
+      },
+      "contract": {
+        "testFile": "tests/contracts/slice-045.test.ts",
+        "requirement": "Cubrir comportamiento descrito en \"Planificación: LiveStreamSell AI (SaaS Global) > 16. Compliance y Legal > 16.1 Regulaciones Aplicables\"",
+        "redThenGreenRequired": true
+      }
+    },
+    {
+      "number": 46,
+      "name": "OTHER: 16.2.1 Protocolo de Recuperación de Carrito y Message Tags",
+      "description": "Implementar lo descrito en: Planificación: LiveStreamSell AI (SaaS Global) > 16. Compliance y Legal > 16.2.1 Protocolo de Recuperación de Carrito y Message Tags (líneas 1391-1420).",
+      "estimatedLines": 60,
+      "priority": "medium",
+      "dependencies": [],
+      "source": {
+        "sectionId": "SEC-063",
+        "headingPath": "Planificación: LiveStreamSell AI (SaaS Global) > 16. Compliance y Legal > 16.2.1 Protocolo de Recuperación de Carrito y Message Tags",
+        "lineStart": 1391,
+        "lineEnd": 1420,
+        "textHash": "88bffd4ff0cfb9914c6ad091aca2536486695d8b22f0c5b4bbe500026a131ebc",
+        "category": "other",
+        "part": null
+      },
+      "contract": {
+        "testFile": "tests/contracts/slice-046.test.ts",
+        "requirement": "Cubrir comportamiento descrito en \"Planificación: LiveStreamSell AI (SaaS Global) > 16. Compliance y Legal > 16.2.1 Protocolo de Recuperación de Carrito y Message Tags\"",
+        "redThenGreenRequired": true
+      }
+    },
+    {
+      "number": 47,
+      "name": "OTHER: 16.3 Auditoría y Reportes",
+      "description": "Implementar lo descrito en: Planificación: LiveStreamSell AI (SaaS Global) > 16. Compliance y Legal > 16.3 Auditoría y Reportes (líneas 1421-1428).",
+      "estimatedLines": 16,
+      "priority": "medium",
+      "dependencies": [],
+      "source": {
+        "sectionId": "SEC-064",
+        "headingPath": "Planificación: LiveStreamSell AI (SaaS Global) > 16. Compliance y Legal > 16.3 Auditoría y Reportes",
+        "lineStart": 1421,
+        "lineEnd": 1428,
+        "textHash": "216e2b84f95bfc43b07ada2482be3dfbb4cd9bf4fbe53c1143a5655af473aa44",
+        "category": "other",
+        "part": null
+      },
+      "contract": {
+        "testFile": "tests/contracts/slice-047.test.ts",
+        "requirement": "Cubrir comportamiento descrito en \"Planificación: LiveStreamSell AI (SaaS Global) > 16. Compliance y Legal > 16.3 Auditoría y Reportes\"",
+        "redThenGreenRequired": true
+      }
+    },
+    {
+      "number": 48,
+      "name": "OTHER: 16.4 Privacy y Consent Management",
+      "description": "Implementar lo descrito en: Planificación: LiveStreamSell AI (SaaS Global) > 16. Compliance y Legal > 16.4 Privacy y Consent Management (líneas 1429-1436).",
+      "estimatedLines": 16,
+      "priority": "medium",
+      "dependencies": [],
+      "source": {
+        "sectionId": "SEC-065",
+        "headingPath": "Planificación: LiveStreamSell AI (SaaS Global) > 16. Compliance y Legal > 16.4 Privacy y Consent Management",
+        "lineStart": 1429,
+        "lineEnd": 1436,
+        "textHash": "98b0de20b88e657480755b8a2be74e742dde373b8d773ddc2dc05c729208448b",
+        "category": "other",
+        "part": null
+      },
+      "contract": {
+        "testFile": "tests/contracts/slice-048.test.ts",
+        "requirement": "Cubrir comportamiento descrito en \"Planificación: LiveStreamSell AI (SaaS Global) > 16. Compliance y Legal > 16.4 Privacy y Consent Management\"",
+        "redThenGreenRequired": true
+      }
+    }
+  ]
+}

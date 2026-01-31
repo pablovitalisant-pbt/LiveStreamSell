@@ -1,0 +1,18 @@
+{
+  "sliceNumber": 17,
+  "name": "OBSERVABILITY: 9.1 Logging",
+  "description": "Implementar lo descrito en: Planificación: LiveStreamSell AI (SaaS Global) > 9. Observabilidad y Monitoreo > 9.1 Logging (líneas 729-764).",
+  "headingPath": "Planificación: LiveStreamSell AI (SaaS Global) > 9. Observabilidad y Monitoreo > 9.1 Logging",
+  "lineStart": 729,
+  "lineEnd": 764,
+  "prdHash": "62c396bb1963049fddb3da32d2d9116a6207941f516e0d43a938d8086d7f066d",
+  "blockHash": "68ba08825bf5fab95e2fd51a0b32d74a86c22378ae40df7527e358c3661f05b6",
+  "estimatedLines": 72,
+  "priority": "high",
+  "contract": {
+    "testFile": "tests/contracts/slice-017.test.ts",
+    "requirement": "Cubrir comportamiento descrito en \"Planificación: LiveStreamSell AI (SaaS Global) > 9. Observabilidad y Monitoreo > 9.1 Logging\"",
+    "redThenGreenRequired": true
+  },
+  "generatedAt": "2026-01-31T12:07:56.084Z"
+}

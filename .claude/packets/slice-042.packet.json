@@ -1,0 +1,18 @@
+{
+  "sliceNumber": 42,
+  "name": "OTHER: 7.1 Secretos y Credenciales",
+  "description": "Implementar lo descrito en: Planificación: LiveStreamSell AI (SaaS Global) > 7. Seguridad > 7.1 Secretos y Credenciales (líneas 487-516).",
+  "headingPath": "Planificación: LiveStreamSell AI (SaaS Global) > 7. Seguridad > 7.1 Secretos y Credenciales",
+  "lineStart": 487,
+  "lineEnd": 516,
+  "prdHash": "62c396bb1963049fddb3da32d2d9116a6207941f516e0d43a938d8086d7f066d",
+  "blockHash": "25f9af81ca125fdabd0111bdd869328ce455935419a7d6aaf4710090d801c5c1",
+  "estimatedLines": 60,
+  "priority": "medium",
+  "contract": {
+    "testFile": "tests/contracts/slice-042.test.ts",
+    "requirement": "Cubrir comportamiento descrito en \"Planificación: LiveStreamSell AI (SaaS Global) > 7. Seguridad > 7.1 Secretos y Credenciales\"",
+    "redThenGreenRequired": true
+  },
+  "generatedAt": "2026-01-31T16:56:57.595Z"
+}

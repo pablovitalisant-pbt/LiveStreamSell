@@ -1,0 +1,18 @@
+{
+  "sliceNumber": 27,
+  "name": "TESTING: 10.2 Tipos de Tests",
+  "description": "Implementar lo descrito en: Planificación: LiveStreamSell AI (SaaS Global) > 10. Testing > 10.2 Tipos de Tests (líneas 879-916).",
+  "headingPath": "Planificación: LiveStreamSell AI (SaaS Global) > 10. Testing > 10.2 Tipos de Tests",
+  "lineStart": 879,
+  "lineEnd": 916,
+  "prdHash": "62c396bb1963049fddb3da32d2d9116a6207941f516e0d43a938d8086d7f066d",
+  "blockHash": "d5d5f1ace436a662747fe25707d48576e374872a84731d98c0f44feaa9e4d52b",
+  "estimatedLines": 76,
+  "priority": "high",
+  "contract": {
+    "testFile": "tests/contracts/slice-027.test.ts",
+    "requirement": "Cubrir comportamiento descrito en \"Planificación: LiveStreamSell AI (SaaS Global) > 10. Testing > 10.2 Tipos de Tests\"",
+    "redThenGreenRequired": true
+  },
+  "generatedAt": "2026-01-31T12:49:47.611Z"
+}
