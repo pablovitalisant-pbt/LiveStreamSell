@@ -7,6 +7,11 @@ from typing import List
 from fastapi import FastAPI, Header, HTTPException, Request
 from pydantic import BaseModel, Field
 from sqlalchemy import Column, Integer, MetaData, String, Table, create_engine, select, update
+import jwt
+import json
+import time
+import urllib.request
+from urllib.parse import urlparse
 
 app = FastAPI()
 DATABASE_URL = os.getenv("DATABASE_URL")
@@ -25,6 +30,7 @@ orders_table = Table(
     Column("id", String, primary_key=True),
     Column("status", String, nullable=False),
 )
+JWKS_CACHE: dict[str, dict] = {}
 
 
 @app.on_event("startup")
@@ -74,13 +80,95 @@ async def facebook_webhook(
     return {"ok": True}
 
 
-def _require_bearer(authorization: str | None) -> None:
+def _fetch_jwks(jwks_url: str) -> dict:
+    now = time.time()
+    cached = JWKS_CACHE.get(jwks_url)
+    if cached and cached["expires_at"] > now:
+        return cached["keys"]
+    try:
+        with urllib.request.urlopen(jwks_url, timeout=3) as resp:
+            payload = json.loads(resp.read().decode("utf-8"))
+    except Exception:
+        raise HTTPException(status_code=503, detail="Auth unavailable")
+    JWKS_CACHE[jwks_url] = {"keys": payload, "expires_at": now + 600}
+    return payload
+
+
+def _get_jwk_by_kid(kid: str, jwks_url: str) -> dict | None:
+    jwks = _fetch_jwks(jwks_url)
+    keys = jwks.get("keys", [])
+    for key in keys:
+        if key.get("kid") == kid:
+            return key
+    return None
+
+
+def _jwks_url_from_issuer(issuer: str | None) -> str | None:
+    if not issuer:
+        return None
+    parsed = urlparse(issuer)
+    if parsed.scheme != "https" or not parsed.netloc:
+        return None
+    return f"{issuer.rstrip('/')}/.well-known/jwks.json"
+
+
+def _require_bearer(authorization: str | None) -> dict:
     if not authorization or not authorization.lower().startswith("bearer "):
         raise HTTPException(status_code=401, detail="Unauthorized")
     token = authorization.split(" ", 1)[1].strip()
-    expected = os.getenv("AUTH_BEARER_TOKEN", "localtoken")
-    if not token or token != expected:
+    if not token:
         raise HTTPException(status_code=401, detail="Unauthorized")
+    try:
+        header = jwt.get_unverified_header(token)
+    except Exception:
+        raise HTTPException(status_code=401, detail="Unauthorized")
+    kid = header.get("kid")
+    alg = header.get("alg")
+    if not kid or alg not in ("RS256", "ES256"):
+        raise HTTPException(status_code=401, detail="Unauthorized")
+    jwk = None
+    jwks_url = os.getenv("SUPABASE_JWKS_URL")
+    if jwks_url:
+        jwk = _get_jwk_by_kid(kid, jwks_url)
+    if not jwk:
+        try:
+            unverified_claims = jwt.decode(
+                token, options={"verify_signature": False}
+            )
+        except Exception:
+            unverified_claims = {}
+        issuer_jwks_url = _jwks_url_from_issuer(unverified_claims.get("iss"))
+        if issuer_jwks_url and issuer_jwks_url != jwks_url:
+            jwk = _get_jwk_by_kid(kid, issuer_jwks_url)
+    if not jwk:
+        raise HTTPException(status_code=401, detail="Unauthorized")
+    try:
+        expected_kty = "EC" if alg == "ES256" else "RSA"
+        if jwk.get("kty") != expected_kty:
+            raise HTTPException(status_code=401, detail="Unauthorized")
+        if alg == "ES256":
+            public_key = jwt.algorithms.ECAlgorithm.from_jwk(json.dumps(jwk))
+        else:
+            public_key = jwt.algorithms.RSAAlgorithm.from_jwk(json.dumps(jwk))
+        payload = jwt.decode(
+            token,
+            public_key,
+            algorithms=[alg],
+            options={"verify_aud": False},
+        )
+    except Exception:
+        raise HTTPException(status_code=401, detail="Unauthorized")
+    sub = payload.get("sub")
+    role = payload.get("role")
+    if not sub:
+        raise HTTPException(status_code=401, detail="Unauthorized")
+    return {"sub": sub, "role": role}
+
+
+def _require_role(authorization: str | None, allowed: set[str]) -> None:
+    claims = _require_bearer(authorization)
+    if claims["role"] not in allowed:
+        raise HTTPException(status_code=403, detail="Forbidden")
 
 
 @app.get("/api/v1/inventory/products")
@@ -90,7 +178,7 @@ def get_inventory_products(
     offset: int = 0,
     authorization: str | None = Header(default=None),
 ):
-    _require_bearer(authorization)
+    _require_role(authorization, {"authenticated"})
     if tienda_id is None:
         raise HTTPException(status_code=404, detail="tienda_id required")
     if engine is None:
@@ -136,7 +224,7 @@ def create_order(
     x_api_key: str | None = Header(default=None),
 ):
     if authorization:
-        _require_bearer(authorization)
+        _require_role(authorization, {"Owner", "Staff", "System"})
     else:
         expected_key = os.getenv("API_INTERNAL_KEY", "localkey")
         if not x_api_key or x_api_key != expected_key:
