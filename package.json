@@ -10,14 +10,10 @@
     "red": "node scripts/ai-agent-orchestrator.js red",
     "green": "node scripts/ai-agent-orchestrator.js green",
     "complete": "node scripts/ai-agent-orchestrator.js complete",
+    "dev:smoke": "node scripts/dev-smoke.js",
+    "dev:smoke:apis": "node scripts/dev-smoke-apis.js",
     "test": "jest",
-    "test:slice": "jest --testPathPattern='slice-[0-9]+' --verbose",
-    "dev:up": "docker compose up --build -d",
-    "dev:down": "docker compose down -v",
-    "dev:logs": "docker compose logs -f --tail=200",
-    "dev:smoke": "curl -fsS http://localhost:8000/health",
-    "dev:smoke:apis": "sh -c 'set -a; [ -f ./.env.local ] && . ./.env.local; set +a; BODY=\"{\\\"object\\\":\\\"page\\\",\\\"entry\\\":[{\\\"id\\\":\\\"PAGE_ID\\\",\\\"messaging\\\":[{\\\"sender\\\":{\\\"id\\\":\\\"PSID\\\"},\\\"message\\\":{\\\"text\\\":\\\"Quiero 2 de la polera roja\\\"}}]}]}\"; export BODY; SIG=$(node -e \"const crypto=require(\\\"crypto\\\");const body=process.env.BODY;const sig=\\\"sha256=\\\"+crypto.createHmac(\\\"sha256\\\",process.env.FB_APP_SECRET).update(body).digest(\\\"hex\\\");console.log(sig);\"); curl -fsS -H \"X-Hub-Signature-256: $SIG\" -H \"Content-Type: application/json\" -d \"$BODY\" http://localhost:8000/api/v1/webhooks/facebook; echo; curl -fsS -H \"Authorization: Bearer $AUTH_BEARER_TOKEN\" \"http://localhost:8000/api/v1/inventory/products?tienda_id=uuid&limit=1&offset=0\"; echo; curl -fsS -H \"X-API-Key: $API_INTERNAL_KEY\" -H \"Content-Type: application/json\" -d \"{\\\"tienda_id\\\":\\\"uuid\\\",\\\"customer_fb_id\\\":\\\"psid\\\",\\\"items\\\":[{\\\"sku\\\":\\\"POL-ROJ-M\\\",\\\"qty\\\":1}],\\\"gateway\\\":\\\"flow\\\"}\" http://localhost:8000/api/v1/orders/create; echo; curl -fsS http://localhost:8000/health; echo'",
-    "prod:local": "docker compose up --build"
+    "test:slice": "jest --testPathPattern='slice-[0-9]+' --verbose"
   },
   "devDependencies": {
     "@types/jest": "^29.5.0",

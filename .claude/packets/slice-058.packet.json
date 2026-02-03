@@ -1,0 +1,18 @@
+{
+  "sliceNumber": 58,
+  "name": "OTHER: 17.5.1 request_id + logs estructurados",
+  "description": "Implementar lo descrito en: 17. Post-Producción y Hardening (hacerlo real) > 17.5 Observabilidad mínima > 17.5.1 request_id + logs estructurados (líneas 1499-1501).",
+  "headingPath": "17. Post-Producción y Hardening (hacerlo real) > 17.5 Observabilidad mínima > 17.5.1 request_id + logs estructurados",
+  "lineStart": 1499,
+  "lineEnd": 1447,
+  "prdHash": "62c396bb1963049fddb3da32d2d9116a6207941f516e0d43a938d8086d7f066d",
+  "blockHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "estimatedLines": 6,
+  "priority": "medium",
+  "contract": {
+    "testFile": "tests/contracts/slice-058.test.ts",
+    "requirement": "Cubrir comportamiento descrito en \"17. Post-Producción y Hardening (hacerlo real) > 17.5 Observabilidad mínima > 17.5.1 request_id + logs estructurados\"",
+    "redThenGreenRequired": true
+  },
+  "generatedAt": "2026-02-02T18:07:47.997Z"
+}

@@ -1,8 +1,8 @@
 {
   "projectName": "Planificación: LiveStreamSell AI (SaaS Global)",
-  "generatedAt": "2026-01-31T10:27:59.646Z",
-  "totalSections": 66,
-  "totalSlices": 48,
+  "generatedAt": "2026-02-02T17:35:32.317Z",
+  "totalSections": 85,
+  "totalSlices": 59,
   "sections": [
     {
       "id": "SEC-001",
@@ -660,15 +660,205 @@
       "title": "16.5 Licencias y Open Source Compliance",
       "path": "Planificación: LiveStreamSell AI (SaaS Global) > 16. Compliance y Legal > 16.5 Licencias y Open Source Compliance",
       "startLine": 1437,
-      "endLine": 1447,
+      "endLine": 1446,
       "implementable": false,
+      "category": "other"
+    },
+    {
+      "id": "SEC-067",
+      "level": 1,
+      "title": "17. Post-Producción y Hardening (hacerlo real)",
+      "path": "17. Post-Producción y Hardening (hacerlo real)",
+      "startLine": 1447,
+      "endLine": 1448,
+      "implementable": false,
+      "category": "other"
+    },
+    {
+      "id": "SEC-068",
+      "level": 2,
+      "title": "17.1 Persistencia estable: migraciones (Alembic)",
+      "path": "17. Post-Producción y Hardening (hacerlo real) > 17.1 Persistencia estable: migraciones (Alembic)",
+      "startLine": 1449,
+      "endLine": 1450,
+      "implementable": false,
+      "category": "other"
+    },
+    {
+      "id": "SEC-069",
+      "level": 3,
+      "title": "17.1.1 Scaffold Alembic + comando migrate",
+      "path": "17. Post-Producción y Hardening (hacerlo real) > 17.1 Persistencia estable: migraciones (Alembic) > 17.1.1 Scaffold Alembic + comando migrate",
+      "startLine": 1451,
+      "endLine": 1454,
+      "implementable": true,
+      "category": "other"
+    },
+    {
+      "id": "SEC-070",
+      "level": 3,
+      "title": "17.1.2 Modelo mínimo estable (constraints + tablas)",
+      "path": "17. Post-Producción y Hardening (hacerlo real) > 17.1 Persistencia estable: migraciones (Alembic) > 17.1.2 Modelo mínimo estable (constraints + tablas)",
+      "startLine": 1455,
+      "endLine": 1461,
+      "implementable": true,
+      "category": "other"
+    },
+    {
+      "id": "SEC-071",
+      "level": 3,
+      "title": "17.1.3 Transacción atómica + lock de stock (FOR UPDATE)",
+      "path": "17. Post-Producción y Hardening (hacerlo real) > 17.1 Persistencia estable: migraciones (Alembic) > 17.1.3 Transacción atómica + lock de stock (FOR UPDATE)",
+      "startLine": 1462,
+      "endLine": 1468,
+      "implementable": true,
+      "category": "other"
+    },
+    {
+      "id": "SEC-072",
+      "level": 3,
+      "title": "17.1.4 Seed reproducible (POL-ROJ-M)",
+      "path": "17. Post-Producción y Hardening (hacerlo real) > 17.1 Persistencia estable: migraciones (Alembic) > 17.1.4 Seed reproducible (POL-ROJ-M)",
+      "startLine": 1469,
+      "endLine": 1472,
+      "implementable": true,
+      "category": "other"
+    },
+    {
+      "id": "SEC-073",
+      "level": 2,
+      "title": "17.2 Auth real: RBAC del PRD con roles internos",
+      "path": "17. Post-Producción y Hardening (hacerlo real) > 17.2 Auth real: RBAC del PRD con roles internos",
+      "startLine": 1473,
+      "endLine": 1474,
+      "implementable": false,
+      "category": "auth"
+    },
+    {
+      "id": "SEC-074",
+      "level": 3,
+      "title": "17.2.1 RBAC interno (Owner/Staff/System) vía DB interna",
+      "path": "17. Post-Producción y Hardening (hacerlo real) > 17.2 Auth real: RBAC del PRD con roles internos > 17.2.1 RBAC interno (Owner/Staff/System) vía DB interna",
+      "startLine": 1475,
+      "endLine": 1479,
+      "implementable": true,
+      "category": "other"
+    },
+    {
+      "id": "SEC-075",
+      "level": 3,
+      "title": "17.2.2 Bootstrap local de roles (solo local)",
+      "path": "17. Post-Producción y Hardening (hacerlo real) > 17.2 Auth real: RBAC del PRD con roles internos > 17.2.2 Bootstrap local de roles (solo local)",
+      "startLine": 1480,
+      "endLine": 1484,
+      "implementable": true,
+      "category": "auth"
+    },
+    {
+      "id": "SEC-076",
+      "level": 2,
+      "title": "17.3 Integraciones externas: Meta Webhooks",
+      "path": "17. Post-Producción y Hardening (hacerlo real) > 17.3 Integraciones externas: Meta Webhooks",
+      "startLine": 1485,
+      "endLine": 1486,
+      "implementable": false,
+      "category": "integrations"
+    },
+    {
+      "id": "SEC-077",
+      "level": 3,
+      "title": "17.3.1 Webhook idempotente + dedupe",
+      "path": "17. Post-Producción y Hardening (hacerlo real) > 17.3 Integraciones externas: Meta Webhooks > 17.3.1 Webhook idempotente + dedupe",
+      "startLine": 1487,
+      "endLine": 1490,
+      "implementable": true,
+      "category": "other"
+    },
+    {
+      "id": "SEC-078",
+      "level": 2,
+      "title": "17.4 Integraciones externas: Flow",
+      "path": "17. Post-Producción y Hardening (hacerlo real) > 17.4 Integraciones externas: Flow",
+      "startLine": 1491,
+      "endLine": 1492,
+      "implementable": false,
+      "category": "integrations"
+    },
+    {
+      "id": "SEC-079",
+      "level": 3,
+      "title": "17.4.1 Crear pago sandbox + webhook callback",
+      "path": "17. Post-Producción y Hardening (hacerlo real) > 17.4 Integraciones externas: Flow > 17.4.1 Crear pago sandbox + webhook callback",
+      "startLine": 1493,
+      "endLine": 1496,
+      "implementable": true,
+      "category": "other"
+    },
+    {
+      "id": "SEC-080",
+      "level": 2,
+      "title": "17.5 Observabilidad mínima",
+      "path": "17. Post-Producción y Hardening (hacerlo real) > 17.5 Observabilidad mínima",
+      "startLine": 1497,
+      "endLine": 1498,
+      "implementable": false,
+      "category": "observability"
+    },
+    {
+      "id": "SEC-081",
+      "level": 3,
+      "title": "17.5.1 request_id + logs estructurados",
+      "path": "17. Post-Producción y Hardening (hacerlo real) > 17.5 Observabilidad mínima > 17.5.1 request_id + logs estructurados",
+      "startLine": 1499,
+      "endLine": 1501,
+      "implementable": true,
+      "category": "other"
+    },
+    {
+      "id": "SEC-082",
+      "level": 2,
+      "title": "17.6 CI/CD mínimo",
+      "path": "17. Post-Producción y Hardening (hacerlo real) > 17.6 CI/CD mínimo",
+      "startLine": 1502,
+      "endLine": 1503,
+      "implementable": false,
+      "category": "cicd"
+    },
+    {
+      "id": "SEC-083",
+      "level": 3,
+      "title": "17.6.1 Pipeline en push (tests + build)",
+      "path": "17. Post-Producción y Hardening (hacerlo real) > 17.6 CI/CD mínimo > 17.6.1 Pipeline en push (tests + build)",
+      "startLine": 1504,
+      "endLine": 1506,
+      "implementable": true,
+      "category": "testing"
+    },
+    {
+      "id": "SEC-084",
+      "level": 2,
+      "title": "17.7 Deploy mínimo",
+      "path": "17. Post-Producción y Hardening (hacerlo real) > 17.7 Deploy mínimo",
+      "startLine": 1507,
+      "endLine": 1508,
+      "implementable": false,
+      "category": "other"
+    },
+    {
+      "id": "SEC-085",
+      "level": 3,
+      "title": "17.7.1 Config producción + checklist",
+      "path": "17. Post-Producción y Hardening (hacerlo real) > 17.7 Deploy mínimo > 17.7.1 Config producción + checklist",
+      "startLine": 1509,
+      "endLine": 1513,
+      "implementable": true,
       "category": "other"
     }
   ],
   "coverage": {
-    "totalSections": 66,
-    "implementableSections": 48,
-    "coveredSections": 48,
+    "totalSections": 85,
+    "implementableSections": 59,
+    "coveredSections": 59,
     "uncoveredImplementableSections": [],
     "coveragePercentage": 100
   },
@@ -929,6 +1119,30 @@
     },
     {
       "number": 12,
+      "name": "AUTH: 17.2.2 Bootstrap local de roles (solo local)",
+      "description": "Implementar lo descrito en: 17. Post-Producción y Hardening (hacerlo real) > 17.2 Auth real: RBAC del PRD con roles internos > 17.2.2 Bootstrap local de roles (solo local) (líneas 1480-1484).",
+      "estimatedLines": 10,
+      "priority": "critical",
+      "dependencies": [
+        6
+      ],
+      "source": {
+        "sectionId": "SEC-075",
+        "headingPath": "17. Post-Producción y Hardening (hacerlo real) > 17.2 Auth real: RBAC del PRD con roles internos > 17.2.2 Bootstrap local de roles (solo local)",
+        "lineStart": 1480,
+        "lineEnd": 1484,
+        "textHash": "f7d701d9b99351e17a2e244f1953ccb6cc839f4bc09bbbc478e7983688fe8fbd",
+        "category": "auth",
+        "part": null
+      },
+      "contract": {
+        "testFile": "tests/contracts/slice-012.test.ts",
+        "requirement": "Cubrir comportamiento descrito en \"17. Post-Producción y Hardening (hacerlo real) > 17.2 Auth real: RBAC del PRD con roles internos > 17.2.2 Bootstrap local de roles (solo local)\"",
+        "redThenGreenRequired": true
+      }
+    },
+    {
+      "number": 13,
       "name": "APIS: 5.1 API Design",
       "description": "Implementar lo descrito en: Planificación: LiveStreamSell AI (SaaS Global) > 5. APIs y Contratos de Interfaz > 5.1 API Design (líneas 282-299).",
       "estimatedLines": 36,
@@ -947,13 +1161,13 @@
         "part": null
       },
       "contract": {
-        "testFile": "tests/contracts/slice-012.test.ts",
+        "testFile": "tests/contracts/slice-013.test.ts",
         "requirement": "Cubrir comportamiento descrito en \"Planificación: LiveStreamSell AI (SaaS Global) > 5. APIs y Contratos de Interfaz > 5.1 API Design\"",
         "redThenGreenRequired": true
       }
     },
     {
-      "number": 13,
+      "number": 14,
       "name": "APIS: 5.2 Endpoints Detallados",
       "description": "Implementar lo descrito en: Planificación: LiveStreamSell AI (SaaS Global) > 5. APIs y Contratos de Interfaz > 5.2 Endpoints Detallados (líneas 300-381).",
       "estimatedLines": 164,
@@ -972,19 +1186,19 @@
         "part": null
       },
       "contract": {
-        "testFile": "tests/contracts/slice-013.test.ts",
+        "testFile": "tests/contracts/slice-014.test.ts",
         "requirement": "Cubrir comportamiento descrito en \"Planificación: LiveStreamSell AI (SaaS Global) > 5. APIs y Contratos de Interfaz > 5.2 Endpoints Detallados\"",
         "redThenGreenRequired": true
       }
     },
     {
-      "number": 14,
+      "number": 15,
       "name": "INTEGRATIONS: 5.3 Integraciones Externas",
       "description": "Implementar lo descrito en: Planificación: LiveStreamSell AI (SaaS Global) > 5. APIs y Contratos de Interfaz > 5.3 Integraciones Externas (líneas 382-440).",
       "estimatedLines": 118,
       "priority": "medium",
       "dependencies": [
-        12
+        13
       ],
       "source": {
         "sectionId": "SEC-019",
@@ -996,13 +1210,13 @@
         "part": null
       },
       "contract": {
-        "testFile": "tests/contracts/slice-014.test.ts",
+        "testFile": "tests/contracts/slice-015.test.ts",
         "requirement": "Cubrir comportamiento descrito en \"Planificación: LiveStreamSell AI (SaaS Global) > 5. APIs y Contratos de Interfaz > 5.3 Integraciones Externas\"",
         "redThenGreenRequired": true
       }
     },
     {
-      "number": 15,
+      "number": 16,
       "name": "SECURITY: 6.4 Seguridad Adicional (MFA)",
       "description": "Implementar lo descrito en: Planificación: LiveStreamSell AI (SaaS Global) > 6. Autenticación y Autorización > 6.4 Seguridad Adicional (MFA) (líneas 475-484).",
       "estimatedLines": 20,
@@ -1020,13 +1234,13 @@
         "part": null
       },
       "contract": {
-        "testFile": "tests/contracts/slice-015.test.ts",
+        "testFile": "tests/contracts/slice-016.test.ts",
         "requirement": "Cubrir comportamiento descrito en \"Planificación: LiveStreamSell AI (SaaS Global) > 6. Autenticación y Autorización > 6.4 Seguridad Adicional (MFA)\"",
         "redThenGreenRequired": true
       }
     },
     {
-      "number": 16,
+      "number": 17,
       "name": "SECURITY: 7.2 Seguridad de Aplicación",
       "description": "Implementar lo descrito en: Planificación: LiveStreamSell AI (SaaS Global) > 7. Seguridad > 7.2 Seguridad de Aplicación (líneas 517-554).",
       "estimatedLines": 76,
@@ -1044,13 +1258,13 @@
         "part": null
       },
       "contract": {
-        "testFile": "tests/contracts/slice-016.test.ts",
+        "testFile": "tests/contracts/slice-017.test.ts",
         "requirement": "Cubrir comportamiento descrito en \"Planificación: LiveStreamSell AI (SaaS Global) > 7. Seguridad > 7.2 Seguridad de Aplicación\"",
         "redThenGreenRequired": true
       }
     },
     {
-      "number": 17,
+      "number": 18,
       "name": "OBSERVABILITY: 9.1 Logging",
       "description": "Implementar lo descrito en: Planificación: LiveStreamSell AI (SaaS Global) > 9. Observabilidad y Monitoreo > 9.1 Logging (líneas 729-764).",
       "estimatedLines": 72,
@@ -1068,13 +1282,13 @@
         "part": null
       },
       "contract": {
-        "testFile": "tests/contracts/slice-017.test.ts",
+        "testFile": "tests/contracts/slice-018.test.ts",
         "requirement": "Cubrir comportamiento descrito en \"Planificación: LiveStreamSell AI (SaaS Global) > 9. Observabilidad y Monitoreo > 9.1 Logging\"",
         "redThenGreenRequired": true
       }
     },
     {
-      "number": 18,
+      "number": 19,
       "name": "OBSERVABILITY: 9.2 Métricas",
       "description": "Implementar lo descrito en: Planificación: LiveStreamSell AI (SaaS Global) > 9. Observabilidad y Monitoreo > 9.2 Métricas (líneas 765-798).",
       "estimatedLines": 68,
@@ -1092,13 +1306,13 @@
         "part": null
       },
       "contract": {
-        "testFile": "tests/contracts/slice-018.test.ts",
+        "testFile": "tests/contracts/slice-019.test.ts",
         "requirement": "Cubrir comportamiento descrito en \"Planificación: LiveStreamSell AI (SaaS Global) > 9. Observabilidad y Monitoreo > 9.2 Métricas\"",
         "redThenGreenRequired": true
       }
     },
     {
-      "number": 19,
+      "number": 20,
       "name": "OBSERVABILITY: 9.3 Tracing",
       "description": "Implementar lo descrito en: Planificación: LiveStreamSell AI (SaaS Global) > 9. Observabilidad y Monitoreo > 9.3 Tracing (líneas 799-816).",
       "estimatedLines": 36,
@@ -1116,13 +1330,13 @@
         "part": null
       },
       "contract": {
-        "testFile": "tests/contracts/slice-019.test.ts",
+        "testFile": "tests/contracts/slice-020.test.ts",
         "requirement": "Cubrir comportamiento descrito en \"Planificación: LiveStreamSell AI (SaaS Global) > 9. Observabilidad y Monitoreo > 9.3 Tracing\"",
         "redThenGreenRequired": true
       }
     },
     {
-      "number": 20,
+      "number": 21,
       "name": "OBSERVABILITY: 9.4 Alerting",
       "description": "Implementar lo descrito en: Planificación: LiveStreamSell AI (SaaS Global) > 9. Observabilidad y Monitoreo > 9.4 Alerting (líneas 817-852).",
       "estimatedLines": 72,
@@ -1140,19 +1354,19 @@
         "part": null
       },
       "contract": {
-        "testFile": "tests/contracts/slice-020.test.ts",
+        "testFile": "tests/contracts/slice-021.test.ts",
         "requirement": "Cubrir comportamiento descrito en \"Planificación: LiveStreamSell AI (SaaS Global) > 9. Observabilidad y Monitoreo > 9.4 Alerting\"",
         "redThenGreenRequired": true
       }
     },
     {
-      "number": 21,
+      "number": 22,
       "name": "FRONTEND: 3.2 Componentes Críticos y Patrones",
       "description": "Implementar lo descrito en: Planificación: LiveStreamSell AI (SaaS Global) > 3. Arquitectura del Sistema > 3.2 Componentes Críticos y Patrones (líneas 102-119).",
       "estimatedLines": 36,
       "priority": "medium",
       "dependencies": [
-        12
+        13
       ],
       "source": {
         "sectionId": "SEC-008",
@@ -1164,19 +1378,19 @@
         "part": null
       },
       "contract": {
-        "testFile": "tests/contracts/slice-021.test.ts",
+        "testFile": "tests/contracts/slice-022.test.ts",
         "requirement": "Cubrir comportamiento descrito en \"Planificación: LiveStreamSell AI (SaaS Global) > 3. Arquitectura del Sistema > 3.2 Componentes Críticos y Patrones\"",
         "redThenGreenRequired": true
       }
     },
     {
-      "number": 22,
+      "number": 23,
       "name": "FRONTEND: 3.4 Componentes y Módulos",
       "description": "Implementar lo descrito en: Planificación: LiveStreamSell AI (SaaS Global) > 3. Arquitectura del Sistema > 3.4 Componentes y Módulos (líneas 132-175).",
       "estimatedLines": 88,
       "priority": "medium",
       "dependencies": [
-        12
+        13
       ],
       "source": {
         "sectionId": "SEC-010",
@@ -1188,19 +1402,19 @@
         "part": null
       },
       "contract": {
-        "testFile": "tests/contracts/slice-022.test.ts",
+        "testFile": "tests/contracts/slice-023.test.ts",
         "requirement": "Cubrir comportamiento descrito en \"Planificación: LiveStreamSell AI (SaaS Global) > 3. Arquitectura del Sistema > 3.4 Componentes y Módulos\"",
         "redThenGreenRequired": true
       }
     },
     {
-      "number": 23,
+      "number": 24,
       "name": "FRONTEND: 8.1 Arquitectura Frontend",
       "description": "Implementar lo descrito en: Planificación: LiveStreamSell AI (SaaS Global) > 8. Frontend (si aplica) > 8.1 Arquitectura Frontend (líneas 585-620).",
       "estimatedLines": 72,
       "priority": "medium",
       "dependencies": [
-        12
+        13
       ],
       "source": {
         "sectionId": "SEC-030",
@@ -1212,19 +1426,19 @@
         "part": null
       },
       "contract": {
-        "testFile": "tests/contracts/slice-023.test.ts",
+        "testFile": "tests/contracts/slice-024.test.ts",
         "requirement": "Cubrir comportamiento descrito en \"Planificación: LiveStreamSell AI (SaaS Global) > 8. Frontend (si aplica) > 8.1 Arquitectura Frontend\"",
         "redThenGreenRequired": true
       }
     },
     {
-      "number": 24,
+      "number": 25,
       "name": "FRONTEND: 8.2 UI/UX",
       "description": "Implementar lo descrito en: Planificación: LiveStreamSell AI (SaaS Global) > 8. Frontend (si aplica) > 8.2 UI/UX (líneas 621-702).",
       "estimatedLines": 164,
       "priority": "medium",
       "dependencies": [
-        12
+        13
       ],
       "source": {
         "sectionId": "SEC-031",
@@ -1236,19 +1450,19 @@
         "part": null
       },
       "contract": {
-        "testFile": "tests/contracts/slice-024.test.ts",
+        "testFile": "tests/contracts/slice-025.test.ts",
         "requirement": "Cubrir comportamiento descrito en \"Planificación: LiveStreamSell AI (SaaS Global) > 8. Frontend (si aplica) > 8.2 UI/UX\"",
         "redThenGreenRequired": true
       }
     },
     {
-      "number": 25,
+      "number": 26,
       "name": "FRONTEND: 8.3 Performance Frontend",
       "description": "Implementar lo descrito en: Planificación: LiveStreamSell AI (SaaS Global) > 8. Frontend (si aplica) > 8.3 Performance Frontend (líneas 703-726).",
       "estimatedLines": 48,
       "priority": "medium",
       "dependencies": [
-        12
+        13
       ],
       "source": {
         "sectionId": "SEC-032",
@@ -1260,13 +1474,13 @@
         "part": null
       },
       "contract": {
-        "testFile": "tests/contracts/slice-025.test.ts",
+        "testFile": "tests/contracts/slice-026.test.ts",
         "requirement": "Cubrir comportamiento descrito en \"Planificación: LiveStreamSell AI (SaaS Global) > 8. Frontend (si aplica) > 8.3 Performance Frontend\"",
         "redThenGreenRequired": true
       }
     },
     {
-      "number": 26,
+      "number": 27,
       "name": "TESTING: 10.1 Estrategia de Testing",
       "description": "Implementar lo descrito en: Planificación: LiveStreamSell AI (SaaS Global) > 10. Testing > 10.1 Estrategia de Testing (líneas 855-878).",
       "estimatedLines": 48,
@@ -1282,13 +1496,13 @@
         "part": null
       },
       "contract": {
-        "testFile": "tests/contracts/slice-026.test.ts",
+        "testFile": "tests/contracts/slice-027.test.ts",
         "requirement": "Cubrir comportamiento descrito en \"Planificación: LiveStreamSell AI (SaaS Global) > 10. Testing > 10.1 Estrategia de Testing\"",
         "redThenGreenRequired": true
       }
     },
     {
-      "number": 27,
+      "number": 28,
       "name": "TESTING: 10.2 Tipos de Tests",
       "description": "Implementar lo descrito en: Planificación: LiveStreamSell AI (SaaS Global) > 10. Testing > 10.2 Tipos de Tests (líneas 879-916).",
       "estimatedLines": 76,
@@ -1304,13 +1518,13 @@
         "part": null
       },
       "contract": {
-        "testFile": "tests/contracts/slice-027.test.ts",
+        "testFile": "tests/contracts/slice-028.test.ts",
         "requirement": "Cubrir comportamiento descrito en \"Planificación: LiveStreamSell AI (SaaS Global) > 10. Testing > 10.2 Tipos de Tests\"",
         "redThenGreenRequired": true
       }
     },
     {
-      "number": 28,
+      "number": 29,
       "name": "TESTING: 10.3 Test Data",
       "description": "Implementar lo descrito en: Planificación: LiveStreamSell AI (SaaS Global) > 10. Testing > 10.3 Test Data (líneas 917-944).",
       "estimatedLines": 56,
@@ -1326,13 +1540,13 @@
         "part": null
       },
       "contract": {
-        "testFile": "tests/contracts/slice-028.test.ts",
+        "testFile": "tests/contracts/slice-029.test.ts",
         "requirement": "Cubrir comportamiento descrito en \"Planificación: LiveStreamSell AI (SaaS Global) > 10. Testing > 10.3 Test Data\"",
         "redThenGreenRequired": true
       }
     },
     {
-      "number": 29,
+      "number": 30,
       "name": "CICD: 11.1 Pipeline CI/CD",
       "description": "Implementar lo descrito en: Planificación: LiveStreamSell AI (SaaS Global) > 11. CI/CD y Deployment > 11.1 Pipeline CI/CD (líneas 947-982).",
       "estimatedLines": 72,
@@ -1348,13 +1562,13 @@
         "part": null
       },
       "contract": {
-        "testFile": "tests/contracts/slice-029.test.ts",
+        "testFile": "tests/contracts/slice-030.test.ts",
         "requirement": "Cubrir comportamiento descrito en \"Planificación: LiveStreamSell AI (SaaS Global) > 11. CI/CD y Deployment > 11.1 Pipeline CI/CD\"",
         "redThenGreenRequired": true
       }
     },
     {
-      "number": 30,
+      "number": 31,
       "name": "CICD: 11.2 Estrategia de Deployment",
       "description": "Implementar lo descrito en: Planificación: LiveStreamSell AI (SaaS Global) > 11. CI/CD y Deployment > 11.2 Estrategia de Deployment (líneas 983-1012).",
       "estimatedLines": 60,
@@ -1370,13 +1584,13 @@
         "part": null
       },
       "contract": {
-        "testFile": "tests/contracts/slice-030.test.ts",
+        "testFile": "tests/contracts/slice-031.test.ts",
         "requirement": "Cubrir comportamiento descrito en \"Planificación: LiveStreamSell AI (SaaS Global) > 11. CI/CD y Deployment > 11.2 Estrategia de Deployment\"",
         "redThenGreenRequired": true
       }
     },
     {
-      "number": 31,
+      "number": 32,
       "name": "CICD: 11.4 Configuración",
       "description": "Implementar lo descrito en: Planificación: LiveStreamSell AI (SaaS Global) > 11. CI/CD y Deployment > 11.4 Configuración (líneas 1045-1088).",
       "estimatedLines": 88,
@@ -1392,13 +1606,13 @@
         "part": null
       },
       "contract": {
-        "testFile": "tests/contracts/slice-031.test.ts",
+        "testFile": "tests/contracts/slice-032.test.ts",
         "requirement": "Cubrir comportamiento descrito en \"Planificación: LiveStreamSell AI (SaaS Global) > 11. CI/CD y Deployment > 11.4 Configuración\"",
         "redThenGreenRequired": true
       }
     },
     {
-      "number": 32,
+      "number": 33,
       "name": "CICD: 11.5 Containerización",
       "description": "Implementar lo descrito en: Planificación: LiveStreamSell AI (SaaS Global) > 11. CI/CD y Deployment > 11.5 Containerización (líneas 1089-1124).",
       "estimatedLines": 72,
@@ -1414,13 +1628,13 @@
         "part": null
       },
       "contract": {
-        "testFile": "tests/contracts/slice-032.test.ts",
+        "testFile": "tests/contracts/slice-033.test.ts",
         "requirement": "Cubrir comportamiento descrito en \"Planificación: LiveStreamSell AI (SaaS Global) > 11. CI/CD y Deployment > 11.5 Containerización\"",
         "redThenGreenRequired": true
       }
     },
     {
-      "number": 33,
+      "number": 34,
       "name": "CICD: 12. Gestión de Versiones y Código",
       "description": "Implementar lo descrito en: Planificación: LiveStreamSell AI (SaaS Global) > 12. Gestión de Versiones y Código (líneas 1125-1168).",
       "estimatedLines": 88,
@@ -1436,13 +1650,35 @@
         "part": null
       },
       "contract": {
-        "testFile": "tests/contracts/slice-033.test.ts",
+        "testFile": "tests/contracts/slice-034.test.ts",
         "requirement": "Cubrir comportamiento descrito en \"Planificación: LiveStreamSell AI (SaaS Global) > 12. Gestión de Versiones y Código\"",
         "redThenGreenRequired": true
       }
     },
     {
-      "number": 34,
+      "number": 35,
+      "name": "TESTING: 17.6.1 Pipeline en push (tests + build)",
+      "description": "Implementar lo descrito en: 17. Post-Producción y Hardening (hacerlo real) > 17.6 CI/CD mínimo > 17.6.1 Pipeline en push (tests + build) (líneas 1504-1506).",
+      "estimatedLines": 6,
+      "priority": "high",
+      "dependencies": [],
+      "source": {
+        "sectionId": "SEC-083",
+        "headingPath": "17. Post-Producción y Hardening (hacerlo real) > 17.6 CI/CD mínimo > 17.6.1 Pipeline en push (tests + build)",
+        "lineStart": 1504,
+        "lineEnd": 1506,
+        "textHash": "8f0d4a7af4dac0559e3b7b44e36803d828796e40dd0dd0bf865afa6707a8575f",
+        "category": "testing",
+        "part": null
+      },
+      "contract": {
+        "testFile": "tests/contracts/slice-035.test.ts",
+        "requirement": "Cubrir comportamiento descrito en \"17. Post-Producción y Hardening (hacerlo real) > 17.6 CI/CD mínimo > 17.6.1 Pipeline en push (tests + build)\"",
+        "redThenGreenRequired": true
+      }
+    },
+    {
+      "number": 36,
       "name": "OPERATIONS: 15.1 Disaster Recovery (DRP)",
       "description": "Implementar lo descrito en: Planificación: LiveStreamSell AI (SaaS Global) > 15. Consideraciones Operacionales > 15.1 Disaster Recovery (DRP) (líneas 1265-1304).",
       "estimatedLines": 80,
@@ -1458,13 +1694,13 @@
         "part": null
       },
       "contract": {
-        "testFile": "tests/contracts/slice-034.test.ts",
+        "testFile": "tests/contracts/slice-036.test.ts",
         "requirement": "Cubrir comportamiento descrito en \"Planificación: LiveStreamSell AI (SaaS Global) > 15. Consideraciones Operacionales > 15.1 Disaster Recovery (DRP)\"",
         "redThenGreenRequired": true
       }
     },
     {
-      "number": 35,
+      "number": 37,
       "name": "OPERATIONS: 15.2 Mantenimiento",
       "description": "Implementar lo descrito en: Planificación: LiveStreamSell AI (SaaS Global) > 15. Consideraciones Operacionales > 15.2 Mantenimiento (líneas 1305-1330).",
       "estimatedLines": 52,
@@ -1480,13 +1716,13 @@
         "part": null
       },
       "contract": {
-        "testFile": "tests/contracts/slice-035.test.ts",
+        "testFile": "tests/contracts/slice-037.test.ts",
         "requirement": "Cubrir comportamiento descrito en \"Planificación: LiveStreamSell AI (SaaS Global) > 15. Consideraciones Operacionales > 15.2 Mantenimiento\"",
         "redThenGreenRequired": true
       }
     },
     {
-      "number": 36,
+      "number": 38,
       "name": "OPERATIONS: 15.3 Soporte",
       "description": "Implementar lo descrito en: Planificación: LiveStreamSell AI (SaaS Global) > 15. Consideraciones Operacionales > 15.3 Soporte (líneas 1331-1368).",
       "estimatedLines": 76,
@@ -1502,13 +1738,13 @@
         "part": null
       },
       "contract": {
-        "testFile": "tests/contracts/slice-036.test.ts",
+        "testFile": "tests/contracts/slice-038.test.ts",
         "requirement": "Cubrir comportamiento descrito en \"Planificación: LiveStreamSell AI (SaaS Global) > 15. Consideraciones Operacionales > 15.3 Soporte\"",
         "redThenGreenRequired": true
       }
     },
     {
-      "number": 37,
+      "number": 39,
       "name": "OTHER: Planificación: LiveStreamSell AI (SaaS Global)",
       "description": "Implementar lo descrito en: Planificación: LiveStreamSell AI (SaaS Global) (líneas 1-3).",
       "estimatedLines": 6,
@@ -1524,13 +1760,13 @@
         "part": null
       },
       "contract": {
-        "testFile": "tests/contracts/slice-037.test.ts",
+        "testFile": "tests/contracts/slice-039.test.ts",
         "requirement": "Cubrir comportamiento descrito en \"Planificación: LiveStreamSell AI (SaaS Global)\"",
         "redThenGreenRequired": true
       }
     },
     {
-      "number": 38,
+      "number": 40,
       "name": "OTHER: 2.1 Funcionalidades (FR)",
       "description": "Implementar lo descrito en: Planificación: LiveStreamSell AI (SaaS Global) > 2. Requerimientos Funcionales y No Funcionales > 2.1 Funcionalidades (FR) (líneas 46-67).",
       "estimatedLines": 44,
@@ -1546,13 +1782,13 @@
         "part": null
       },
       "contract": {
-        "testFile": "tests/contracts/slice-038.test.ts",
+        "testFile": "tests/contracts/slice-040.test.ts",
         "requirement": "Cubrir comportamiento descrito en \"Planificación: LiveStreamSell AI (SaaS Global) > 2. Requerimientos Funcionales y No Funcionales > 2.1 Funcionalidades (FR)\"",
         "redThenGreenRequired": true
       }
     },
     {
-      "number": 39,
+      "number": 41,
       "name": "OTHER: 3.3 Gestión de Estado y Persistencia",
       "description": "Implementar lo descrito en: Planificación: LiveStreamSell AI (SaaS Global) > 3. Arquitectura del Sistema > 3.3 Gestión de Estado y Persistencia (líneas 120-131).",
       "estimatedLines": 24,
@@ -1568,13 +1804,13 @@
         "part": null
       },
       "contract": {
-        "testFile": "tests/contracts/slice-039.test.ts",
+        "testFile": "tests/contracts/slice-041.test.ts",
         "requirement": "Cubrir comportamiento descrito en \"Planificación: LiveStreamSell AI (SaaS Global) > 3. Arquitectura del Sistema > 3.3 Gestión de Estado y Persistencia\"",
         "redThenGreenRequired": true
       }
     },
     {
-      "number": 40,
+      "number": 42,
       "name": "OTHER: 6.1 Estrategia de Identidad",
       "description": "Implementar lo descrito en: Planificación: LiveStreamSell AI (SaaS Global) > 6. Autenticación y Autorización > 6.1 Estrategia de Identidad (líneas 443-448).",
       "estimatedLines": 12,
@@ -1590,13 +1826,13 @@
         "part": null
       },
       "contract": {
-        "testFile": "tests/contracts/slice-040.test.ts",
+        "testFile": "tests/contracts/slice-042.test.ts",
         "requirement": "Cubrir comportamiento descrito en \"Planificación: LiveStreamSell AI (SaaS Global) > 6. Autenticación y Autorización > 6.1 Estrategia de Identidad\"",
         "redThenGreenRequired": true
       }
     },
     {
-      "number": 41,
+      "number": 43,
       "name": "OTHER: 6.3 Gestión de Tokens",
       "description": "Implementar lo descrito en: Planificación: LiveStreamSell AI (SaaS Global) > 6. Autenticación y Autorización > 6.3 Gestión de Tokens (líneas 465-474).",
       "estimatedLines": 20,
@@ -1612,13 +1848,13 @@
         "part": null
       },
       "contract": {
-        "testFile": "tests/contracts/slice-041.test.ts",
+        "testFile": "tests/contracts/slice-043.test.ts",
         "requirement": "Cubrir comportamiento descrito en \"Planificación: LiveStreamSell AI (SaaS Global) > 6. Autenticación y Autorización > 6.3 Gestión de Tokens\"",
         "redThenGreenRequired": true
       }
     },
     {
-      "number": 42,
+      "number": 44,
       "name": "OTHER: 7.1 Secretos y Credenciales",
       "description": "Implementar lo descrito en: Planificación: LiveStreamSell AI (SaaS Global) > 7. Seguridad > 7.1 Secretos y Credenciales (líneas 487-516).",
       "estimatedLines": 60,
@@ -1634,13 +1870,13 @@
         "part": null
       },
       "contract": {
-        "testFile": "tests/contracts/slice-042.test.ts",
+        "testFile": "tests/contracts/slice-044.test.ts",
         "requirement": "Cubrir comportamiento descrito en \"Planificación: LiveStreamSell AI (SaaS Global) > 7. Seguridad > 7.1 Secretos y Credenciales\"",
         "redThenGreenRequired": true
       }
     },
     {
-      "number": 43,
+      "number": 45,
       "name": "OTHER: 11.3 Infrastructure as Code",
       "description": "Implementar lo descrito en: Planificación: LiveStreamSell AI (SaaS Global) > 11. CI/CD y Deployment > 11.3 Infrastructure as Code (líneas 1013-1044).",
       "estimatedLines": 64,
@@ -1656,13 +1892,13 @@
         "part": null
       },
       "contract": {
-        "testFile": "tests/contracts/slice-043.test.ts",
+        "testFile": "tests/contracts/slice-045.test.ts",
         "requirement": "Cubrir comportamiento descrito en \"Planificación: LiveStreamSell AI (SaaS Global) > 11. CI/CD y Deployment > 11.3 Infrastructure as Code\"",
         "redThenGreenRequired": true
       }
     },
     {
-      "number": 44,
+      "number": 46,
       "name": "OTHER: Basado en un escenario inicial de 10-20 clientes activos.",
       "description": "Implementar lo descrito en: Planificación: LiveStreamSell AI (SaaS Global) > 14. Costos y Recursos > Basado en un escenario inicial de 10-20 clientes activos. (líneas 1211-1230).",
       "estimatedLines": 40,
@@ -1678,13 +1914,13 @@
         "part": null
       },
       "contract": {
-        "testFile": "tests/contracts/slice-044.test.ts",
+        "testFile": "tests/contracts/slice-046.test.ts",
         "requirement": "Cubrir comportamiento descrito en \"Planificación: LiveStreamSell AI (SaaS Global) > 14. Costos y Recursos > Basado en un escenario inicial de 10-20 clientes activos.\"",
         "redThenGreenRequired": true
       }
     },
     {
-      "number": 45,
+      "number": 47,
       "name": "OTHER: 16.1 Regulaciones Aplicables",
       "description": "Implementar lo descrito en: Planificación: LiveStreamSell AI (SaaS Global) > 16. Compliance y Legal > 16.1 Regulaciones Aplicables (líneas 1371-1382).",
       "estimatedLines": 24,
@@ -1700,13 +1936,13 @@
         "part": null
       },
       "contract": {
-        "testFile": "tests/contracts/slice-045.test.ts",
+        "testFile": "tests/contracts/slice-047.test.ts",
         "requirement": "Cubrir comportamiento descrito en \"Planificación: LiveStreamSell AI (SaaS Global) > 16. Compliance y Legal > 16.1 Regulaciones Aplicables\"",
         "redThenGreenRequired": true
       }
     },
     {
-      "number": 46,
+      "number": 48,
       "name": "OTHER: 16.2.1 Protocolo de Recuperación de Carrito y Message Tags",
       "description": "Implementar lo descrito en: Planificación: LiveStreamSell AI (SaaS Global) > 16. Compliance y Legal > 16.2.1 Protocolo de Recuperación de Carrito y Message Tags (líneas 1391-1420).",
       "estimatedLines": 60,
@@ -1722,13 +1958,13 @@
         "part": null
       },
       "contract": {
-        "testFile": "tests/contracts/slice-046.test.ts",
+        "testFile": "tests/contracts/slice-048.test.ts",
         "requirement": "Cubrir comportamiento descrito en \"Planificación: LiveStreamSell AI (SaaS Global) > 16. Compliance y Legal > 16.2.1 Protocolo de Recuperación de Carrito y Message Tags\"",
         "redThenGreenRequired": true
       }
     },
     {
-      "number": 47,
+      "number": 49,
       "name": "OTHER: 16.3 Auditoría y Reportes",
       "description": "Implementar lo descrito en: Planificación: LiveStreamSell AI (SaaS Global) > 16. Compliance y Legal > 16.3 Auditoría y Reportes (líneas 1421-1428).",
       "estimatedLines": 16,
@@ -1744,13 +1980,13 @@
         "part": null
       },
       "contract": {
-        "testFile": "tests/contracts/slice-047.test.ts",
+        "testFile": "tests/contracts/slice-049.test.ts",
         "requirement": "Cubrir comportamiento descrito en \"Planificación: LiveStreamSell AI (SaaS Global) > 16. Compliance y Legal > 16.3 Auditoría y Reportes\"",
         "redThenGreenRequired": true
       }
     },
     {
-      "number": 48,
+      "number": 50,
       "name": "OTHER: 16.4 Privacy y Consent Management",
       "description": "Implementar lo descrito en: Planificación: LiveStreamSell AI (SaaS Global) > 16. Compliance y Legal > 16.4 Privacy y Consent Management (líneas 1429-1436).",
       "estimatedLines": 16,
@@ -1766,8 +2002,206 @@
         "part": null
       },
       "contract": {
-        "testFile": "tests/contracts/slice-048.test.ts",
+        "testFile": "tests/contracts/slice-050.test.ts",
         "requirement": "Cubrir comportamiento descrito en \"Planificación: LiveStreamSell AI (SaaS Global) > 16. Compliance y Legal > 16.4 Privacy y Consent Management\"",
+        "redThenGreenRequired": true
+      }
+    },
+    {
+      "number": 51,
+      "name": "OTHER: 17.1.1 Scaffold Alembic + comando migrate",
+      "description": "Implementar lo descrito en: 17. Post-Producción y Hardening (hacerlo real) > 17.1 Persistencia estable: migraciones (Alembic) > 17.1.1 Scaffold Alembic + comando migrate (líneas 1451-1454).",
+      "estimatedLines": 8,
+      "priority": "medium",
+      "dependencies": [],
+      "source": {
+        "sectionId": "SEC-069",
+        "headingPath": "17. Post-Producción y Hardening (hacerlo real) > 17.1 Persistencia estable: migraciones (Alembic) > 17.1.1 Scaffold Alembic + comando migrate",
+        "lineStart": 1451,
+        "lineEnd": 1454,
+        "textHash": "599c5bf90270b573ed876f2b70539094d34562c0c3ceb80f650f9cb99fcd94da",
+        "category": "other",
+        "part": null
+      },
+      "contract": {
+        "testFile": "tests/contracts/slice-051.test.ts",
+        "requirement": "Cubrir comportamiento descrito en \"17. Post-Producción y Hardening (hacerlo real) > 17.1 Persistencia estable: migraciones (Alembic) > 17.1.1 Scaffold Alembic + comando migrate\"",
+        "redThenGreenRequired": true
+      }
+    },
+    {
+      "number": 52,
+      "name": "OTHER: 17.1.2 Modelo mínimo estable (constraints + tablas)",
+      "description": "Implementar lo descrito en: 17. Post-Producción y Hardening (hacerlo real) > 17.1 Persistencia estable: migraciones (Alembic) > 17.1.2 Modelo mínimo estable (constraints + tablas) (líneas 1455-1461).",
+      "estimatedLines": 14,
+      "priority": "medium",
+      "dependencies": [],
+      "source": {
+        "sectionId": "SEC-070",
+        "headingPath": "17. Post-Producción y Hardening (hacerlo real) > 17.1 Persistencia estable: migraciones (Alembic) > 17.1.2 Modelo mínimo estable (constraints + tablas)",
+        "lineStart": 1455,
+        "lineEnd": 1461,
+        "textHash": "0cc1e955d0a717d78339471f086723bfd6132b1978dd30c5b1530b26142ab2a2",
+        "category": "other",
+        "part": null
+      },
+      "contract": {
+        "testFile": "tests/contracts/slice-052.test.ts",
+        "requirement": "Cubrir comportamiento descrito en \"17. Post-Producción y Hardening (hacerlo real) > 17.1 Persistencia estable: migraciones (Alembic) > 17.1.2 Modelo mínimo estable (constraints + tablas)\"",
+        "redThenGreenRequired": true
+      }
+    },
+    {
+      "number": 53,
+      "name": "OTHER: 17.1.3 Transacción atómica + lock de stock (FOR UPDATE)",
+      "description": "Implementar lo descrito en: 17. Post-Producción y Hardening (hacerlo real) > 17.1 Persistencia estable: migraciones (Alembic) > 17.1.3 Transacción atómica + lock de stock (FOR UPDATE) (líneas 1462-1468).",
+      "estimatedLines": 14,
+      "priority": "medium",
+      "dependencies": [],
+      "source": {
+        "sectionId": "SEC-071",
+        "headingPath": "17. Post-Producción y Hardening (hacerlo real) > 17.1 Persistencia estable: migraciones (Alembic) > 17.1.3 Transacción atómica + lock de stock (FOR UPDATE)",
+        "lineStart": 1462,
+        "lineEnd": 1468,
+        "textHash": "ad03d52cbd31a4ae31a5b5e1623ea1d3007370f34eeab38440520590f557358f",
+        "category": "other",
+        "part": null
+      },
+      "contract": {
+        "testFile": "tests/contracts/slice-053.test.ts",
+        "requirement": "Cubrir comportamiento descrito en \"17. Post-Producción y Hardening (hacerlo real) > 17.1 Persistencia estable: migraciones (Alembic) > 17.1.3 Transacción atómica + lock de stock (FOR UPDATE)\"",
+        "redThenGreenRequired": true
+      }
+    },
+    {
+      "number": 54,
+      "name": "OTHER: 17.1.4 Seed reproducible (POL-ROJ-M)",
+      "description": "Implementar lo descrito en: 17. Post-Producción y Hardening (hacerlo real) > 17.1 Persistencia estable: migraciones (Alembic) > 17.1.4 Seed reproducible (POL-ROJ-M) (líneas 1469-1472).",
+      "estimatedLines": 8,
+      "priority": "medium",
+      "dependencies": [],
+      "source": {
+        "sectionId": "SEC-072",
+        "headingPath": "17. Post-Producción y Hardening (hacerlo real) > 17.1 Persistencia estable: migraciones (Alembic) > 17.1.4 Seed reproducible (POL-ROJ-M)",
+        "lineStart": 1469,
+        "lineEnd": 1472,
+        "textHash": "ab86953f996f0765f07672770fa80d7675aa0c2f11d0f0e84363a051631596e3",
+        "category": "other",
+        "part": null
+      },
+      "contract": {
+        "testFile": "tests/contracts/slice-054.test.ts",
+        "requirement": "Cubrir comportamiento descrito en \"17. Post-Producción y Hardening (hacerlo real) > 17.1 Persistencia estable: migraciones (Alembic) > 17.1.4 Seed reproducible (POL-ROJ-M)\"",
+        "redThenGreenRequired": true
+      }
+    },
+    {
+      "number": 55,
+      "name": "OTHER: 17.2.1 RBAC interno (Owner/Staff/System) vía DB interna",
+      "description": "Implementar lo descrito en: 17. Post-Producción y Hardening (hacerlo real) > 17.2 Auth real: RBAC del PRD con roles internos > 17.2.1 RBAC interno (Owner/Staff/System) vía DB interna (líneas 1475-1479).",
+      "estimatedLines": 10,
+      "priority": "medium",
+      "dependencies": [],
+      "source": {
+        "sectionId": "SEC-074",
+        "headingPath": "17. Post-Producción y Hardening (hacerlo real) > 17.2 Auth real: RBAC del PRD con roles internos > 17.2.1 RBAC interno (Owner/Staff/System) vía DB interna",
+        "lineStart": 1475,
+        "lineEnd": 1479,
+        "textHash": "3e96139a79840c0dcca287b755f8437985ce6adaa32b30bc2f604b5791d1ef4d",
+        "category": "other",
+        "part": null
+      },
+      "contract": {
+        "testFile": "tests/contracts/slice-055.test.ts",
+        "requirement": "Cubrir comportamiento descrito en \"17. Post-Producción y Hardening (hacerlo real) > 17.2 Auth real: RBAC del PRD con roles internos > 17.2.1 RBAC interno (Owner/Staff/System) vía DB interna\"",
+        "redThenGreenRequired": true
+      }
+    },
+    {
+      "number": 56,
+      "name": "OTHER: 17.3.1 Webhook idempotente + dedupe",
+      "description": "Implementar lo descrito en: 17. Post-Producción y Hardening (hacerlo real) > 17.3 Integraciones externas: Meta Webhooks > 17.3.1 Webhook idempotente + dedupe (líneas 1487-1490).",
+      "estimatedLines": 8,
+      "priority": "medium",
+      "dependencies": [],
+      "source": {
+        "sectionId": "SEC-077",
+        "headingPath": "17. Post-Producción y Hardening (hacerlo real) > 17.3 Integraciones externas: Meta Webhooks > 17.3.1 Webhook idempotente + dedupe",
+        "lineStart": 1487,
+        "lineEnd": 1490,
+        "textHash": "0da3dabfb5e589e0e74824003a357a45cf06248732932a8edd37f19c77acb699",
+        "category": "other",
+        "part": null
+      },
+      "contract": {
+        "testFile": "tests/contracts/slice-056.test.ts",
+        "requirement": "Cubrir comportamiento descrito en \"17. Post-Producción y Hardening (hacerlo real) > 17.3 Integraciones externas: Meta Webhooks > 17.3.1 Webhook idempotente + dedupe\"",
+        "redThenGreenRequired": true
+      }
+    },
+    {
+      "number": 57,
+      "name": "OTHER: 17.4.1 Crear pago sandbox + webhook callback",
+      "description": "Implementar lo descrito en: 17. Post-Producción y Hardening (hacerlo real) > 17.4 Integraciones externas: Flow > 17.4.1 Crear pago sandbox + webhook callback (líneas 1493-1496).",
+      "estimatedLines": 8,
+      "priority": "medium",
+      "dependencies": [],
+      "source": {
+        "sectionId": "SEC-079",
+        "headingPath": "17. Post-Producción y Hardening (hacerlo real) > 17.4 Integraciones externas: Flow > 17.4.1 Crear pago sandbox + webhook callback",
+        "lineStart": 1493,
+        "lineEnd": 1496,
+        "textHash": "1b69de33d8f872dc74e47034dbe1e38f5d2a0866f63726bba96f7da5d12c220c",
+        "category": "other",
+        "part": null
+      },
+      "contract": {
+        "testFile": "tests/contracts/slice-057.test.ts",
+        "requirement": "Cubrir comportamiento descrito en \"17. Post-Producción y Hardening (hacerlo real) > 17.4 Integraciones externas: Flow > 17.4.1 Crear pago sandbox + webhook callback\"",
+        "redThenGreenRequired": true
+      }
+    },
+    {
+      "number": 58,
+      "name": "OTHER: 17.5.1 request_id + logs estructurados",
+      "description": "Implementar lo descrito en: 17. Post-Producción y Hardening (hacerlo real) > 17.5 Observabilidad mínima > 17.5.1 request_id + logs estructurados (líneas 1499-1501).",
+      "estimatedLines": 6,
+      "priority": "medium",
+      "dependencies": [],
+      "source": {
+        "sectionId": "SEC-081",
+        "headingPath": "17. Post-Producción y Hardening (hacerlo real) > 17.5 Observabilidad mínima > 17.5.1 request_id + logs estructurados",
+        "lineStart": 1499,
+        "lineEnd": 1501,
+        "textHash": "fd18bda2959247fa623bed8ab93cfc00f53599615516f72a08f0be9f1be34ccc",
+        "category": "other",
+        "part": null
+      },
+      "contract": {
+        "testFile": "tests/contracts/slice-058.test.ts",
+        "requirement": "Cubrir comportamiento descrito en \"17. Post-Producción y Hardening (hacerlo real) > 17.5 Observabilidad mínima > 17.5.1 request_id + logs estructurados\"",
+        "redThenGreenRequired": true
+      }
+    },
+    {
+      "number": 59,
+      "name": "OTHER: 17.7.1 Config producción + checklist",
+      "description": "Implementar lo descrito en: 17. Post-Producción y Hardening (hacerlo real) > 17.7 Deploy mínimo > 17.7.1 Config producción + checklist (líneas 1509-1513).",
+      "estimatedLines": 10,
+      "priority": "medium",
+      "dependencies": [],
+      "source": {
+        "sectionId": "SEC-085",
+        "headingPath": "17. Post-Producción y Hardening (hacerlo real) > 17.7 Deploy mínimo > 17.7.1 Config producción + checklist",
+        "lineStart": 1509,
+        "lineEnd": 1513,
+        "textHash": "bde08776a8fb03334b3df15d6a7ba0b9507a3c16f0483232a55227d65d3c445e",
+        "category": "other",
+        "part": null
+      },
+      "contract": {
+        "testFile": "tests/contracts/slice-059.test.ts",
+        "requirement": "Cubrir comportamiento descrito en \"17. Post-Producción y Hardening (hacerlo real) > 17.7 Deploy mínimo > 17.7.1 Config producción + checklist\"",
         "redThenGreenRequired": true
       }
     }

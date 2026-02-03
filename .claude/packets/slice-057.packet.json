@@ -1,0 +1,18 @@
+{
+  "sliceNumber": 57,
+  "name": "OTHER: 17.4.1 Crear pago sandbox + webhook callback",
+  "description": "Implementar lo descrito en: 17. Post-Producción y Hardening (hacerlo real) > 17.4 Integraciones externas: Flow > 17.4.1 Crear pago sandbox + webhook callback (líneas 1493-1496).",
+  "headingPath": "17. Post-Producción y Hardening (hacerlo real) > 17.4 Integraciones externas: Flow > 17.4.1 Crear pago sandbox + webhook callback",
+  "lineStart": 1493,
+  "lineEnd": 1447,
+  "prdHash": "62c396bb1963049fddb3da32d2d9116a6207941f516e0d43a938d8086d7f066d",
+  "blockHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "estimatedLines": 8,
+  "priority": "medium",
+  "contract": {
+    "testFile": "tests/contracts/slice-057.test.ts",
+    "requirement": "Cubrir comportamiento descrito en \"17. Post-Producción y Hardening (hacerlo real) > 17.4 Integraciones externas: Flow > 17.4.1 Crear pago sandbox + webhook callback\"",
+    "redThenGreenRequired": true
+  },
+  "generatedAt": "2026-02-02T18:05:21.544Z"
+}

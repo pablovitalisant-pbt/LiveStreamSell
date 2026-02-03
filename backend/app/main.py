@@ -5,6 +5,7 @@ import os
 import uuid
 from typing import List
 from fastapi import FastAPI, Header, HTTPException, Request
+from fastapi.openapi.utils import get_openapi
 from pydantic import BaseModel, Field
 from sqlalchemy import Column, Integer, MetaData, String, Table, create_engine, select, update
 import jwt
@@ -14,6 +15,30 @@ import urllib.request
 from urllib.parse import urlparse
 
 app = FastAPI()
+
+
+def custom_openapi():
+    if app.openapi_schema:
+        return app.openapi_schema
+    openapi_schema = get_openapi(
+        title=app.title,
+        version=app.version,
+        description=app.description,
+        routes=app.routes,
+    )
+    components = openapi_schema.setdefault("components", {})
+    security_schemes = components.setdefault("securitySchemes", {})
+    security_schemes["BearerAuth"] = {
+        "type": "http",
+        "scheme": "bearer",
+        "bearerFormat": "JWT",
+    }
+    openapi_schema["security"] = [{"BearerAuth": []}]
+    app.openapi_schema = openapi_schema
+    return app.openapi_schema
+
+
+app.openapi = custom_openapi
 DATABASE_URL = os.getenv("DATABASE_URL")
 engine = create_engine(DATABASE_URL) if DATABASE_URL else None
 metadata = MetaData()
@@ -177,8 +202,17 @@ def get_inventory_products(
     limit: int = 50,
     offset: int = 0,
     authorization: str | None = Header(default=None),
+    x_api_key: str | None = Header(default=None),
 ):
-    _require_role(authorization, {"authenticated"})
+    if authorization:
+        _require_role(authorization, {"authenticated"})
+    else:
+        env = os.getenv("ENV", "local")
+        if env != "local":
+            raise HTTPException(status_code=401, detail="Unauthorized")
+        expected_key = os.getenv("API_INTERNAL_KEY", "localkey")
+        if not x_api_key or x_api_key != expected_key:
+            raise HTTPException(status_code=401, detail="Unauthorized")
     if tienda_id is None:
         raise HTTPException(status_code=404, detail="tienda_id required")
     if engine is None:

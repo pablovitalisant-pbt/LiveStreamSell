@@ -1,0 +1,17 @@
+{
+  "phase": "POST_HARDENING",
+  "description": "Fase 2 — Hardening + hacer el sistema real en producción",
+  "appendSlices": [
+    { "id": 50, "name": "PERSIST: Alembic scaffold + migrate" },
+    { "id": 51, "name": "PERSIST: Schema mínimo estable" },
+    { "id": 52, "name": "PERSIST: Transacción stock atómica" },
+    { "id": 53, "name": "PERSIST: Seed reproducible" },
+    { "id": 54, "name": "AUTH: RBAC interno (Owner/Staff/System)" },
+    { "id": 55, "name": "AUTH: Bootstrap roles local" },
+    { "id": 56, "name": "META: Webhook idempotente" },
+    { "id": 57, "name": "FLOW: Sandbox + webhook pago" },
+    { "id": 58, "name": "OBS: request_id + logs" },
+    { "id": 59, "name": "CICD: Pipeline básico" },
+    { "id": 60, "name": "DEPLOY: Config producción" }
+  ]
+}

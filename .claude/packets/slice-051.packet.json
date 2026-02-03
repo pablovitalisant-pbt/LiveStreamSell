@@ -1,0 +1,18 @@
+{
+  "sliceNumber": 51,
+  "name": "OTHER: 17.1.1 Scaffold Alembic + comando migrate",
+  "description": "Implementar lo descrito en: 17. Post-Producción y Hardening (hacerlo real) > 17.1 Persistencia estable: migraciones (Alembic) > 17.1.1 Scaffold Alembic + comando migrate (líneas 1451-1454).",
+  "headingPath": "17. Post-Producción y Hardening (hacerlo real) > 17.1 Persistencia estable: migraciones (Alembic) > 17.1.1 Scaffold Alembic + comando migrate",
+  "lineStart": 1451,
+  "lineEnd": 1447,
+  "prdHash": "62c396bb1963049fddb3da32d2d9116a6207941f516e0d43a938d8086d7f066d",
+  "blockHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "estimatedLines": 8,
+  "priority": "medium",
+  "contract": {
+    "testFile": "tests/contracts/slice-051.test.ts",
+    "requirement": "Cubrir comportamiento descrito en \"17. Post-Producción y Hardening (hacerlo real) > 17.1 Persistencia estable: migraciones (Alembic) > 17.1.1 Scaffold Alembic + comando migrate\"",
+    "redThenGreenRequired": true
+  },
+  "generatedAt": "2026-02-02T17:48:26.977Z"
+}

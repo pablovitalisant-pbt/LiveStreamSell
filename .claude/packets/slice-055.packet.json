@@ -1,0 +1,18 @@
+{
+  "sliceNumber": 55,
+  "name": "OTHER: 17.2.1 RBAC interno (Owner/Staff/System) vía DB interna",
+  "description": "Implementar lo descrito en: 17. Post-Producción y Hardening (hacerlo real) > 17.2 Auth real: RBAC del PRD con roles internos > 17.2.1 RBAC interno (Owner/Staff/System) vía DB interna (líneas 1475-1479).",
+  "headingPath": "17. Post-Producción y Hardening (hacerlo real) > 17.2 Auth real: RBAC del PRD con roles internos > 17.2.1 RBAC interno (Owner/Staff/System) vía DB interna",
+  "lineStart": 1475,
+  "lineEnd": 1447,
+  "prdHash": "62c396bb1963049fddb3da32d2d9116a6207941f516e0d43a938d8086d7f066d",
+  "blockHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "estimatedLines": 10,
+  "priority": "medium",
+  "contract": {
+    "testFile": "tests/contracts/slice-055.test.ts",
+    "requirement": "Cubrir comportamiento descrito en \"17. Post-Producción y Hardening (hacerlo real) > 17.2 Auth real: RBAC del PRD con roles internos > 17.2.1 RBAC interno (Owner/Staff/System) vía DB interna\"",
+    "redThenGreenRequired": true
+  },
+  "generatedAt": "2026-02-02T17:59:40.651Z"
+}

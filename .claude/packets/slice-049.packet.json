@@ -1,0 +1,18 @@
+{
+  "sliceNumber": 49,
+  "name": "OTHER: 16.3 Auditoría y Reportes",
+  "description": "Implementar lo descrito en: Planificación: LiveStreamSell AI (SaaS Global) > 16. Compliance y Legal > 16.3 Auditoría y Reportes (líneas 1421-1428).",
+  "headingPath": "Planificación: LiveStreamSell AI (SaaS Global) > 16. Compliance y Legal > 16.3 Auditoría y Reportes",
+  "lineStart": 1421,
+  "lineEnd": 1428,
+  "prdHash": "62c396bb1963049fddb3da32d2d9116a6207941f516e0d43a938d8086d7f066d",
+  "blockHash": "216e2b84f95bfc43b07ada2482be3dfbb4cd9bf4fbe53c1143a5655af473aa44",
+  "estimatedLines": 16,
+  "priority": "medium",
+  "contract": {
+    "testFile": "tests/contracts/slice-049.test.ts",
+    "requirement": "Cubrir comportamiento descrito en \"Planificación: LiveStreamSell AI (SaaS Global) > 16. Compliance y Legal > 16.3 Auditoría y Reportes\"",
+    "redThenGreenRequired": true
+  },
+  "generatedAt": "2026-02-02T17:40:05.019Z"
+}
